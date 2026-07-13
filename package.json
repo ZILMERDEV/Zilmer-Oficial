@@ -1,0 +1,38 @@
+{
+  "name": "zilmer-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "download-images": "node scripts/download-images.js",
+    "auto-images": "node scripts/auto-download-images.js",
+    "identify-images": "node scripts/identify-images.js",
+    "get-wix-images": "node scripts/get-wix-images.js",
+    "auto-extract-wix": "node scripts/auto-extract-wix.js",
+    "update-images": "node scripts/update-product-images.js",
+    "update-cards": "node scripts/update-card-images.js",
+    "remove-backgrounds": "node scripts/remove-backgrounds.js",
+    "replace-no-shadow": "node scripts/replace-images-no-shadow.js",
+    "replace-edited": "node scripts/replace-edited-images.js",
+    "replace-edited-smart": "node scripts/replace-edited-images-smart.js"
+  },
+  "dependencies": {
+    "@swc/helpers": "^0.5.21",
+    "next": "^14.0.0",
+    "next-intl": "^4.8.2",
+    "quill": "^2.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-quill": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "sharp": "^0.33.5",
+    "typescript": "^5.0.0"
+  }
+}
