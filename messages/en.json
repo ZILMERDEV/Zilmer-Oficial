@@ -1,0 +1,92 @@
+{
+  "common": {
+    "language": "English",
+    "siteTitle": "Zilmer Transformers",
+    "ctaContact": "Contact Zilmer",
+    "companyInfo": "Company registration and legal information."
+  },
+  "about": {
+    "title": "About Zilmer",
+    "intro": "With over 60 years of experience, Zilmer is a consolidated Brazilian company in the transformer market. Serving major clients with customised solutions for energy utilities, steel mills, the petroleum sector, mining, metro rail systems, automotive industries, power substations, and others. Developing special solutions in both primary and auxiliary applications.\n\nGiven the recent expansion of the global energy sector and new technological challenges, its technical expertise and know-how have been in high demand across Brazil and South America. Recognised for the reliability of its equipment and qualified technical support, the company is a reference in technological innovation, optimisation of production processes, and the strengthening of partnerships with major clients and international partners.",
+    "cards": {
+      "history": {
+        "title": "History",
+        "description": "Learn about Zilmer's trajectory and milestones."
+      },
+      "clients": {
+        "title": "Clients",
+        "description": "Companies that trust our solutions."
+      },
+      "certificates": {
+        "title": "Certificates",
+        "description": "Certified quality and compliance."
+      }
+    }
+  },
+  "footer": {
+    "contact": "Contact",
+    "address": "Address",
+    "zipCode": "ZIP Code",
+    "phone": "Phone",
+    "email": "Email",
+    "socialMedia": "Social media",
+    "allRightsReserved": "All rights reserved"
+  },
+  "contact": {
+    "contactUs": "Contact us",
+    "title": "Contact",
+    "address": "Address",
+    "addressValue": "Rua São João Clímaco, 315 - São Paulo, SP",
+    "city": "São Paulo - SP",
+    "zipCode": "ZIP Code",
+    "zipCodeValue": "04255-000",
+    "phone": "Phone",
+    "email": "Email",
+    "sendMessage": "Send your message",
+    "name": "Name",
+    "emailField": "Email",
+    "phoneField": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send"
+  },
+  "products": {
+    "pageTitle": "Products",
+    "pageSubtitle": "Oil-immersed, dry-type and instrument transformers.",
+    "oilImmersed": {
+      "title": "Oil-immersed transformers",
+      "forRectifiers": "For rectifiers",
+      "forFurnaces": "For furnaces",
+      "starting": "Motor starting",
+      "grounding": "Grounding",
+      "autotransformers": "Autotransformers",
+      "reactors": "Reactors",
+      "viewDetails": "View details"
+    },
+    "dryType": {
+      "title": "Dry-type transformers",
+      "forRectifiers": "For rectifiers",
+      "grounding": "Grounding",
+      "lowVoltage": "Low voltage",
+      "viewDetails": "View details"
+    },
+    "instrument": {
+      "title": "Instrument transformers",
+      "potentialTransformers": "Potential transformers",
+      "currentTransformers": "Current transformers",
+      "internalUse": "Indoor use",
+      "externalUse": "Outdoor use",
+      "viewDetails": "View details"
+    }
+  },
+  "news": {
+    "title": "News",
+    "subtitle": "Follow the latest news and projects from Zilmer.",
+    "items": {
+      "1": {
+        "title": "Hydropower project",
+        "description": "Supply of transformers for a hydropower plant."
+      }
+    }
+  }
+}

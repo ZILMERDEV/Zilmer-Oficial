@@ -1,0 +1,92 @@
+{
+  "common": {
+    "language": "Português",
+    "siteTitle": "Zilmer Transformadores",
+    "ctaContact": "Fale com a Zilmer",
+    "companyInfo": "CNPJ e demais informações legais."
+  },
+  "about": {
+    "title": "Sobre a Zilmer",
+    "intro": "Com mais de 60 anos de atuação, a Zilmer é uma empresa brasileira consolidada no mercado de transformadores. Atendendo grandes clientes com soluções customizadas em projetos para concessionárias de energia, siderúrgicas, setor petrolífero, mineração, sistemas metroviários, indústrias automotivas, subestações de energia e outros. Desenvolvendo soluções especiais, tanto em aplicações principais quanto auxiliares.\n\nDiante da recente expansão do setor energético global e dos novos desafios tecnológicos, sua capacidade técnica e know-how têm sido amplamente demandados no Brasil e na América do Sul. Reconhecida pela confiabilidade de seus equipamentos e suporte técnico qualificado, a empresa é referência em inovação tecnológica, otimização de processos produtivos e no fortalecimento de parcerias com grandes clientes e parceiros internacionais.",
+    "cards": {
+      "history": {
+        "title": "Histórico",
+        "description": "Conheça a trajetória e os marcos da Zilmer."
+      },
+      "clients": {
+        "title": "Clientes",
+        "description": "Empresas que confiam nas nossas soluções."
+      },
+      "certificates": {
+        "title": "Certificados",
+        "description": "Qualidade e conformidade certificadas."
+      }
+    }
+  },
+  "footer": {
+    "contact": "Contato",
+    "address": "Endereço",
+    "zipCode": "CEP",
+    "phone": "Telefone",
+    "email": "E-mail",
+    "socialMedia": "Redes sociais",
+    "allRightsReserved": "Todos os direitos reservados"
+  },
+  "contact": {
+    "contactUs": "Fale conosco",
+    "title": "Contato",
+    "address": "Endereço",
+    "addressValue": "Rua São João Clímaco, 315 - São Paulo, SP",
+    "city": "São Paulo - SP",
+    "zipCode": "CEP",
+    "zipCodeValue": "04255-000",
+    "phone": "Telefone",
+    "email": "E-mail",
+    "sendMessage": "Envie sua mensagem",
+    "name": "Nome",
+    "emailField": "E-mail",
+    "phoneField": "Telefone",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "send": "Enviar"
+  },
+  "products": {
+    "pageTitle": "Produtos",
+    "pageSubtitle": "Transformadores imersos em óleo, a seco e para instrumentos.",
+    "oilImmersed": {
+      "title": "Transformadores imersos em óleo",
+      "forRectifiers": "Para retificadores",
+      "forFurnaces": "Para fornos",
+      "starting": "Partida de motores",
+      "grounding": "Aterramento",
+      "autotransformers": "Autotransformadores",
+      "reactors": "Reatores",
+      "viewDetails": "Ver detalhes"
+    },
+    "dryType": {
+      "title": "Transformadores a seco",
+      "forRectifiers": "Para retificadores",
+      "grounding": "Aterramento",
+      "lowVoltage": "Baixa tensão",
+      "viewDetails": "Ver detalhes"
+    },
+    "instrument": {
+      "title": "Transformadores para instrumentos",
+      "potentialTransformers": "Transformadores de potencial",
+      "currentTransformers": "Transformadores de corrente",
+      "internalUse": "Uso interno",
+      "externalUse": "Uso externo",
+      "viewDetails": "Ver detalhes"
+    }
+  },
+  "news": {
+    "title": "Notícias",
+    "subtitle": "Acompanhe as últimas notícias e projetos da Zilmer.",
+    "items": {
+      "1": {
+        "title": "Projeto hidrelétrica",
+        "description": "Fornecimento de transformadores para usina hidrelétrica."
+      }
+    }
+  }
+}
