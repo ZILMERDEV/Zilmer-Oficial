@@ -1,0 +1,40 @@
+name: Deploy Automático para Lightsail
+
+on:
+  push:
+    branches:
+      - main # O robô só será ativado quando enviar atualizações para a branch main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Executando comandos no servidor AWS
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            # 1. Carrega os atalhos do Node.js (Isso resolve o erro "npm command not found")
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            export PATH=$PATH:/usr/local/bin
+            
+            # 2. Entra na pasta CORRETA do projeto
+            cd /var/www/meu-app
+            
+            # 3. Baixa as atualizações do GitHub (SEM sudo)
+            git pull origin main
+            
+            # 4. Instala pacotes novos (se houver)
+            npm install
+            
+            # 5. Limpa o cache antigo (SEM sudo)
+            rm -rf .next
+            
+            # 6. Gera a build nova e atualizada
+            npm run build
+            
+            # 7. Reinicia o site
+            pm2 restart next-app
