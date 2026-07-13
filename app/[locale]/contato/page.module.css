@@ -1,0 +1,126 @@
+.page {
+  padding: 80px 0;
+  background-color: var(--bg-white);
+}
+
+.page h1 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.infoCard {
+  background-color: var(--bg-light);
+  padding: 30px;
+  border-radius: 8px;
+  border-left: 4px solid var(--secondary-color);
+}
+
+.infoCard h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.infoCard p {
+  color: var(--text-light);
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.infoCard a {
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+}
+
+.infoCard a:hover {
+  color: var(--primary-color);
+}
+
+.formSection {
+  background-color: var(--bg-light);
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.formSection h2 {
+  color: var(--primary-color);
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formGroup label {
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+}
+
+.formGroup textarea {
+  resize: vertical;
+}
+
+@media (max-width: 968px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .formSection {
+    padding: 30px 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

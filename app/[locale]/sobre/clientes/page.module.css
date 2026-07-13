@@ -1,0 +1,85 @@
+.page {
+  padding: 80px 0;
+  background-color: var(--bg-white);
+}
+
+.page h1 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.content {
+  max-width: 900px;
+  margin: 40px auto 0;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.placeholder {
+  background-color: var(--bg-light);
+  padding: 60px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.placeholder p {
+  color: var(--text-light);
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.path {
+  background-color: var(--bg-white);
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px 0;
+  font-family: 'Courier New', monospace;
+}
+
+.path code {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+}
+
+.imageContainer {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-light);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.clientImage {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .imageContainer {
+    padding: 20px;
+  }
+  
+  .clientImage {
+    width: 100%;
+  }
+}
+
+
+

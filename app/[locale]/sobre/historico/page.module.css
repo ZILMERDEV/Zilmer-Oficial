@@ -1,0 +1,62 @@
+.page {
+  padding: 80px 0;
+  background-color: var(--bg-white);
+}
+
+.page h1 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.content {
+  max-width: 900px;
+  margin: 40px auto 0;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.historicPhotoSection {
+  max-width: 500px;
+  margin: 60px auto 0;
+  padding: 0;
+  border: none;
+}
+
+.historicImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: sepia(0.55) contrast(1.08) brightness(0.92);
+  border-radius: 3px;
+}
+
+.historicCaption {
+  margin-top: 14px;
+  font-size: 0.78rem;
+  color: var(--text-light, #999);
+  font-style: italic;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
