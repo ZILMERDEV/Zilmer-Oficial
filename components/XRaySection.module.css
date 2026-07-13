@@ -1,0 +1,367 @@
+.section {
+  background: #0a0a0a;
+  padding: 100px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+/* subtle grid texture */
+.section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* ── LEFT TEXT ── */
+.textSide {
+  position: relative;
+  z-index: 1;
+}
+
+.tagline {
+  font-size: 11px;
+  letter-spacing: 0.35em;
+  color: #00478B;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.headline {
+  font-size: clamp(2.4rem, 4vw, 3.8rem);
+  font-weight: 900;
+  line-height: 1.0;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.accentWord {
+  color: #00478B;
+}
+
+.subtitle {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.55);
+  max-width: 400px;
+  margin-bottom: 32px;
+}
+
+.hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 500;
+  margin-bottom: 48px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+  text-transform: uppercase;
+  animation: hintPulse 3s ease-in-out infinite;
+}
+
+.hintIcon {
+  color: rgba(0, 71, 139, 0.8);
+  display: flex;
+  align-items: center;
+}
+
+@keyframes hintPulse {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+
+.statsRow {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 24px;
+}
+
+.stat:first-child {
+  padding-left: 0;
+}
+
+.statNumber {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.35);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.statDivider {
+  width: 1px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+/* ── RIGHT VIEWER ── */
+.viewerSide {
+  position: relative;
+  z-index: 1;
+}
+
+.viewer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: none;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #111;
+  user-select: none;
+}
+
+.viewer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.imgBase,
+.imgReveal {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.imgBase {
+  z-index: 2;
+}
+
+.imgReveal {
+  z-index: 1;
+  /* tint the reveal layer slightly blue for xray feel */
+  filter: sepia(0.2) hue-rotate(180deg) saturate(1.4) brightness(1.1);
+}
+
+/* ── RETICLE ── */
+.reticle {
+  position: absolute;
+  z-index: 10;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  /* center the 40px reticle on cursor */
+  left: calc(var(--rx, -9999px) - 20px);
+  top: calc(var(--ry, -9999px) - 20px);
+  width: 40px;
+  height: 40px;
+}
+
+.reticleVisible {
+  opacity: 1;
+}
+
+.reticle::before,
+.reticle::after {
+  content: '';
+  position: absolute;
+  background: rgba(0, 200, 255, 0.8);
+}
+
+/* horizontal line */
+.reticle::before {
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  transform: translateY(-50%);
+}
+
+/* vertical line */
+.reticle::after {
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  transform: translateX(-50%);
+}
+
+/* ring around reticle */
+.reticleVisible::before {
+  box-shadow: 0 0 0 1px rgba(0, 200, 255, 0.4);
+}
+
+/* ── CORNER DECORATIONS ── */
+.cornerTL,
+.cornerTR,
+.cornerBL,
+.cornerBR {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  z-index: 6;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.cornerTL {
+  top: 12px;
+  left: 12px;
+  border-top: 1.5px solid rgba(0, 200, 255, 0.7);
+  border-left: 1.5px solid rgba(0, 200, 255, 0.7);
+}
+
+.cornerTR {
+  top: 12px;
+  right: 12px;
+  border-top: 1.5px solid rgba(0, 200, 255, 0.7);
+  border-right: 1.5px solid rgba(0, 200, 255, 0.7);
+}
+
+.cornerBL {
+  bottom: 12px;
+  left: 12px;
+  border-bottom: 1.5px solid rgba(0, 200, 255, 0.7);
+  border-left: 1.5px solid rgba(0, 200, 255, 0.7);
+}
+
+.cornerBR {
+  bottom: 12px;
+  right: 12px;
+  border-bottom: 1.5px solid rgba(0, 200, 255, 0.7);
+  border-right: 1.5px solid rgba(0, 200, 255, 0.7);
+}
+
+.viewerActive .cornerTL,
+.viewerActive .cornerTR,
+.viewerActive .cornerBL,
+.viewerActive .cornerBR {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+/* ── SCAN LINE ── */
+.scanLine {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 200, 255, 0.15),
+    rgba(0, 200, 255, 0.6),
+    rgba(0, 200, 255, 0.15),
+    transparent
+  );
+  z-index: 7;
+  opacity: 0;
+  top: 0;
+}
+
+.scanLineActive {
+  opacity: 1;
+  animation: scanDown 3s linear infinite;
+}
+
+@keyframes scanDown {
+  0%   { top: 0%; }
+  100% { top: 100%; }
+}
+
+/* ── LABEL ── */
+.viewerLabel {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-weight: 500;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #00478B;
+  flex-shrink: 0;
+  animation: dotBlink 2s ease-in-out infinite;
+}
+
+@keyframes dotBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding: 0 24px;
+  }
+
+  .section {
+    padding: 72px 0;
+  }
+
+  .viewer {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (max-width: 480px) {
+  .headline {
+    font-size: 2.2rem;
+  }
+
+  .statsRow {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .statDivider {
+    display: none;
+  }
+}

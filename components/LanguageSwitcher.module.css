@@ -1,0 +1,36 @@
+.languageSwitcher {
+  background: var(--primary-color, #0047b2);
+  border: 2px solid var(--primary-color, #0047b2);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+  min-width: 50px;
+  text-transform: uppercase;
+}
+
+.languageSwitcher:hover {
+  background: var(--secondary-color, #0066cc);
+  border-color: var(--secondary-color, #0066cc);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 71, 178, 0.3);
+}
+
+.languageSwitcher:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .languageSwitcher {
+    margin-left: 10px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    min-width: 45px;
+  }
+}
+

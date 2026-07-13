@@ -1,0 +1,202 @@
+.header {
+  background-color: #dbeafe;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img,
+.logo :global(img) {
+  height: 54px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav a,
+.nav span {
+  color: var(--text-dark);
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.dropdownTrigger {
+  display: inline-block;
+  user-select: none;
+}
+
+.nav a:hover,
+.nav span:hover {
+  color: var(--secondary-color);
+}
+
+.dropdown {
+  position: relative;
+}
+
+/* Ponte invisível entre o botão e o menu para evitar que o menu feche */
+.dropdownBridge {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: transparent;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  background-color: var(--bg-white);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 250px;
+  padding: 10px 0;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1001;
+}
+
+.dropdownMenu a {
+  padding: 12px 20px;
+  color: var(--text-dark);
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.dropdownMenu a:hover {
+  background-color: var(--bg-light);
+  color: var(--secondary-color);
+}
+
+.langSwitcher {
+  display: flex;
+  gap: 4px;
+}
+
+.langBtn {
+  background: transparent;
+  border: 1.5px solid var(--primary-color, #0047b2);
+  color: var(--primary-color, #0047b2);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+  line-height: 1;
+}
+
+.langBtn:hover:not(:disabled) {
+  background: var(--primary-color, #0047b2);
+  color: #fff;
+}
+
+.langBtnActive {
+  background: var(--primary-color, #0047b2);
+  color: #fff;
+  cursor: default;
+}
+
+.langBtn:disabled:not(.langBtnActive) {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* In nav (desktop only) */
+.nav .langSwitcher {
+  display: flex;
+}
+
+.headerRight {
+  display: none;
+  align-items: center;
+  gap: 12px;
+}
+
+.menuToggle {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.menuToggle span {
+  width: 25px;
+  height: 3px;
+  background-color: var(--text-dark);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .headerRight {
+    display: flex;
+  }
+
+  /* Hide the lang switcher inside the collapsed nav on mobile */
+  .nav .langSwitcher {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #dbeafe;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .navOpen {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .dropdownMenu {
+    position: static;
+    box-shadow: none;
+    margin-top: 0;
+    padding-left: 20px;
+  }
+}
+
