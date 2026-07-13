@@ -1,0 +1,15 @@
+{
+  "section": {
+    "title": "Noticias",
+    "subtitle": "Noticias sobre proyectos y actualizaciones de Zilmer."
+  },
+  "items": [
+    {
+      "id": "1",
+      "title": "Proyecto en asociación con el segundo mayor productor de acero del mundo",
+      "description": "Transformadores fabricados por Zilmer en operación continua desde 2022 en la sede de ArcelorMittal en Santa Catarina, Brasil.",
+      "image": "/images/projetos/projeto-1.jpeg",
+      "slug": "projeto-aço"
+    }
+  ]
+}

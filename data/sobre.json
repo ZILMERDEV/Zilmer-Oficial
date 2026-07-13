@@ -1,0 +1,49 @@
+{
+  "principal": {
+    "title": "Quem somos",
+    "intro": "Com mais de 60 anos de atuação, a Zilmer é uma empresa brasileira consolidada no mercado de transformadores. Atendendo grandes clientes com soluções customizadas em projetos para concessionárias de energia, siderúrgicas, setor petrolífero, mineração, sistemas metroviários, indústrias automotivas, subestações de energia e outros. Desenvolvendo soluções especiais, tanto em aplicações principais quanto auxiliares.\n\nDiante da recente expansão do setor energético global e dos novos desafios tecnológicos, sua capacidade técnica e know-how têm sido amplamente demandados no Brasil e na América do Sul. Reconhecida pela confiabilidade de seus equipamentos e suporte técnico qualificado, a empresa é referência em inovação tecnológica, otimização de processos produtivos e no fortalecimento de parcerias com grandes clientes e parceiros internacionais.",
+    "image": "/images/sobre/1781201127073_bfb565bd-1fec-47fa-80ee-180d1a4a52f0.png",
+    "cards": {
+      "historico": {
+        "title": "Histórico",
+        "description": "Conheça nossa trajetória e evolução no mercado"
+      },
+      "clientes": {
+        "title": "Clientes",
+        "description": "Empresas que confiam em nossos produtos e serviços"
+      },
+      "certificados": {
+        "title": "Certificados",
+        "description": "Qualidade e conformidade certificadas"
+      }
+    }
+  },
+  "historico": {
+    "title": "Histórico",
+    "subtitle": "ZILMER TRANSFORMADORES",
+    "content": "A Zilmer foi fundada em 1961 e já era uma fabricante reconhecida de transformadores de potência imersos em óleo mineral quando, em 1968, foi incorporada pela Ineltec, dando origem à Zilmer Ineltec Construções Elétricas.\n\nEm 1969, a empresa iniciou a fabricação de transformadores a seco de baixa e média tensão impregnados em resina. Em 1978 criou a linha de transformadores de potencial e de corrente de 15 a 34,5 kV moldados em resina. Em 1980 foi a primeira empresa brasileira a produzir transformadores de média tensão moldados em resina epóxi e desde então tem fabricado milhares de unidades para o mercado interno e externo.\n\nAinda em 1980, estabeleceu uma parceria com a ASEA, através da qual adquiriu o maquinário e a licença de fabricação e manutenção de transformadores imersos em óleo mineral com enrolamentos em alumínio.\n\nEm 1989, firmou um contrato de transferência de tecnologia com a Rade Koncar, empresa tradicional da ex-Iugoslávia aprimorando ainda mais o processo de enrolamento e moldagem de bobinas em resina.\n\nCom uma trajetória de mais de 65 anos no setor de energia elétrica, a Zilmer Transformadores atua oferendo soluções nas mais variadas áreas, desenvolvendo e executando projetos em parceria com seus clientes.",
+    "image": "/images/sobre/historico.jpg",
+    "imageCaption": "ZILMER - 1962"
+  },
+  "clientes": {
+    "title": "Clientes",
+    "description": "Temos o orgulho de trabalhar com empresas líderes em seus segmentos, fornecendo transformadores de alta qualidade e soluções personalizadas para suas necessidades específicas.",
+    "image": "/images/clientes/logo-clientes-1.jpg"
+  },
+  "certificados": {
+    "title": "Certificados",
+    "description": "A Zilmer Transformadores possui certificações que garantem a qualidade e conformidade de nossos produtos, seguindo os mais altos padrões do mercado.",
+    "items": [
+      {
+        "file": "CERTIFICADO ISO.pdf",
+        "title": "Certificado ISO",
+        "type": "pdf"
+      },
+      {
+        "file": "CERTIFICADO LMP.pdf",
+        "title": "Certificado LMP",
+        "type": "pdf"
+      }
+    ]
+  }
+}

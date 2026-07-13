@@ -1,0 +1,224 @@
+{
+  "oleo": {
+    "intro": {
+      "description": "Oil-immersed transformers are essential equipment for high-power electrical systems, offering excellent thermal dissipation and dielectric rigidity. Our transformers are designed to serve the most diverse industrial applications with maximum reliability and efficiency."
+    },
+    "produtos": {
+      "transformadores-auxiliares": {
+        "title": "AUXILIARY TRANSFORMERS",
+        "longDescription": "Oil-immersed auxiliary transformers are designed for applications requiring lower power ratings, in the range of 5 kVA to 500 kVA. These transformers are essential for auxiliary systems in industrial plants, substations and commercial installations, supplying power to low-power equipment and control systems. The oil-immersed construction ensures high dielectric rigidity, excellent thermal dissipation and reliable operation even in industrial environments. Zilmer auxiliary transformers are designed with high energy efficiency, low noise levels and ease of maintenance, ensuring stable and long-lasting operation for critical auxiliary systems.",
+        "image": "/images/produtos/oleo/transformadores-auxiliares/1770399122049__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png",
+        "images": [
+          "/images/produtos/oleo/transformadores-auxiliares/1776366162720__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png",
+          "/images/produtos/oleo/transformadores-auxiliares/1776366633990__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_1.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/transformadores-auxiliares/1776366162720__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png": "TAO 300 kVA",
+          "/images/produtos/oleo/transformadores-auxiliares/1776366633990__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_1.png": "TAO 300 kVA"
+        }
+      },
+      "para-retificadores": {
+        "title": "OIL-IMMERSED RECTIFIER TRANSFORMERS",
+        "longDescription": "Oil-immersed rectifier transformers are designed for high-demand industrial applications, where rectification circuits require stable direct current, high reliability and the ability to operate under severe conditions. Due to the pulsating currents and high harmonic content typical of AC–DC conversion systems, these transformers receive a special electromagnetic design featuring reduced flux density, optimised winding geometries and shielding that ensure safe and efficient performance. Insulation in mineral or special dielectric oil provides excellent electrical rigidity and thermal management, allowing the equipment to operate at controlled temperatures even under intensive load conditions. The oil facilitates heat dissipation and ensures a long service life for the insulating system, while reinforcing the reliability of the core–winding assembly. Built to withstand high mechanical and electrical stresses, oil-immersed rectifier transformers offer superior performance in applications such as traction, excitation and electric furnaces.",
+        "image": "/images/produtos/oleo/para-retificadores/1770313429146__2__TCO_-_GE_POWER_-_12500_kVA.png",
+        "images": [
+          "/images/produtos/oleo/para-retificadores/1770313429146__2__TCO_-_GE_POWER_-_12500_kVA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/para-retificadores/1770313429146__2__TCO_-_GE_POWER_-_12500_kVA.png": "TCO 12500 kVA"
+        }
+      },
+      "para-fornos": {
+        "title": "ARC FURNACE OIL-IMMERSED TRANSFORMERS",
+        "longDescription": "Oil-immersed transformers for electric arc furnaces are designed to withstand extremely severe operating conditions typical of metallurgical melting processes. In these systems, the electric arc imposes rapid impedance variations, high short-circuit currents, elevated harmonic levels and intense thermal demands, requiring a transformer with greater performance. To meet these demands, the transformers are developed with reduced flux density, ensuring lower susceptibility to saturation and mitigating additional losses associated with harmonic currents. The windings have high mechanical rigidity, dimensioned to withstand strong dynamic stresses during arc formation and sustaining. The electromagnetic and structural construction is optimised for repetitive high-impact electrical operations, preserving the integrity of the core–winding assembly. The oil insulation system increases dielectric rigidity and provides excellent heat dissipation capacity, ensuring thermal stability throughout the melting cycles. Depending on the required power rating, ONAN or ONAF cooling systems are employed, ensuring safe and prolonged operation even under intensive loads. With engineering oriented towards robustness, efficient thermal dissipation and high mechanical resistance, Zilmer oil-immersed arc furnace transformers offer the reliability required for one of the most demanding applications in the steel industry, ensuring consistent performance and extended service life in critical operating environments.",
+        "image": "/images/produtos/oleo/para-fornos/1770314013468__2__TCO_-_MR_COM_RCIO_-_3300_kVA.png",
+        "images": [
+          "/images/produtos/oleo/para-fornos/1770314013468__2__TCO_-_MR_COM_RCIO_-_3300_kVA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/para-fornos/1770314013468__2__TCO_-_MR_COM_RCIO_-_3300_kVA.png": "TCO 3300 kVA"
+        }
+      },
+      "de-partida": {
+        "title": "MOTOR STARTING AUTOTRANSFORMERS",
+        "longDescription": "Oil-immersed autotransformers for large motor starting are designed to reduce starting current and minimise electrical impact on the network, ensuring greater system stability and protection of industrial equipment. By applying a reduced voltage to the motor at the moment of acceleration, the autotransformer limits peak currents, prevents voltage drops and reduces mechanical stresses on the driven assembly. The oil-immersed construction provides high dielectric rigidity and excellent thermal dissipation, allowing the equipment to withstand elevated currents during short starting cycles without compromising its service life. ONAN or ONAF cooling systems are applied depending on the power rating and frequency of required operations. Designed with controlled flux density, superior mechanical rigidity and electromagnetic stability, Zilmer motor starting autotransformers guarantee reliable operation even in severe applications such as compressors, high-power pumps, industrial fans and large motors. Combining robustness, efficiency and high performance, these autotransformers ensure safe starting, reduced motor stresses and greater operational reliability for critical industrial processes.",
+        "image": "/images/produtos/oleo/de-partida/1770314030920__2__APO_-_SISNERGY_-_1350_CV_SEM_TAMPA.png",
+        "images": [
+          "/images/produtos/oleo/de-partida/1770314030920__2__APO_-_SISNERGY_-_1350_CV_SEM_TAMPA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/de-partida/1770314030920__2__APO_-_SISNERGY_-_1350_CV_SEM_TAMPA.png": "APO 1350 CV"
+        }
+      },
+      "de-aterramento": {
+        "title": "OIL-IMMERSED GROUNDING TRANSFORMERS",
+        "longDescription": "Oil-immersed grounding transformers are designed to create an artificial neutral point and control ground fault current in three-phase systems that do not have an available grounding point. The oil insulation ensures high dielectric rigidity, excellent thermal dissipation and reliable operation even in severe industrial environments. Zig-Zag type models provide an effective path for zero-sequence currents, enabling controlled limitation of fault current and contributing to phase-to-ground stability. Star with Open/Broken Delta transformers are used when greater sensitivity in detecting imbalances and ground faults is desired, facilitating the operation of specific relays and improving system supervision. Another widely employed solution is the three-phase bank formed by single-phase oil-immersed transformers, which allows maintenance flexibility, modularity and individual impedance adjustment, being ideal for special applications or systems requiring high-precision grounding. In all topologies, oil immersion ensures robust thermal performance and greater insulation durability, guaranteeing safe and efficient operation in industrial installations, distribution systems and high-criticality applications.",
+        "image": "/images/produtos/oleo/de-aterramento/RAO - HITACHI - 2572 kVA.webp",
+        "images": [
+          "/images/produtos/oleo/de-aterramento/RAO - HITACHI - 2572 kVA.webp"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/de-aterramento/RAO - HITACHI - 2572 kVA.webp": "RAO 2572 kVA"
+        }
+      },
+      "autotransformadores": {
+        "title": "OIL-IMMERSED AUTOTRANSFORMERS (STANDARD)",
+        "longDescription": "Oil-immersed autotransformers are designed for applications requiring high efficiency, excellent thermal performance and operational reliability. Using a common portion of windings between primary and secondary, these units offer lower volume, reduced losses and a better cost-benefit ratio compared to conventional transformers. Oil insulation guarantees high dielectric rigidity and superior thermal dissipation, enabling safe operation even under heavy loads or dynamic system variations. ONAN or ONAF cooling systems are applied depending on the required power rating, ensuring thermal stability and extending insulation service life. With an optimised electromagnetic design and reinforced mechanical construction, Zilmer autotransformers deliver high performance in industrial substations, distribution processes and applications requiring voltage transformation with maximum reliability.",
+        "image": ""
+      },
+      "reatores": {
+        "title": "OIL-IMMERSED REACTORS",
+        "longDescription": "Ferromagnetic core reactors with air gap, oil-immersed, are designed to provide current limiting, transient control and operational stability in high-demand electrical systems. The introduction of the air gap in the core increases reactance and reduces the tendency towards saturation, ensuring stable inductive behaviour even under elevated currents and pulsating conditions. Oil dielectric insulation guarantees high dielectric rigidity and excellent thermal dissipation, enabling continuous or intermittent operation under severe conditions, such as in rectifiers, electric furnaces, capacitor banks and reactive compensation systems. The laminated core, dimensioned with adjusted air gaps, offers reliable magnetic performance and reduces additional losses, while the windings are designed to withstand significant electrodynamic stresses. In motor starting reactors, inductance is used to limit currents during start-up, reducing impacts on the network and protecting both the motor and the power supply system. Series-type reactors are installed directly in the main circuit to control currents, mitigate surges and stabilise power flow under variable load conditions. With robust construction, optimised thermal design and precise electromagnetic characteristics, Zilmer oil-immersed reactors ensure efficient current control, high reliability and long service life, safely meeting the diverse industrial demands.",
+        "image": "/images/produtos/oleo/reatores/1770314080755__2__RAO_-_VILLARES_METALS_-_1350_kVA.png",
+        "images": [
+          "/images/produtos/oleo/reatores/1770314080755__2__RAO_-_VILLARES_METALS_-_1350_kVA.png",
+          "/images/produtos/oleo/reatores/1776440180438__2__RAO_-_USINAS_SIDER_-_1500_kW.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/reatores/1770314080755__2__RAO_-_VILLARES_METALS_-_1350_kVA.png": "RAO 1350 kVA",
+          "/images/produtos/oleo/reatores/1776440180438__2__RAO_-_USINAS_SIDER_-_1500_kW.png": "RAO 1500 kW"
+        }
+      }
+    },
+    "transformadores-de-forca": {
+      "intro": "Power transformers for industrial and commercial applications",
+      "categorias": {
+        "30-500": {
+          "title": "30 to 500 kVA",
+          "description": "Power transformers in the 30 to 500 kVA range, designed for distribution and transformation applications in medium-voltage electrical systems, offering high reliability and energy efficiency.",
+          "specifications": [
+            "Primary voltage: 15 to 72 kV",
+            "Power rating: 30 to 500 kVA",
+            "Cooling system: ONAN",
+            "Insulation: Mineral oil",
+            "Protection level: IP00"
+          ],
+          "image": "/images/produtos/oleo/transformadores-de-forca/30-a-300-kv/1776704424351__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png",
+          "cardImage": ""
+        },
+        "500-3000": {
+          "title": "500 to 3,000 kVA",
+          "description": "Medium-power transformers in the 500 to 3,000 kVA range, ideal for industrial and commercial applications requiring greater power transformation capacity.",
+          "specifications": [
+            "Primary voltage: 15 to 72 kV",
+            "Power rating: 500 to 3,000 kVA",
+            "Cooling system: ONAN/ONAF",
+            "Insulation: Mineral oil",
+            "Protection level: IP00"
+          ],
+          "image": "/images/produtos/oleo/transformadores-de-forca/500-a-3000-kv/1770401019265_TCO_-_PETROBRAS_-_3500_kVA.webp"
+        },
+        "3-20": {
+          "title": "3 MVA to 20 MVA",
+          "description": "High-power transformers from 3 MVA to 20 MVA, manufactured to meet specific applications and the client's particular technical requirements.",
+          "specifications": [
+            "Primary voltage: 15 to 72 kV",
+            "Power rating: 3 MVA to 20 MVA",
+            "Cooling system: ONAN/ONAF",
+            "Insulation: Mineral oil",
+            "Protection level: IP00"
+          ],
+          "cardImage": "/images/produtos/oleo/transformadores-de-forca/3mva-a-20mva/TCO - GE POWER - 12500 kVA.webp",
+          "image": "/images/produtos/oleo/transformadores-de-forca/3mva-a-20mva/TCO - GE POWER - 12500 kVA.webp"
+        }
+      },
+      "cardImage": "/images/produtos/oleo/transformadores-de-forca/500-a-3000-kv/1770401019265_TCO_-_PETROBRAS_-_3500_kVA.webp"
+    }
+  },
+  "seco": {
+    "intro": {
+      "description": "Epoxy resin cast dry-type transformers are recommended for operation in locations requiring safety. The materials used in their construction are difficult to ignite and self-extinguishing, and in the event of fire, they do not explode or release toxic gases."
+    },
+    "produtos": {
+      "media-tensao": {
+        "title": "MEDIUM-VOLTAGE DRY-TYPE TRANSFORMERS",
+        "longDescription": "MEDIUM-VOLTAGE DRY-TYPE TRANSFORMERS, CLASSES OF 15, 24.5 AND 36 KV – RATINGS UP TO 20 MVA.\n\nEpoxy resin cast dry-type transformers are recommended for operation in locations requiring safety. The materials used in their construction are difficult to ignite and self-extinguishing, and in the event of fire, they do not explode or release toxic gases. Their installation is considerably more economical than that of their oil-immersed counterparts, as they do not require fireproof masonry or liquid retention tanks and occupy less space. They can be installed in mobile machinery, using less volume of low-voltage conductors and reducing voltage drops due to the reduced energy dissipated in the cables. They are virtually maintenance-free and are not affected by humidity. The construction type guarantees high mechanical resistance to short-circuit as well as a low noise level. They offer high resistance to leakage currents and, through forced ventilation, can increase the nominal capacity by up to 40%. They present a low level of partial discharges and impose no ecological restrictions. They are suitable for indoor installation in metros, railways, airports, nuclear facilities, industrial plants, hospitals, laboratories, cinemas, theatres, commercial and residential buildings, and in locations with heavy pedestrian traffic.",
+        "image": "/images/produtos/seco/media-tensao/1770316961627__2__TAM_-_SABESP_-_500_kVA.png",
+        "images": [
+          "/images/produtos/seco/media-tensao/1770316961627__2__TAM_-_SABESP_-_500_kVA.png",
+          "/images/produtos/seco/media-tensao/TAM - AMC - 1000 kVA SEM CAIXA - vista DETALHE BARRAMENTO.webp"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/media-tensao/1770316961627__2__TAM_-_SABESP_-_500_kVA.png": "TAM 500 kVA",
+          "/images/produtos/seco/media-tensao/TAM - AMC - 1000 kVA SEM CAIXA - vista DETALHE BARRAMENTO.webp": "TAM 1000 kVA (TOP VIEW WITHOUT ENCLOSURE)"
+        }
+      },
+      "para-retificadores": {
+        "title": "EPOXY RESIN DRY-TYPE RECTIFIER TRANSFORMERS",
+        "longDescription": "Zilmer dry-type transformers for rectifier systems are designed to meet the rigorous requirements of semiconductor circuits from 6 to 24 pulses, where direct current stability is paramount. Using high-dielectric-rigidity epoxy resin insulation technology, the equipment offers a compact, fire-safe solution with high mechanical resistance to withstand the electrodynamic stresses typical of non-linear loads. Available in thermal classes F (155°C) or H (180°C), these transformers guarantee excellent heat management and durability under high harmonic conditions, combining high technical performance with low-maintenance operation for critical industrial applications.",
+        "image": "/images/produtos/seco/retificadores/TAM - SIEMENS - 4700 kVA v1.png",
+        "images": [
+          "/images/produtos/seco/retificadores/TAM - SIEMENS - 4700 kVA v1.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/retificadores/TAM - SIEMENS - 4700 kVA v1.png": "TAM 4700 kVA"
+        }
+      },
+      "aterramento": {
+        "title": "EPOXY RESIN CAST GROUNDING TRANSFORMERS",
+        "longDescription": "Epoxy resin cast grounding transformers are designed to establish a ground reference point in electrical systems operating without an accessible neutral, allowing controlled circulation of single-phase fault current. Their function is to ensure that the system presents adequate electrical conditions for the selective operation of protection devices, whilst maintaining the stability of phase-to-ground voltages during fault events. The fully dry construction, using epoxy resin as solid insulation, provides high dielectric rigidity and excellent performance in aggressive environments, eliminating risks associated with oil use. Integral moulding reduces the incidence of partial discharges, improves the mechanical resistance of the windings and ensures robustness against thermal cycles and vibrations typical of industrial installations. This type of insulation also promotes thermal dissipation, ensuring efficient response during temporary or intermittent fault currents. From an electrical standpoint, the transformer is dimensioned to provide the impedance required to limit the fault current in accordance with the adopted protection criterion. Characteristics such as flux density, current density, thermal class and dielectric rigidity are adjusted so that the equipment can withstand transient peaks without degradation of the insulating material. As a result, the transformer maintains operational stability under severe conditions, preserving the integrity of the network and associated protection devices. In summary, the epoxy resin grounding transformer offers a robust, safe and low-maintenance technical solution for systems requiring controlled ground reference, combining reliability, thermal performance and high dielectric resistance.",
+        "image": "/images/produtos/seco/aterramento/1770316985153__2__TAM_-__CONE_TECNOLOGIA_-_500_kVA.png",
+        "images": [
+          "/images/produtos/seco/aterramento/1770316985153__2__TAM_-__CONE_TECNOLOGIA_-_500_kVA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/aterramento/1770316985153__2__TAM_-__CONE_TECNOLOGIA_-_500_kVA.png": "TAM 500 kVA IP54"
+        }
+      },
+      "baixa-tensao": {
+        "title": "LOW-VOLTAGE DRY-TYPE TRANSFORMERS TAI AND TCI",
+        "longDescription": "Low-voltage dry-type transformers TAI (Three-phase Aluminium-wound Impregnated) and TCI (Three-phase Copper-wound Impregnated) are designed for industrial and commercial applications requiring reliable operation, high mechanical robustness and excellent thermal performance without the need for full epoxy resin encapsulation. In these models, the aluminium or copper windings receive impregnation with insulating resin, conferring dielectric rigidity, thermal stability and structural resistance adequate for continuous load conditions and operational variations characteristic of low-voltage systems. The dry-type construction promotes efficient heat dissipation through natural ventilation, enabling stable operation even under dynamic demands such as motor starts and loads with current variations. The laminated silicon steel core is dimensioned for low loss levels, ensuring energy efficiency and reducing electromagnetic noise. The mechanical rigidity resulting from impregnation, combined with the compact assembly of the core-and-winding assembly, ensures high equipment durability and reliable behaviour. The absence of oil eliminates environmental risks and simplifies maintenance, making TAI and TCI transformers a safe and efficient solution for low-voltage networks.",
+        "image": "/images/produtos/seco/baixa-tensao/1770316994569__2__TAI_-_PETROBRAS_-_30_kVA_SEM_TAMPA.png",
+        "images": [
+          "/images/produtos/seco/baixa-tensao/1770316994569__2__TAI_-_PETROBRAS_-_30_kVA_SEM_TAMPA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/baixa-tensao/1770316994569__2__TAI_-_PETROBRAS_-_30_kVA_SEM_TAMPA.png": "TAI 30 kVA"
+        }
+      },
+      "reatores-de-partida": {
+        "title": "EPOXY RESIN CAST MOTOR STARTING REACTORS",
+        "longDescription": "The starting reactor is an indispensable electromagnetic component for the efficient starting of induction motors, acting directly to mitigate inrush current — the current peak that occurs at the moment of start-up. By applying an impedance in series with the motor, the equipment modulates the supplied voltage, ensuring that the initial torque is sufficient for starting without exposing the system to harmful energy peaks. This precise regulation is what preserves the integrity of the motor's windings and internal components, avoiding thermal and mechanical stress that frequently leads to premature failures and unplanned production stoppages.\n\nThe robustness of a high-performance reactor is measured by its capacity to withstand transients and oscillations in the electrical network, maintaining operational stability even in high-demand scenarios. In the development of Zilmer products, the selection of raw materials with high magnetic permeability and rigorous manufacturing processes ensures that each unit delivers maximum linearity and efficiency.",
+        "image": "/images/produtos/seco/reatores-de-partida/1770401826163__2__RPM_-_DISTRITO_DE_IRRIG_-_1700_HP.png",
+        "images": [
+          "/images/produtos/seco/reatores-de-partida/1770401826163__2__RPM_-_DISTRITO_DE_IRRIG_-_1700_HP.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/reatores-de-partida/1770401826163__2__RPM_-_DISTRITO_DE_IRRIG_-_1700_HP.png": "RPM 1700 HP"
+        }
+      }
+    }
+  },
+  "instrumentos": {
+    "intro": {
+      "description": "Instrument transformers are essential equipment for measurement, protection and control of electrical systems. Our potential transformers (PT) and current transformers (CT) are manufactured with high precision and reliability, ensuring accurate measurements and adequate protection of equipment."
+    },
+    "tp": {
+      "uso-interno": {
+        "description": "Potential transformers for indoor installation in substations, electrical panels and distribution switchgear, designed for protected environments, ensuring high precision and reliability in voltage measurements."
+      },
+      "uso-externo": {
+        "description": "Potential transformers for outdoor installation, developed with adequate protection against weathering, humidity and climatic variations, maintaining high precision even in adverse environmental conditions."
+      }
+    },
+    "tc": {
+      "uso-interno": {
+        "description": "Current transformers for indoor installation in substations, electrical panels and distribution switchgear, offering precise current measurement for protection, control and energy metering systems."
+      },
+      "uso-externo": {
+        "description": "Current transformers for outdoor installation, designed with robust protection against weathering and adverse climatic conditions, ensuring precise and reliable measurements even in external environments."
+      }
+    }
+  }
+}

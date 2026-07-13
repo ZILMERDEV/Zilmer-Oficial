@@ -1,0 +1,15 @@
+{
+  "section": {
+    "title": "Notícias",
+    "subtitle": "Notícias sobre projetos e atualizações da Zilmer."
+  },
+  "items": [
+    {
+      "id": "1",
+      "title": "Projeto em parceria com a segunda maior produtora de aço do planeta",
+      "description": "Trafos de fabricação Zilmer em operação contínua desde 2022 na sede da AcelorMittal em Santa Catarina, Brasil.",
+      "image": "/images/projetos/projeto-1.jpeg",
+      "slug": "projeto-aço"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "section": {
+    "title": "News",
+    "subtitle": "News about projects and updates from Zilmer."
+  },
+  "items": [
+    {
+      "id": "1",
+      "title": "Project in partnership with the world's second-largest steel producer",
+      "description": "Zilmer-manufactured transformers in continuous operation since 2022 at the ArcelorMittal facility in Santa Catarina, Brazil.",
+      "image": "/images/projetos/projeto-1.jpeg",
+      "slug": "projeto-aço"
+    }
+  ]
+}

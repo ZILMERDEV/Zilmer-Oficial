@@ -1,0 +1,48 @@
+{
+  "tagline": {
+    "pt": "TECNOLOGIA ZILMER",
+    "en": "ZILMER TECHNOLOGY",
+    "es": "TECNOLOGÍA ZILMER"
+  },
+  "headline": {
+    "pt": "ENGENHARIA",
+    "en": "PRECISION",
+    "es": "INGENIERÍA"
+  },
+  "accentWord": {
+    "pt": "DE PRECISÃO",
+    "en": "ENGINEERING",
+    "es": "DE PRECISIÓN"
+  },
+  "subtitle": {
+    "pt": "Os transformadores Zilmer são projetados por uma equipe de engenharia altamente qualificada, utilizando softwares avançados de modelagem 3D e ferramentas de cálculo. Cada equipamento combina matérias-primas de qualidade com o know-how adquirido em milhares de transformadores fornecidos e em operação.",
+    "en": "Zilmer transformers are designed by a highly qualified engineering team, using advanced 3D modeling software and calculation tools. Each piece of equipment combines quality raw materials with the know-how acquired from thousands of transformers supplied and in operation.",
+    "es": "Los transformadores Zilmer son diseñados por un equipo de ingeniería altamente cualificado, utilizando software avanzado de modelado 3D y herramientas de cálculo. Cada equipo combina materias primas de calidad con la experiencia adquirida a lo largo de miles de transformadores suministrados y en funcionamiento."
+  },
+  "stats": [
+    {
+      "number": "60+",
+      "label": {
+        "pt": "anos de experiência",
+        "en": "years of experience",
+        "es": "años de experiencia"
+      }
+    },
+    {
+      "number": "ISO",
+      "label": {
+        "pt": "certificação internacional",
+        "en": "international certification",
+        "es": "certificación internacional"
+      }
+    },
+    {
+      "number": "100%",
+      "label": {
+        "pt": "testado em fábrica",
+        "en": "factory tested",
+        "es": "probado en fábrica"
+      }
+    }
+  ]
+}

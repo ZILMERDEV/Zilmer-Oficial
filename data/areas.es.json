@@ -1,0 +1,194 @@
+{
+  "transporte": {
+    "title": "Transporte",
+    "aplicacao": {
+      "title": "Aplicación en Sistemas de Transporte",
+      "description": "Transformadores Rectificadores\n\nLos transformadores rectificadores tipo seco moldeados en resina epoxi representan la solución ideal para aplicaciones que demandan alta confiabilidad, robustez térmica y seguridad operacional, especialmente en entornos donde el uso de aceite no es deseable. Diseñados para alimentar circuitos rectificadores semiconductores de 6 a 24 pulsos, estos transformadores enfrentan condiciones eléctricas más severas que las encontradas en transformadores convencionales, debido a la presencia de armónicos de alta frecuencia generados por el proceso de conversión CA–CC. La operación de los dispositivos semiconductores introduce componentes armónicas que elevan significativamente las pérdidas por corrientes parásitas (eddy currents) y pérdidas dispersas, provocando calentamiento adicional en los devanados y estructuras metálicas del transformador. Ante este escenario, el transformador tipo seco en resina epoxi debe ser concebido con un conjunto de refinamientos electromagnéticos y térmicos que aseguren estabilidad y longevidad del equipo. Entre los principales elementos de diseño adoptados por Zilmer Ineltec, se destacan: reducción de la densidad de flujo magnético, disminuyendo las pérdidas adicionales provocadas por los armónicos; control riguroso de la densidad de corriente en los conductores, evitando el calentamiento excesivo en régimen de cargas pulsantes; blindaje electrostático entre devanados, atenuando interferencias de alta frecuencia y protegiendo componentes sensibles del sistema rectificador; devanados moldeados en resina epoxi clase F o H, que proporcionan excelente conducción térmica, elevada rigidez dieléctrica y resistencia superior a ambientes contaminados, húmedos o con atmósfera corrosiva; diseño tipo seco intrínsecamente más seguro, eliminando riesgos relacionados con fugas, combustibilidad del aceite y reduciendo las necesidades de mantenimiento. Estas características garantizan que el transformador rectificador tipo seco entregue confiabilidad y desempeño consistente, incluso bajo solicitaciones no lineales típicas de aplicaciones industriales intensivas, como electrólisis, accionamientos de velocidad variable, hornos eléctricos, minería, sistemas de tracción y otros procesos que requieren corriente continua de alta calidad.",
+      "image": "/images/areas/transporte/hf_20260204_180552_5d7deabf-613d-4c8e-8948-360df6ea8825.webp",
+      "heroImage": "/images/areas/backgrounds/transporte.webp",
+      "heroDescription": "Los transformadores Zilmer son fundamentales en la infraestructura de transporte metropolitano, suministrando energía confiable para sistemas críticos de movilidad urbana.",
+      "imageCaption": "TRANSFORMADOR RECTIFICADOR TRIFÁSICO"
+    },
+    "solucao": {
+      "title": "Solución para Movilidad Urbana",
+      "problem": "Los sistemas de transporte exigen energía confiable y estable para la operación continua, con alta disponibilidad y resistencia a las variaciones de carga.",
+      "melhora": "Nuestros transformadores garantizan un suministro estable de energía, reduciendo interrupciones y aumentando la confiabilidad operacional de los sistemas de transporte.",
+      "essencial": "Son esenciales para garantizar la seguridad y continuidad de los servicios de transporte público, operando 24/7 con máxima eficiencia."
+    },
+    "projetos": [
+      {
+        "title": "Sistema de Tracción Metropolitana",
+        "description": "Transformadores de tracción instalados en una línea de metro, suministrando energía para múltiples composiciones simultáneamente.",
+        "image": "/images/areas/transporte.jpg"
+      },
+      {
+        "title": "Señalización Ferroviaria",
+        "description": "Equipos especializados para la alimentación de sistemas de señalización y control de tráfico.",
+        "image": "/images/areas/transporte.jpg"
+      }
+    ]
+  },
+  "hidreletrica": {
+    "title": "Hidroeléctrica",
+    "aplicacao": {
+      "title": "Aplicación en Centrales Hidroeléctricas",
+      "description": "Transformador de Excitación en la Generación de Energía\n\nEn el corazón de cualquier sistema de generación de energía eléctrica, el transformador de excitación desempeña un papel fundamental y estratégico para la estabilidad del sistema. Como componente vital en el control de generadores síncronos, es el responsable de convertir y ajustar la tensión proveniente de las barras del generador o de los servicios auxiliares para alimentar el sistema de excitación. Este proceso es el que permite la creación del campo magnético necesario en el rotor para inducir la tensión en los devanados del estátor, transformando la energía mecánica en electricidad disponible para la red. En Zilmer, comprendemos que la eficiencia de una central depende directamente de la precisión de este componente, y por eso desarrollamos transformadores de excitación diseñados para operar en armonía con los más modernos Reguladores Automáticos de Tensión.\n\nNuestra ingeniería se centra en la robustez necesaria para soportar las severas exigencias operacionales del sector eléctrico. A diferencia de los transformadores convencionales, los modelos de excitación de Zilmer están dimensionados para soportar corrientes de techo y variaciones rápidas de carga, garantizando que el generador responda con agilidad a las perturbaciones en la red y mantenga la estabilidad de la tensión de salida. Fabricados con materiales de alta clase de aislamiento, nuestros equipos ofrecen máxima seguridad, bajos niveles de mantenimiento, factores cruciales para la continuidad operacional de centrales hidroeléctricas y termoeléctricas.",
+      "onde": "Instalados en salas de máquinas, subestaciones de generación y sistemas de transmisión de energía.",
+      "como": "Transforman la energía generada por las turbinas a niveles de tensión adecuados para la transmisión y distribución.",
+      "image": "/images/areas/hidreletrica/hf_20260204_170703_8f0f246e-0e78-489a-b931-68934db44f33.webp",
+      "heroImage": "/images/areas/backgrounds/hidreletrica.webp",
+      "heroDescription": "Transformadores de alta potencia esenciales para la generación y transmisión de energía hidroeléctrica.",
+      "imageCaption": "TRANSFORMADOR DE EXCITACIÓN (BANCO TRIFÁSICO)"
+    },
+    "solucao": {
+      "title": "Solución para Generación de Energía",
+      "problem": "Las centrales hidroeléctricas necesitan transformadores robustos capaces de operar en condiciones extremas con alta disponibilidad.",
+      "melhora": "Nuestros transformadores ofrecen alta eficiencia energética, reduciendo pérdidas y maximizando la producción de energía renovable.",
+      "essencial": "Fundamentales para conectar la generación hidroeléctrica a la red nacional, garantizando un suministro estable de energía limpia."
+    },
+    "projetos": [
+      {
+        "title": "Transformadores de Generación",
+        "description": "Equipos de alta potencia para elevación de tensión en centrales hidroeléctricas de gran envergadura.",
+        "image": "/images/areas/hidreletrica.jpg"
+      },
+      {
+        "title": "Sistemas Auxiliares",
+        "description": "Transformadores para la alimentación de sistemas auxiliares y control de las centrales.",
+        "image": "/images/areas/hidreletrica.jpg"
+      }
+    ]
+  },
+  "mineracao": {
+    "title": "Minería",
+    "aplicacao": {
+      "title": "Aplicación en Operaciones de Minería",
+      "description": "Transformadores de Alto Rendimiento para Minería\n\nEn la industria minera, la confiabilidad electromecánica trasciende el objetivo operacional, consolidándose como un requisito crítico de seguridad y continuidad. Consciente de esta realidad, Zilmer desarrolla transformadores de potencia y distribución con un enfoque riguroso en resiliencia termomecánica, integrando envolventes con grado de protección IP54 — o superior, según consulta técnica. Este estándar constructivo asegura que el equipo esté íntegramente protegido contra el ingreso de polvo abrasivo, evitando depósitos perjudiciales, y contra proyecciones de agua en cualquier dirección. Tales características hacen que las soluciones Zilmer sean ideales para ambientes severos, como plantas de trituración, molienda y áreas de beneficio húmedo, donde los equipos convencionales estarían sujetos a fallas prematuras.\n\nEl desarrollo técnico de los transformadores Zilmer para minería se basa en criterios de ingeniería avanzada para mitigar riesgos inherentes al sector. El envolvente metálico con protección IP54 está diseñado con sistemas de ventilación equipados con filtros especiales. Esta barrera física impide la contaminación de los devanados y aisladores por polvo conductor o mineral pulverizado, eliminando el riesgo de seguimientos eléctricos y arcos internos que podrían comprometer toda la red eléctrica de la unidad.\n\nIncluso con el sellado característico del envolvente IP54, Zilmer garantiza una gestión térmica superior a través de sistemas de refrigeración optimizados, como el ANAF (Aire Natural/Aire Forzado). Esta tecnología asegura una disipación de calor eficiente, manteniendo la clase de aislamiento térmico rigurosamente dentro de los límites establecidos por las normas ABNT NBR, incluso en localidades con temperaturas elevadas. Sumado a esto, la estructura interna del núcleo y de las bobinas recibe anclajes mecánicos reforzados, dimensionados específicamente para soportar vibraciones y choques mecánicos continuos provenientes de equipos de gran envergadura, como trituradoras y cribas vibratorias instaladas en proximidad.\n\nDe esta forma, Zilmer entrega al mercado minero una solución que une protección ambiental hermética, estabilidad térmica y robustez estructural. El resultado es un equipo con ciclo de vida extendido, baja necesidad de intervención para mantenimiento y la garantía de que la operación mantendrá sus índices de productividad máxima, protegiendo la inversión del cliente y la integridad de la planta eléctrica.",
+      "onde": "Instalados en plantas de procesamiento, áreas de extracción, sistemas de transporte de mineral e infraestructura de minas.",
+      "como": "Operan en ambientes con alta humedad, polvo, vibraciones y variaciones extremas de temperatura.",
+      "image": "/images/areas/mineracao/hf_20260204_172941_49183ca6-fd3a-4643-8ec1-f5aef1f86984.webp",
+      "heroImage": "/images/areas/backgrounds/mineracao.jpg",
+      "heroDescription": "Transformadores robustos diseñados para las condiciones extremas de la minería a cielo abierto.",
+      "imageCaption": "TRANSFORMADOR TRIFÁSICO IP-54"
+    },
+    "solucao": {
+      "title": "Solución para Minería",
+      "problem": "Las operaciones de minería exigen equipos resistentes a condiciones severas, con alta confiabilidad y bajo mantenimiento.",
+      "melhora": "Nuestros transformadores están diseñados para resistir condiciones extremas, garantizando operación continua y reduciendo costos de mantenimiento.",
+      "essencial": "Esenciales para alimentar equipos críticos de minería, garantizando productividad y seguridad operacional."
+    },
+    "projetos": [
+      {
+        "title": "Plantas de Procesamiento",
+        "description": "Transformadores para la alimentación de molinos, trituradoras y sistemas de beneficio de mineral.",
+        "image": "/images/areas/mineracao.jpg"
+      },
+      {
+        "title": "Sistemas de Transporte",
+        "description": "Equipos para cintas transportadoras y sistemas de movimiento de material.",
+        "image": "/images/areas/mineracao.jpg"
+      }
+    ]
+  },
+  "subestacoes": {
+    "title": "Subestaciones",
+    "aplicacao": {
+      "title": "Aplicación en Subestaciones Eléctricas",
+      "description": "Transformadores de Subestación\n\nEn el ecosistema de soluciones de Zilmer, el desarrollo de equipos para subestaciones está pautado por la alta ingeniería y la necesidad de garantizar la estabilidad y la seguridad del sistema eléctrico. La línea de productos de Zilmer abarca desde la transformación de grandes potencias hasta el soporte crítico operacional y la protección de sistemas, destacándose por su robustez y eficiencia técnica.\n\nLos transformadores de fuerza Zilmer representan el pilar central de cualquier subestación. Diseñados para actuar en la interfaz entre los sistemas de transmisión y distribución, estos equipos realizan la conversión de niveles de tensión con máxima performance y pérdidas reducidas. Construidos para soportar regímenes de carga severos, los transformadores de fuerza de Zilmer utilizan sistemas de aislamiento de vanguardia y refrigeración optimizada, garantizando que la energía sea transportada de forma segura y confiable para atender las exigencias de concesionarias y grandes plantas industriales.\n\nPara garantizar la integridad del sistema en situaciones de falla, los reactores de puesta a tierra Zilmer desempeñan un papel vital en la seguridad operacional. Estos equipos están diseñados para crear un punto de neutro en sistemas que no lo poseen o para limitar la corriente de falla a tierra a valores seguros. La tecnología de Zilmer en estos reactores permite minimizar los daños causados por arcos eléctricos y controlar sobretensiones transitorias, elevando el estándar de protección de los activos y garantizando una operación más resiliente ante perturbaciones en la red.\n\nComplementando la infraestructura, el Transformador de Servicios Auxiliares (TSA) Zilmer es el garante de la autonomía y el control. Mientras los grandes transformadores mueven la carga principal, el TSA de Zilmer desvía la energía necesaria para alimentar los sistemas internos de la propia subestación, como paneles de protección, cargadores de baterías, sistemas de automatización e iluminación. Desarrollados con foco en altísima confiabilidad, los TSA de Zilmer aseguran que la subestación mantenga su capacidad de monitoreo y comando en cualquier circunstancia, funcionando como la columna vertebral que sustenta la inteligencia de toda la unidad.",
+      "onde": "Instalados en subestaciones de distribución, transmisión y transformación de energía eléctrica.",
+      "como": "Transforman tensiones entre diferentes niveles, permitiendo la distribución eficiente de energía a los consumidores.",
+      "image": "/images/areas/subestacoes/RAO - VILLARES METALS - 1350 kVA - CENÁRIO.webp",
+      "heroImage": "/images/areas/backgrounds/subestacoes.webp",
+      "heroDescription": "Transformadores esenciales para la distribución y transmisión de energía en subestaciones.",
+      "imageCaption": "REACTOR DE PUESTA A TIERRA ZIG-ZAG"
+    },
+    "solucao": {
+      "title": "Solución para Distribución de Energía",
+      "problem": "Las subestaciones necesitan transformadores confiables para garantizar el suministro estable de energía eléctrica.",
+      "melhora": "Nuestros transformadores ofrecen alta eficiencia, reduciendo las pérdidas de energía y mejorando la calidad del suministro.",
+      "essencial": "Fundamentales en la red eléctrica, garantizando la transformación y distribución eficiente de energía para toda la población."
+    },
+    "projetos": [
+      {
+        "title": "Subestaciones de Distribución",
+        "description": "Transformadores para reducción de tensión en subestaciones urbanas y rurales.",
+        "image": "/images/areas/subestacoes.jpg"
+      },
+      {
+        "title": "Sistemas de Transmisión",
+        "description": "Equipos de alta tensión para la transmisión de energía entre regiones.",
+        "image": "/images/areas/subestacoes.jpg"
+      }
+    ]
+  },
+  "energias-renovaveis": {
+    "title": "Energías Renovables",
+    "aplicacao": {
+      "title": "Aplicación en Energías Renovables",
+      "description": "Transformadores para Fuentes Renovables\n\nLos transformadores tipo seco para fuentes renovables de Zilmer son desarrollados con ingeniería de vanguardia para atender las exigencias críticas de este tipo de generación, donde la integración de sistemas fotovoltaicos y eólicos impone regímenes de carga severos debido a la alta inyección de armónicos. Como los inversores de potencia operan mediante conmutación electrónica, generan corrientes no lineales que distorsionan la forma de onda senoidal, resultando en frecuencias múltiples de la fundamental que provocan el calentamiento excesivo en transformadores convencionales. Para resolver este desafío, Zilmer diseña sus equipos con un Factor K rigurosamente dimensionado, garantizando que el transformador soporte las pérdidas suplementarias por corrientes de Foucault y pérdidas parásitas sin comprometer su integridad térmica.\n\nA diferencia de los modelos convencionales, la construcción de estos transformadores se centra en la mitigación de los efectos de los armónicos a través de una geometría de devanados optimizada, que utiliza conductores dispuestos para minimizar el efecto pelicular (skin effect) y reducir la resistencia en altas frecuencias. El uso de aislamiento en resina epoxi moldeada al vacío confiere al equipo una característica autoextinguible y de alta resistencia dieléctrica, eliminando el riesgo de incendios y la necesidad de mantenimiento fluido, lo que es esencial para la seguridad y sostenibilidad de plantas de generación distribuida. Además, la inclusión de blindaje electrostático entre los devanados actúa como un filtro contra transitorios y ruidos electromagnéticos, protegiendo la electrónica sensible de los inversores y aumentando la calidad de la energía entregada a la red.\n\nEn el aspecto operacional, los transformadores Zilmer con Factor K adecuado eliminan la necesidad de derating (subutilización de la potencia nominal), permitiendo que el activo trabaje en su capacidad total con máxima eficiencia energética. La robustez mecánica y el sistema de monitoreo de temperatura integrado garantizan una larga vida útil, incluso bajo las fluctuaciones de carga típicas de las fuentes renovables.",
+      "onde": "Instalados en parques eólicos, plantas solares y sistemas de integración a la red eléctrica.",
+      "como": "Conectan la generación renovable a la red, transformando tensiones y garantizando calidad de energía.",
+      "image": "/images/areas/energias-renovaveis/hf_20260204_182526_06aaf914-647b-4143-8cef-fd0bacf40d9b.webp",
+      "heroImage": "/images/areas/backgrounds/energias-renovaveis.jpg",
+      "heroDescription": "Transformadores especializados para la integración de energía eólica y solar a la red eléctrica.",
+      "imageCaption": "TRANSFORMADOR TRIFÁSICO ELEVADOR DE ALTA POTENCIA"
+    },
+    "solucao": {
+      "title": "Solución para Sostenibilidad Energética",
+      "problem": "Las fuentes renovables necesitan transformadores eficientes para la integración estable a la red eléctrica.",
+      "melhora": "Nuestros transformadores maximizan la eficiencia de conversión, reduciendo pérdidas y optimizando la producción de energía limpia.",
+      "essencial": "Esenciales para la transición energética, permitiendo la integración eficiente de fuentes renovables a la matriz eléctrica."
+    },
+    "projetos": [
+      {
+        "title": "Parques Eólicos",
+        "description": "Transformadores para elevación de tensión en turbinas eólicas y conexión a la red.",
+        "image": "/images/areas/energias-renovaveis.jpg"
+      },
+      {
+        "title": "Plantas Solares",
+        "description": "Equipos para sistemas fotovoltaicos e integración a la red de distribución.",
+        "image": "/images/areas/energias-renovaveis.jpg"
+      }
+    ]
+  },
+  "controle-medicao": {
+    "title": "Control y Medición",
+    "aplicacao": {
+      "title": "Aplicación en Sistemas de Control y Medición",
+      "description": "Transformadores de Tensión y Corriente para Control y Medición\n\nLos Transformadores de Instrumento desempeñan un papel fundamental en la infraestructura eléctrica, actuando como interfaces críticas entre los sistemas de alta potencia y los dispositivos de monitoreo. En esencia, su función es reducir magnitudes eléctricas elevadas — corrientes y tensiones que pueden alcanzar cientos de kilovoltios (kV) o kiloamperios (kA) — a niveles estandarizados, seguros y compatibles con instrumentos de medición, medidores de facturación y relés de protección. Además de la reducción de escala, estos dispositivos garantizan el aislamiento galvánico, separando físicamente el circuito de alta tensión de los paneles de control, lo que asegura la integridad de los equipos electrónicos y, principalmente, la seguridad de los operadores que manejan los instrumentos.\n\nEn este escenario, el uso de equipos de fabricantes consolidados, como Zilmer, garantiza que los requisitos de precisión y robustez sean atendidos conforme a las normas técnicas vigentes (como ABNT NBR e IEC). El Transformador de Corriente, por ejemplo, está diseñado para ser conectado en serie con la carga, convirtiendo la corriente del circuito primario en una corriente secundaria proporcional, generalmente estandarizada en 1 A o 5 A. En la medición, el foco del transformador de corriente es la alta precisión dentro del rango de operación nominal para garantizar cargos justos de energía. En el control y protección, los modelos fabricados por Zilmer son desarrollados para operar sin saturarse prematuramente bajo condiciones de cortocircuito, permitiendo que los relés identifiquen fallas severas con claridad.\n\nPor otro lado, el Transformador de Tensión opera de forma análoga a un transformador de fuerza convencional, pero con foco en la fidelidad de la forma de onda y la magnitud de la tensión. Se conecta en paralelo con el sistema y reduce la tensión a niveles de 115 V o 120 V. Zilmer ofrece soluciones en transformadores de tensión que priorizan la estabilidad térmica y la precisión de la relación de transformación, fundamentales para alimentar bobinas de tensión de medidores y sistemas de protección de sub/sobretensión.",
+      "onde": "Instalados en paneles de control, sistemas de protección, medidores y equipos de automatización.",
+      "como": "Reducen tensiones y corrientes a niveles seguros, permitiendo la medición y protección precisa de los sistemas eléctricos.",
+      "image": "/images/areas/controle-medicao/WhatsApp Image 2026-02-03 at 13.45.43.jpeg",
+      "images": [
+        "/images/areas/controle-medicao/WhatsApp Image 2026-02-03 at 13.45.43.jpeg",
+        "/images/areas/controle-medicao/WhatsApp Image 2026-02-03 at 13.48.19.jpeg"
+      ],
+      "heroImage": "/images/areas/backgrounds/controle-medicao.webp",
+      "heroDescription": "Transformadores de instrumento (tensión y corriente) para protección, control y medición en instalaciones eléctricas.",
+      "imageCaption": "TRANSFORMADORES DE CORRIENTE (TC) DE USO EXTERIOR",
+      "imageCaptions": [
+        "TRANSFORMADORES DE CORRIENTE (TC) DE USO EXTERIOR",
+        "VISTA ABIERTA DE LA CONCESIONARIA DE ENERGÍA ASOCIADA"
+      ]
+    },
+    "solucao": {
+      "title": "Solución para Protección y Medición",
+      "problem": "Los sistemas eléctricos necesitan medición precisa y protección confiable contra fallas y sobrecargas.",
+      "melhora": "Nuestros transformadores de instrumento ofrecen alta precisión, garantizando medición confiable y protección eficaz de los sistemas.",
+      "essencial": "Fundamentales para la seguridad y eficiencia de instalaciones eléctricas, permitiendo monitoreo y protección adecuados."
+    },
+    "projetos": [
+      {
+        "title": "Sistemas de Protección",
+        "description": "Transformadores de corriente y tensión para relés de protección y sistemas de seguridad.",
+        "image": "/images/areas/controle-medicao.jpg"
+      },
+      {
+        "title": "Medición de Energía",
+        "description": "Equipos para la medición precisa del consumo y calidad de energía eléctrica.",
+        "image": "/images/areas/controle-medicao.jpg"
+      }
+    ]
+  }
+}

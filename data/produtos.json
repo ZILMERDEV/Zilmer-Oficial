@@ -1,0 +1,224 @@
+{
+  "oleo": {
+    "intro": {
+      "description": "Transformadores imersos em óleo são equipamentos essenciais para sistemas elétricos de alta potência, oferecendo excelente dissipação térmica e rigidez dielétrica. Nossos transformadores são projetados para atender as mais diversas aplicações industriais com máxima confiabilidade e eficiência."
+    },
+    "produtos": {
+      "transformadores-auxiliares": {
+        "title": "TRANSFORMADORES AUXILIARES",
+        "longDescription": "Os transformadores auxiliares imersos em óleo são projetados para aplicações que exigem potências menores, na faixa de 5 kVA até 500 kVA. Esses transformadores são essenciais para sistemas auxiliares em indústrias, subestações e instalações comerciais, fornecendo energia para equipamentos de baixa potência e sistemas de controle. A construção imersa em óleo garante alta rigidez dielétrica, excelente dissipação térmica e operação confiável mesmo em ambientes industriais. Os transformadores auxiliares Zilmer são projetados com alta eficiência energética, baixo nível de ruído e fácil manutenção, garantindo operação estável e duradoura para sistemas auxiliares críticos.",
+        "image": "/images/produtos/oleo/transformadores-auxiliares/1770399122049__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png",
+        "images": [
+          "/images/produtos/oleo/transformadores-auxiliares/1776366162720__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png",
+          "/images/produtos/oleo/transformadores-auxiliares/1776366633990__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_1.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/transformadores-auxiliares/1776366162720__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png": "TAO 300 kVA",
+          "/images/produtos/oleo/transformadores-auxiliares/1776366633990__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_1.png": "TAO 300 kVA"
+        }
+      },
+      "para-retificadores": {
+        "title": "TRANSFORMADORES PARA RETIFICADORES EM ÓLEO",
+        "longDescription": "Os transformadores retificadores imersos em óleo são projetados para atender aplicações industriais de alta exigência, onde circuitos de retificação demandam corrente contínua estável, elevada confiabilidade e capacidade de operação sob condições severas. Devido às correntes pulsantes e ao alto conteúdo harmônico típico dos sistemas de conversão AC–DC, esses transformadores recebem um projeto eletromagnético especial, com densidade de fluxo reduzida, geometrias otimizadas de enrolamento e blindagens que garantem desempenho seguro e eficiente. A isolação em óleo mineral ou dielétrico especial proporciona excelente rigidez elétrica e gestão térmica, permitindo que o equipamento opere com temperaturas controladas mesmo em regimes de carga intensos. O óleo facilita a dissipação de calor e assegura longa vida útil ao sistema isolante, ao mesmo tempo em que reforça a confiabilidade do conjunto núcleo–enrolamentos. Construídos para suportar esforços mecânicos e elétricos elevados, os transformadores retificadores em óleo oferecem desempenho superior em aplicações como tração, excitação e fornos elétricos.",
+        "image": "/images/produtos/oleo/para-retificadores/1770313429146__2__TCO_-_GE_POWER_-_12500_kVA.png",
+        "images": [
+          "/images/produtos/oleo/para-retificadores/1770313429146__2__TCO_-_GE_POWER_-_12500_kVA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/para-retificadores/1770313429146__2__TCO_-_GE_POWER_-_12500_kVA.png": "TCO 12500 kVA"
+        }
+      },
+      "para-fornos": {
+        "title": "TRANSFORMADORES PARA FORNOS EM ARCO",
+        "longDescription": "Os transformadores em óleo para fornos de arco elétrico são projetados para suportar condições extremamente severas de operação, típicas de processos metalúrgicos de fusão. Nesses sistemas, o arco elétrico impõe variações rápidas de impedância, correntes de curto-circuito elevadas, altos níveis de harmônicos e solicitações térmicas intensas, exigindo um transformador com maior desempenho. Para atender a essas demandas, os transformadores são desenvolvidos com densidade de fluxo reduzida, garantindo menor suscetibilidade à saturação e mitigando perdas adicionais associadas a correntes harmônicas. Os enrolamentos possuem alta rigidez mecânica, dimensionados para suportar fortes esforços dinâmicos durante a formação e sustentação do arco. A construção eletromagnética e estrutural é otimizada para operações repetitivas de alto impacto elétrico, preservando a integridade do conjunto núcleo–enrolamentos. O sistema de isolamento em óleo aumenta a rigidez dielétrica e proporciona excelente capacidade de dissipação de calor, assegurando estabilidade térmica ao longo dos ciclos de fusão. Dependendo da potência requerida, são empregados sistemas de resfriamento do tipo ONAN, ONAF, garantindo operação segura e prolongada mesmo em regime intensivo. Com engenharia orientada para robustez, dissipação térmica eficiente e alta resistência mecânica, os transformadores em óleo para fornos de arco Zilmer oferecem a confiabilidade necessária para uma das aplicações mais exigentes da indústria siderúrgica, assegurando desempenho consistente e vida útil prolongada em ambientes de operação crítica.",
+        "image": "/images/produtos/oleo/para-fornos/1770314013468__2__TCO_-_MR_COM_RCIO_-_3300_kVA.png",
+        "images": [
+          "/images/produtos/oleo/para-fornos/1770314013468__2__TCO_-_MR_COM_RCIO_-_3300_kVA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/para-fornos/1770314013468__2__TCO_-_MR_COM_RCIO_-_3300_kVA.png": "TCO 3300 kVA"
+        }
+      },
+      "de-partida": {
+        "title": "AUTOTRANSFORMADORES DE PARTIDA",
+        "longDescription": "Os autotransformadores imersos em óleo para partida de grandes motores são projetados para reduzir a corrente de partida e minimizar o impacto elétrico na rede, garantindo maior estabilidade do sistema e proteção dos equipamentos industriais. Ao aplicar uma tensão reduzida ao motor no momento da aceleração, o autotransformador limita correntes de pico, evita quedas de tensão e diminui esforços mecânicos no conjunto acionado. A construção imersa em óleo proporciona elevada rigidez dielétrica e excelente dissipação térmica, permitindo que o equipamento suporte correntes elevadas durante ciclos curtos de partida sem comprometer sua vida útil. Sistemas de resfriamento ONAN ou ONAF são aplicados conforme a potência e a frequência de acionamentos requerida. Projetados com densidade de fluxo controlada, rigidez mecânica superior e estabilidade eletromagnética, os autotransformadores de partida Zilmer garantem operação confiável mesmo em aplicações severas, como compressores, bombas de alta potência, ventiladores industriais e motores de grande porte. Combinando robustez, eficiência e alto desempenho, esses autotransformadores asseguram partidas seguras, redução de esforços no motor e maior confiabilidade operacional para processos industriais críticos.",
+        "image": "/images/produtos/oleo/de-partida/1770314030920__2__APO_-_SISNERGY_-_1350_CV_SEM_TAMPA.png",
+        "images": [
+          "/images/produtos/oleo/de-partida/1770314030920__2__APO_-_SISNERGY_-_1350_CV_SEM_TAMPA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/de-partida/1770314030920__2__APO_-_SISNERGY_-_1350_CV_SEM_TAMPA.png": "APO 1350 CV"
+        }
+      },
+      "de-aterramento": {
+        "title": "TRANSFORMADORES DE ATERRAMENTO EM ÓLEO",
+        "longDescription": "Os transformadores de aterramento imersos em óleo têm a função de criar um neutro artificial e controlar a corrente de falta à terra em sistemas trifásicos que não possuem ponto de aterramento disponível. A isolação em óleo garante alta rigidez dielétrica, excelente dissipação térmica e operação confiável mesmo em ambientes industriais severos. Os modelos do tipo Zig-Zag oferecem caminho eficaz para correntes de sequência zero, proporcionando limitação controlada da corrente de falta e contribuindo para a estabilidade fase–terra. Já os transformadores Estrela com Delta Quebrado/aberto são utilizados quando se deseja maior sensibilidade na detecção de desequilíbrios e faltas à terra, favorecendo a atuação de relés específicos e melhorando a supervisão do sistema. Outra solução amplamente empregada é o banco trifásico formado por transformadores monofásicos imersos em óleo, que permite flexibilidade de manutenção, modularidade e ajuste individual de impedância, sendo ideal para aplicações especiais ou sistemas que exigem elevada precisão no aterramento. Em todas as topologias, a imersão em óleo assegura desempenho térmico robusto e maior durabilidade do isolamento, garantindo operação segura e eficiente em instalações industriais, sistemas de distribuição e aplicações de alta criticidade.",
+        "image": "/images/produtos/oleo/de-aterramento/RAO - HITACHI - 2572 kVA.webp",
+        "images": [
+          "/images/produtos/oleo/de-aterramento/RAO - HITACHI - 2572 kVA.webp"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/de-aterramento/RAO - HITACHI - 2572 kVA.webp": "RAO 2572 kVA"
+        }
+      },
+      "autotransformadores": {
+        "title": "AUTOTRANSFORMADORES IMERSOS EM ÓLEO (PADRÃO)",
+        "longDescription": "Os autotransformadores imersos em óleo são projetados para aplicações que exigem alta eficiência, excelente desempenho térmico e confiabilidade operacional. Utilizando parte comum dos enrolamentos entre primário e secundário, esses equipamentos oferecem menor volume, menores perdas e melhor relação custo e benefício quando comparados aos transformadores convencionais. A isolação em óleo garante rigidez dielétrica elevada e dissipação térmica superior, permitindo operação segura mesmo sob cargas elevadas ou variações dinâmicas do sistema. Sistemas de resfriamento do tipo ONAN ou ONAF são aplicados conforme a potência requerida, assegurando estabilidade térmica e prolongando a vida útil do isolamento. Com projeto eletromagnético otimizado e construção mecânica reforçada, os autotransformadores Zilmer apresentam alto desempenho em subestações industriais, processos de distribuição e aplicações que demandam transformação de tensão com máxima confiabilidade.",
+        "image": ""
+      },
+      "reatores": {
+        "title": "REATORES IMERSOS EM ÓLEO",
+        "longDescription": "Os reatores com núcleo ferromagnético e entreferro imersos em óleo são projetados para fornecer limitação de corrente, controle de transitórios e estabilidade operacional em sistemas elétricos de alta exigência. A introdução do entreferro no núcleo aumenta a reatância e reduz a tendência à saturação, assegurando comportamento indutivo estável mesmo sob correntes elevadas e regimes pulsantes. A isolação em óleo dielétrico garante alta rigidez dielétrica e excelente dissipação térmica, permitindo operação contínua ou intermitente em condições severas, como em retificadores, fornos elétricos, bancos de capacitores e sistemas de compensação reativa. O núcleo laminado, dimensionado com entreferros ajustados, oferece desempenho magnético confiável e reduz perdas adicionais, enquanto os enrolamentos são projetados para suportar esforços eletrodinâmicos significativos. Nos reatores de partida de motores, a indutância é utilizada para limitar correntes durante o acionamento, reduzindo impactos na rede e protegendo tanto o motor quanto o sistema de alimentação. Já os reatores do tipo série são instalados diretamente no circuito principal para controlar correntes, mitigar surtos e estabilizar o fluxo de potência em condições de carga variável. Com construção robusta, projeto térmico otimizado e características eletromagnéticas precisas, os reatores imersos em óleo Zilmer garantem controle eficiente de corrente, elevada confiabilidade e longa vida útil, atendendo de forma segura às diversas demandas industriais.",
+        "image": "/images/produtos/oleo/reatores/1770314080755__2__RAO_-_VILLARES_METALS_-_1350_kVA.png",
+        "images": [
+          "/images/produtos/oleo/reatores/1770314080755__2__RAO_-_VILLARES_METALS_-_1350_kVA.png",
+          "/images/produtos/oleo/reatores/1776440180438__2__RAO_-_USINAS_SIDER_-_1500_kW.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/reatores/1770314080755__2__RAO_-_VILLARES_METALS_-_1350_kVA.png": "RAO 1350 kVA",
+          "/images/produtos/oleo/reatores/1776440180438__2__RAO_-_USINAS_SIDER_-_1500_kW.png": "RAO 1500 kW"
+        }
+      }
+    },
+    "transformadores-de-forca": {
+      "intro": "Transformadores de força para aplicações industriais e comerciais",
+      "categorias": {
+        "30-500": {
+          "title": "30 a 500 kVA",
+          "description": "Transformadores de força na faixa de 30 a 500 kVA, projetados para aplicações de distribuição e transformação em sistemas elétricos de média tensão, oferecendo alta confiabilidade e eficiência energética.",
+          "specifications": [
+            "Tensão primária: 15 a 72 kV",
+            "Potência: 30 a 500 kVA",
+            "Sistema de resfriamento: ONAN",
+            "Isolação: Óleo mineral",
+            "Níveis de proteção: IP00"
+          ],
+          "image": "/images/produtos/oleo/transformadores-de-forca/30-a-300-kv/1776704424351__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png",
+          "cardImage": ""
+        },
+        "500-3000": {
+          "title": "500 a 3000 kVA",
+          "description": "Transformadores de força de média potência, na faixa de 500 a 3000 kVA, ideais para aplicações industriais e comerciais que demandam maior capacidade de transformação de energia.",
+          "specifications": [
+            "Tensão primária: 15 a 72 kV",
+            "Potência: 500 a 3000 kVA",
+            "Sistema de resfriamento: ONAN/ONAF",
+            "Isolação: Óleo mineral",
+            "Níveis de proteção: IP00"
+          ],
+          "image": "/images/produtos/oleo/transformadores-de-forca/500-a-3000-kv/1770401019265_TCO_-_PETROBRAS_-_3500_kVA.webp"
+        },
+        "3-20": {
+          "title": "3 MVA até 20 MVA",
+          "description": "Transformadores de força de alta potência, de 3 MVA até 20 MVA, fabricados para atender aplicações específicas e requisitos técnicos particulares do cliente.",
+          "specifications": [
+            "Tensão primária: 15 a 72 kV",
+            "Potência: 3 MVA até 20 MVA",
+            "Sistema de resfriamento: ONAN/ONAF",
+            "Isolação: Óleo mineral",
+            "Níveis de proteção: IP00"
+          ],
+          "cardImage": "/images/produtos/oleo/transformadores-de-forca/3mva-a-20mva/TCO - GE POWER - 12500 kVA.webp",
+          "image": "/images/produtos/oleo/transformadores-de-forca/3mva-a-20mva/TCO - GE POWER - 12500 kVA.webp"
+        }
+      },
+      "cardImage": "/images/produtos/oleo/transformadores-de-forca/500-a-3000-kv/1770401019265_TCO_-_PETROBRAS_-_3500_kVA.webp"
+    }
+  },
+  "seco": {
+    "intro": {
+      "description": "Transformadores a seco moldados em resina epóxi são indicados para operar em locais que exigem segurança, os materiais utilizados em sua construção são de difícil combustão e auto extinguíveis e em caso de incêndio, não explodem nem liberam gases tóxicos."
+    },
+    "produtos": {
+      "media-tensao": {
+        "title": "TRANSFORMADORES A SECO DE MÉDIA TENSÃO",
+        "longDescription": "TRANSFORMADORES A SECO DE MÉDIA TENSÃO, CLASSES DE 15; 24,5 E 36 KV – POTÊNCIAS ATÉ 20 MVA.\n\nOs transformadores a seco moldados em resina epóxi são indicados para operar em locais que exigem segurança, os materiais utilizados em sua construção são de difícil combustão e auto extinguíveis e em caso de incêndio, não explodem nem liberam gases tóxicos. Sua instalação é consideravelmente mais econômica do que a de seus similares imersos em óleo mineral, pois dispensam alvenaria a prova de fogo e tanques para de retenção de liquido e ocupam espaços menores. Podem ser instalados em máquinas móveis, empregando menos volume de condutores de baixa tensão e diminuindo a queda de tensão com a queda de energia dissipada pelos cabos. São praticamente isentos de manutenção e não são afetados pela humidade. O tipo construtivo garante uma alta resistência mecânica a curto-circuito assim como também um baixo nível de ruído. Oferecem uma alta resistência a correntes de fuga e através de ventilação forçada podem aumentar a capacidade nominal em até 40%. Apresentam um baixo nível de descargas parciais e não oferecem nenhum tipo de restrições ecológicas. São apropriados para instalações internas em metrôs, ferrovias, aeroportos, instalações nucleares, industrias, hospitais, laboratórios, cinemas, teatros, edifícios comerciais e residenciais e em lugares com grande circulação de pessoas.",
+        "image": "/images/produtos/seco/media-tensao/1770316961627__2__TAM_-_SABESP_-_500_kVA.png",
+        "images": [
+          "/images/produtos/seco/media-tensao/1770316961627__2__TAM_-_SABESP_-_500_kVA.png",
+          "/images/produtos/seco/media-tensao/TAM - AMC - 1000 kVA SEM CAIXA - vista DETALHE BARRAMENTO.webp"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/media-tensao/1770316961627__2__TAM_-_SABESP_-_500_kVA.png": "TAM 500 kVA",
+          "/images/produtos/seco/media-tensao/TAM - AMC - 1000 kVA SEM CAIXA - vista DETALHE BARRAMENTO.webp": "TAM 1000 kVA (VISTA SUPERIOR SEM CAIXA)"
+        }
+      },
+      "para-retificadores": {
+        "title": "TRANSFORMADORES A SECO PARA RETIFICADORES EM RESINA EPÓXI",
+        "longDescription": "Os transformadores a seco Zilmer para sistemas retificadores são projetados para atender aos rigorosos requisitos de circuitos semicondutores de 6 a 24 pulsos, onde a estabilidade da corrente contínua é primordial. Utilizando tecnologia de isolação em resina epóxi de alta rigidez dielétrica, o equipamento oferece uma solução compacta, segura contra incêndios e com elevada resistência mecânica para suportar os esforços eletrodinâmicos típicos de cargas não lineares. Disponíveis nas classes térmicas F (155°C) ou H (180°C), esses transformadores garantem excelente gestão do calor e durabilidade sob regimes de harmônicos elevados, aliando alto desempenho técnico a uma operação de baixa necessidade de manutenção para aplicações industriais críticas.",
+        "image": "/images/produtos/seco/retificadores/TAM - SIEMENS - 4700 kVA v1.png",
+        "images": [
+          "/images/produtos/seco/retificadores/TAM - SIEMENS - 4700 kVA v1.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/retificadores/TAM - SIEMENS - 4700 kVA v1.png": "TAM 4700 kVA"
+        }
+      },
+      "aterramento": {
+        "title": "TRANSFORMADORES DE ATERRAMENTO MOLDADOS EM RESINA EPÓXI",
+        "longDescription": "Os transformadores de aterramento moldados em resina epóxi são projetados para estabelecer um ponto de referência a terra em sistemas elétricos que operam sem neutro acessível, permitindo a circulação controlada da corrente de falta monofásica. Sua função é garantir que o sistema apresente condições elétricas adequadas para a atuação seletiva das proteções, ao mesmo tempo em que mantém a estabilidade das tensões fase–terra durante eventos de defeito. A construção totalmente a seco, utilizando resina epóxi como isolação sólida, proporciona elevada rigidez dielétrica e excelente desempenho em ambientes agressivos, eliminando riscos associados ao uso de óleo. A moldagem integral reduz a incidência de descargas parciais, melhora a resistência mecânica dos enrolamentos e assegura robustez frente a ciclos térmicos e vibrações típicos de instalações industriais. Esse tipo de isolação também favorece a dissipação térmica, garantindo resposta eficiente durante correntes de falta temporárias ou intermitentes. Do ponto de vista elétrico, o transformador é dimensionado de forma a proporcionar a impedância necessária para limitar a corrente de falta conforme o critério de proteção adotada. Características como densidade de fluxo, densidade de corrente, classe térmica e rigidez dielétrica são ajustadas para que o equipamento possa suportar picos transitórios sem degradação do material isolante. Com isso, o transformador mantém estabilidade operacional em condições severas, preservando a integridade da rede e dos dispositivos de proteção associados. Em síntese, o transformador de aterramento em resina epóxi oferece uma solução técnica robusta, segura e de baixa manutenção para sistemas que requerem referência de terra controlada, combinando confiabilidade, desempenho térmico e elevada resistência dielétrica.",
+        "image": "/images/produtos/seco/aterramento/1770316985153__2__TAM_-__CONE_TECNOLOGIA_-_500_kVA.png",
+        "images": [
+          "/images/produtos/seco/aterramento/1770316985153__2__TAM_-__CONE_TECNOLOGIA_-_500_kVA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/aterramento/1770316985153__2__TAM_-__CONE_TECNOLOGIA_-_500_kVA.png": "TAM 500 kVA IP54"
+        }
+      },
+      "baixa-tensao": {
+        "title": "TRANSFORMADORES DE BAIXA TENSÃO TAI E TCI",
+        "longDescription": "Os transformadores a seco de baixa tensão TAI (Trifásico em Alumínio Impregnado) e TCI (Trifásico em Cobre Impregnado) são projetados para aplicações industriais e comerciais que requerem operação confiável, elevada robustez mecânica e ótimo desempenho térmico sem a necessidade de encapsulamento total em resina epóxi. Nesses modelos, os enrolamentos em alumínio ou cobre recebem impregnação com resina isolante, conferindo rigidez dielétrica, estabilidade térmica e resistência estrutural adequadas a regimes de carga contínua e variações operacionais características de sistemas de baixa tensão. A construção a seco favorece uma dissipação eficiente do calor por ventilação natural, permitindo operação estável mesmo sob solicitações dinâmicas, como partidas de motores e cargas com variações de corrente. O núcleo em aço silício laminado é dimensionado para baixos níveis de perda, garantindo eficiência energética e reduzindo o ruído eletromagnético. A rigidez mecânica resultante da impregnação, combinada com a montagem compacta do conjunto núcleo e enrolamento, assegura ao equipamento elevada durabilidade e comportamento confiável. A ausência de óleo elimina riscos ambientais e simplifica a manutenção, tornando os transformadores TAI e TCI uma solução segura e eficiente para redes de baixa tensão.",
+        "image": "/images/produtos/seco/baixa-tensao/1770316994569__2__TAI_-_PETROBRAS_-_30_kVA_SEM_TAMPA.png",
+        "images": [
+          "/images/produtos/seco/baixa-tensao/1770316994569__2__TAI_-_PETROBRAS_-_30_kVA_SEM_TAMPA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/baixa-tensao/1770316994569__2__TAI_-_PETROBRAS_-_30_kVA_SEM_TAMPA.png": "TAI 30 kVA"
+        }
+      },
+      "reatores-de-partida": {
+        "title": "REATORES DE PARTIDA MOLDADOS EM RESINA EPÓXI",
+        "longDescription": "O reator de partida é um componente eletromagnético indispensável para o acionamento eficiente de motores de indução, atuando diretamente na mitigação da corrente de Inrush — o pico de corrente que ocorre no instante da partida. Ao aplicar uma impedância em série com o motor, o equipamento modula a tensão fornecida, garantindo que o torque inicial seja suficiente para o arranque sem expor o sistema a picos de energia prejudiciais. Essa regulação precisa é o que preserva a integridade dos enrolamentos e componentes internos do motor, evitando o estresse térmico e mecânico que frequentemente leva a falhas prematuras e paradas não programadas na linha de produção.\n\nA robustez de um reator de alta performance é medida por sua capacidade de suportar transientes e oscilações na rede elétrica, mantendo a estabilidade operacional mesmo em cenários de alta demanda. No desenvolvimento dos produtos Zilmer, a escolha de matérias-primas com alta permeabilidade magnética e processos de fabricação rigorosos assegura que cada unidade entregue máxima linearidade e eficiência.",
+        "image": "/images/produtos/seco/reatores-de-partida/1770401826163__2__RPM_-_DISTRITO_DE_IRRIG_-_1700_HP.png",
+        "images": [
+          "/images/produtos/seco/reatores-de-partida/1770401826163__2__RPM_-_DISTRITO_DE_IRRIG_-_1700_HP.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/reatores-de-partida/1770401826163__2__RPM_-_DISTRITO_DE_IRRIG_-_1700_HP.png": "RPM 1700 HP"
+        }
+      }
+    }
+  },
+  "instrumentos": {
+    "intro": {
+      "description": "Transformadores para instrumentos são equipamentos essenciais para medição, proteção e controle de sistemas elétricos. Nossos transformadores de potencial (TP) e transformadores de corrente (TC) são fabricados com alta precisão e confiabilidade, garantindo medições precisas e proteção adequada dos equipamentos."
+    },
+    "tp": {
+      "uso-interno": {
+        "description": "Transformadores de potencial para instalação interna em subestações, painéis elétricos e quadros de distribuição, projetados para ambientes protegidos, garantindo alta precisão e confiabilidade nas medições de tensão."
+      },
+      "uso-externo": {
+        "description": "Transformadores de potencial para instalação externa, desenvolvidos com proteção adequada contra intempéries, umidade e variações climáticas, mantendo alta precisão mesmo em condições ambientais adversas."
+      }
+    },
+    "tc": {
+      "uso-interno": {
+        "description": "Transformadores de corrente para instalação interna em subestações, painéis elétricos e quadros de distribuição, oferecendo medição precisa de corrente para sistemas de proteção, controle e medição energética."
+      },
+      "uso-externo": {
+        "description": "Transformadores de corrente para instalação externa, projetados com proteção robusta contra intempéries e condições climáticas adversas, garantindo medições precisas e confiáveis mesmo em ambientes externos."
+      }
+    }
+  }
+}

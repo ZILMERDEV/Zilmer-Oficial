@@ -1,0 +1,41 @@
+{
+  "principal": {
+    "title": "Who we are",
+    "intro": "With over 60 years of experience, Zilmer is a consolidated Brazilian company in the transformer market. Serving major clients with customised solutions for energy utilities, steel mills, the petroleum sector, mining, metro rail systems, automotive industries, power substations, and others. Developing special solutions in both primary and auxiliary applications.\n\nGiven the recent expansion of the global energy sector and new technological challenges, its technical expertise and know-how have been in high demand across Brazil and South America. Recognised for the reliability of its equipment and qualified technical support, the company is a reference in technological innovation, optimisation of production processes, and the strengthening of partnerships with major clients and international partners.",
+    "image": "/images/sobre/transformadores-instalacao.jpg",
+    "cards": {
+      "historico": {
+        "title": "History",
+        "description": "Learn about our trajectory and evolution in the market"
+      },
+      "clientes": {
+        "title": "Clients",
+        "description": "Companies that trust our products and services"
+      },
+      "certificados": {
+        "title": "Certificates",
+        "description": "Certified quality and compliance"
+      }
+    }
+  },
+  "historico": {
+    "title": "History",
+    "subtitle": "ZILMER TRANSFORMERS",
+    "content": "Zilmer was founded in 1961 and was already an established manufacturer of oil-immersed power transformers when, in 1968, it was incorporated by Ineltec, giving rise to Zilmer Ineltec Construções Elétricas.\n\nIn 1969, the company began manufacturing resin-impregnated low- and medium-voltage dry-type transformers. In 1978 it created the line of potential and current transformers from 15 to 34.5 kV moulded in resin. In 1980 it became the first Brazilian company to produce medium-voltage transformers moulded in epoxy resin, and has since manufactured thousands of units for domestic and export markets.\n\nAlso in 1980, the company established a partnership with ASEA, through which it acquired the machinery and the manufacturing and maintenance licence for oil-immersed transformers with aluminium windings.\n\nIn 1989, a technology transfer agreement was signed with Rade Koncar, a traditional company from the former Yugoslavia, further refining the coil winding and resin moulding process.\n\nWith a trajectory of over 65 years in the electric power sector, Zilmer Transformers operates by offering solutions across a wide range of areas, developing and executing projects in partnership with its clients.",
+    "image": "/images/sobre/historico.jpg",
+    "imageCaption": "ZILMER - 1962"
+  },
+  "clientes": {
+    "title": "Clients",
+    "description": "We are proud to work with leading companies in their respective sectors, supplying high-quality transformers and customised solutions to meet their specific requirements.",
+    "image": "/images/clientes/logo-clientes-1.jpg"
+  },
+  "certificados": {
+    "title": "Certificates",
+    "description": "Zilmer Transformers holds certifications that guarantee the quality and compliance of our products, in accordance with the highest market standards.",
+    "items": [
+      { "file": "CERTIFICADO ISO.pdf", "title": "Certificado ISO", "type": "pdf" },
+      { "file": "CERTIFICADO LMP.pdf", "title": "Certificado LMP", "type": "pdf" }
+    ]
+  }
+}

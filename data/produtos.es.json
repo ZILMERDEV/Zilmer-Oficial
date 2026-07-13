@@ -1,0 +1,224 @@
+{
+  "oleo": {
+    "intro": {
+      "description": "Los transformadores inmersos en aceite son equipos esenciales para sistemas eléctricos de alta potencia, ofreciendo excelente disipación térmica y rigidez dieléctrica. Nuestros transformadores están diseñados para atender las más diversas aplicaciones industriales con máxima confiabilidad y eficiencia."
+    },
+    "produtos": {
+      "transformadores-auxiliares": {
+        "title": "TRANSFORMADORES AUXILIARES",
+        "longDescription": "Los transformadores auxiliares inmersos en aceite están diseñados para aplicaciones que exigen potencias menores, en el rango de 5 kVA hasta 500 kVA. Estos transformadores son esenciales para sistemas auxiliares en industrias, subestaciones e instalaciones comerciales, suministrando energía para equipos de baja potencia y sistemas de control. La construcción inmersa en aceite garantiza alta rigidez dieléctrica, excelente disipación térmica y operación confiable incluso en ambientes industriales. Los transformadores auxiliares Zilmer están diseñados con alta eficiencia energética, bajo nivel de ruido y fácil mantenimiento, garantizando operación estable y duradera para sistemas auxiliares críticos.",
+        "image": "/images/produtos/oleo/transformadores-auxiliares/1770399122049__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png",
+        "images": [
+          "/images/produtos/oleo/transformadores-auxiliares/1776366162720__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png",
+          "/images/produtos/oleo/transformadores-auxiliares/1776366633990__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_1.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/transformadores-auxiliares/1776366162720__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png": "TAO 300 kVA",
+          "/images/produtos/oleo/transformadores-auxiliares/1776366633990__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_1.png": "TAO 300 kVA"
+        }
+      },
+      "para-retificadores": {
+        "title": "TRANSFORMADORES PARA RECTIFICADORES EN ACEITE",
+        "longDescription": "Los transformadores rectificadores inmersos en aceite están diseñados para atender aplicaciones industriales de alta exigencia, donde los circuitos de rectificación demandan corriente continua estable, elevada confiabilidad y capacidad de operación bajo condiciones severas. Debido a las corrientes pulsantes y al alto contenido armónico típico de los sistemas de conversión CA–CC, estos transformadores reciben un diseño electromagnético especial, con densidad de flujo reducida, geometrías de devanado optimizadas y blindajes que garantizan un desempeño seguro y eficiente. El aislamiento en aceite mineral o dieléctrico especial proporciona excelente rigidez eléctrica y gestión térmica, permitiendo que el equipo opere con temperaturas controladas incluso en regímenes de carga intensos. El aceite facilita la disipación de calor y asegura larga vida útil al sistema aislante, al tiempo que refuerza la confiabilidad del conjunto núcleo-devanados. Construidos para soportar esfuerzos mecánicos y eléctricos elevados, los transformadores rectificadores en aceite ofrecen un desempeño superior en aplicaciones como tracción, excitación y hornos eléctricos.",
+        "image": "/images/produtos/oleo/para-retificadores/1770313429146__2__TCO_-_GE_POWER_-_12500_kVA.png",
+        "images": [
+          "/images/produtos/oleo/para-retificadores/1770313429146__2__TCO_-_GE_POWER_-_12500_kVA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/para-retificadores/1770313429146__2__TCO_-_GE_POWER_-_12500_kVA.png": "TCO 12500 kVA"
+        }
+      },
+      "para-fornos": {
+        "title": "TRANSFORMADORES PARA HORNOS DE ARCO",
+        "longDescription": "Los transformadores en aceite para hornos de arco eléctrico están diseñados para soportar condiciones extremadamente severas de operación, típicas de los procesos metalúrgicos de fusión. En estos sistemas, el arco eléctrico impone variaciones rápidas de impedancia, corrientes de cortocircuito elevadas, altos niveles de armónicos y solicitaciones térmicas intensas, exigiendo un transformador de mayor rendimiento. Para atender estas demandas, los transformadores son desarrollados con densidad de flujo reducida, garantizando menor susceptibilidad a la saturación y mitigando las pérdidas adicionales asociadas a las corrientes armónicas. Los devanados poseen alta rigidez mecánica, dimensionados para soportar fuertes esfuerzos dinámicos durante la formación y sustentación del arco. La construcción electromagnética y estructural está optimizada para operaciones repetitivas de alto impacto eléctrico, preservando la integridad del conjunto núcleo-devanados. El sistema de aislamiento en aceite aumenta la rigidez dieléctrica y proporciona excelente capacidad de disipación de calor, asegurando estabilidad térmica a lo largo de los ciclos de fusión. Dependiendo de la potencia requerida, se emplean sistemas de refrigeración del tipo ONAN, ONAF, garantizando operación segura y prolongada incluso en régimen intensivo. Con ingeniería orientada a la robustez, disipación térmica eficiente y alta resistencia mecánica, los transformadores en aceite para hornos de arco Zilmer ofrecen la confiabilidad necesaria para una de las aplicaciones más exigentes de la industria siderúrgica, asegurando desempeño consistente y vida útil prolongada en ambientes de operación crítica.",
+        "image": "/images/produtos/oleo/para-fornos/1770314013468__2__TCO_-_MR_COM_RCIO_-_3300_kVA.png",
+        "images": [
+          "/images/produtos/oleo/para-fornos/1770314013468__2__TCO_-_MR_COM_RCIO_-_3300_kVA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/para-fornos/1770314013468__2__TCO_-_MR_COM_RCIO_-_3300_kVA.png": "TCO 3300 kVA"
+        }
+      },
+      "de-partida": {
+        "title": "AUTOTRANSFORMADORES DE ARRANQUE",
+        "longDescription": "Los autotransformadores inmersos en aceite para arranque de grandes motores están diseñados para reducir la corriente de arranque y minimizar el impacto eléctrico en la red, garantizando mayor estabilidad del sistema y protección de los equipos industriales. Al aplicar una tensión reducida al motor en el momento de la aceleración, el autotransformador limita las corrientes de pico, evita caídas de tensión y disminuye los esfuerzos mecánicos en el conjunto accionado. La construcción inmersa en aceite proporciona elevada rigidez dieléctrica y excelente disipación térmica, permitiendo que el equipo soporte corrientes elevadas durante ciclos cortos de arranque sin comprometer su vida útil. Los sistemas de refrigeración ONAN o ONAF se aplican según la potencia y la frecuencia de accionamientos requerida. Diseñados con densidad de flujo controlada, rigidez mecánica superior y estabilidad electromagnética, los autotransformadores de arranque Zilmer garantizan operación confiable incluso en aplicaciones severas, como compresores, bombas de alta potencia, ventiladores industriales y motores de gran envergadura. Combinando robustez, eficiencia y alto rendimiento, estos autotransformadores aseguran arranques seguros, reducción de esfuerzos en el motor y mayor confiabilidad operacional para procesos industriales críticos.",
+        "image": "/images/produtos/oleo/de-partida/1770314030920__2__APO_-_SISNERGY_-_1350_CV_SEM_TAMPA.png",
+        "images": [
+          "/images/produtos/oleo/de-partida/1770314030920__2__APO_-_SISNERGY_-_1350_CV_SEM_TAMPA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/de-partida/1770314030920__2__APO_-_SISNERGY_-_1350_CV_SEM_TAMPA.png": "APO 1350 CV"
+        }
+      },
+      "de-aterramento": {
+        "title": "TRANSFORMADORES DE PUESTA A TIERRA EN ACEITE",
+        "longDescription": "Los transformadores de puesta a tierra inmersos en aceite tienen la función de crear un neutro artificial y controlar la corriente de falla a tierra en sistemas trifásicos que no poseen punto de aterrizaje disponible. El aislamiento en aceite garantiza alta rigidez dieléctrica, excelente disipación térmica y operación confiable incluso en ambientes industriales severos. Los modelos tipo Zigzag ofrecen un camino eficaz para las corrientes de secuencia cero, proporcionando limitación controlada de la corriente de falla y contribuyendo a la estabilidad fase-tierra. Los transformadores Estrella con Triángulo Abierto se utilizan cuando se desea mayor sensibilidad en la detección de desequilibrios y fallas a tierra, favoreciendo la actuación de relés específicos y mejorando la supervisión del sistema. Otra solución ampliamente empleada es el banco trifásico formado por transformadores monofásicos inmersos en aceite, que permite flexibilidad de mantenimiento, modularidad y ajuste individual de impedancia, siendo ideal para aplicaciones especiales o sistemas que exigen elevada precisión en la puesta a tierra. En todas las topologías, la inmersión en aceite asegura rendimiento térmico robusto y mayor durabilidad del aislamiento, garantizando operación segura y eficiente en instalaciones industriales, sistemas de distribución y aplicaciones de alta criticidad.",
+        "image": "/images/produtos/oleo/de-aterramento/RAO - HITACHI - 2572 kVA.webp",
+        "images": [
+          "/images/produtos/oleo/de-aterramento/RAO - HITACHI - 2572 kVA.webp"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/de-aterramento/RAO - HITACHI - 2572 kVA.webp": "RAO 2572 kVA"
+        }
+      },
+      "autotransformadores": {
+        "title": "AUTOTRANSFORMADORES INMERSOS EN ACEITE (ESTÁNDAR)",
+        "longDescription": "Los autotransformadores inmersos en aceite están diseñados para aplicaciones que exigen alta eficiencia, excelente rendimiento térmico y confiabilidad operacional. Utilizando una parte común de los devanados entre primario y secundario, estos equipos ofrecen menor volumen, menores pérdidas y mejor relación costo-beneficio en comparación con los transformadores convencionales. El aislamiento en aceite garantiza rigidez dieléctrica elevada y disipación térmica superior, permitiendo operación segura incluso bajo cargas elevadas o variaciones dinámicas del sistema. Los sistemas de refrigeración del tipo ONAN o ONAF se aplican según la potencia requerida, asegurando estabilidad térmica y prolongando la vida útil del aislamiento. Con diseño electromagnético optimizado y construcción mecánica reforzada, los autotransformadores Zilmer presentan alto rendimiento en subestaciones industriales, procesos de distribución y aplicaciones que demandan transformación de tensión con máxima confiabilidad.",
+        "image": ""
+      },
+      "reatores": {
+        "title": "REACTORES INMERSOS EN ACEITE",
+        "longDescription": "Los reactores con núcleo ferromagnético y entrehierro inmersos en aceite están diseñados para proporcionar limitación de corriente, control de transitorios y estabilidad operacional en sistemas eléctricos de alta exigencia. La introducción del entrehierro en el núcleo aumenta la reactancia y reduce la tendencia a la saturación, asegurando un comportamiento inductivo estable incluso bajo corrientes elevadas y regímenes pulsantes. El aislamiento en aceite dieléctrico garantiza alta rigidez dieléctrica y excelente disipación térmica, permitiendo operación continua o intermitente en condiciones severas, como en rectificadores, hornos eléctricos, bancos de capacitores y sistemas de compensación reactiva. El núcleo laminado, dimensionado con entrehierros ajustados, ofrece rendimiento magnético confiable y reduce las pérdidas adicionales, mientras que los devanados están diseñados para soportar esfuerzos electrodinámicos significativos. En los reactores de arranque de motores, la inductancia se utiliza para limitar corrientes durante el accionamiento, reduciendo impactos en la red y protegiendo tanto el motor como el sistema de alimentación. Los reactores del tipo serie se instalan directamente en el circuito principal para controlar corrientes, mitigar sobretensiones y estabilizar el flujo de potencia en condiciones de carga variable. Con construcción robusta, diseño térmico optimizado y características electromagnéticas precisas, los reactores inmersos en aceite Zilmer garantizan control eficiente de corriente, elevada confiabilidad y larga vida útil, atendiendo de forma segura las diversas demandas industriales.",
+        "image": "/images/produtos/oleo/reatores/1770314080755__2__RAO_-_VILLARES_METALS_-_1350_kVA.png",
+        "images": [
+          "/images/produtos/oleo/reatores/1770314080755__2__RAO_-_VILLARES_METALS_-_1350_kVA.png",
+          "/images/produtos/oleo/reatores/1776440180438__2__RAO_-_USINAS_SIDER_-_1500_kW.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/oleo/reatores/1770314080755__2__RAO_-_VILLARES_METALS_-_1350_kVA.png": "RAO 1350 kVA",
+          "/images/produtos/oleo/reatores/1776440180438__2__RAO_-_USINAS_SIDER_-_1500_kW.png": "RAO 1500 kW"
+        }
+      }
+    },
+    "transformadores-de-forca": {
+      "intro": "Transformadores de fuerza para aplicaciones industriales y comerciales",
+      "categorias": {
+        "30-500": {
+          "title": "30 a 500 kVA",
+          "description": "Transformadores de fuerza en el rango de 30 a 500 kVA, diseñados para aplicaciones de distribución y transformación en sistemas eléctricos de media tensión, ofreciendo alta confiabilidad y eficiencia energética.",
+          "specifications": [
+            "Tensión primaria: 15 a 72 kV",
+            "Potencia: 30 a 500 kVA",
+            "Sistema de refrigeración: ONAN",
+            "Aislamiento: Aceite mineral",
+            "Niveles de protección: IP00"
+          ],
+          "image": "/images/produtos/oleo/transformadores-de-forca/30-a-300-kv/1776704424351__2__TAO_-_HITACHI_-_300_kVA_-_Perspectiva_2.png",
+          "cardImage": ""
+        },
+        "500-3000": {
+          "title": "500 a 3000 kVA",
+          "description": "Transformadores de fuerza de media potencia, en el rango de 500 a 3000 kVA, ideales para aplicaciones industriales y comerciales que demandan mayor capacidad de transformación de energía.",
+          "specifications": [
+            "Tensión primaria: 15 a 72 kV",
+            "Potencia: 500 a 3000 kVA",
+            "Sistema de refrigeración: ONAN/ONAF",
+            "Aislamiento: Aceite mineral",
+            "Niveles de protección: IP00"
+          ],
+          "image": "/images/produtos/oleo/transformadores-de-forca/500-a-3000-kv/1770401019265_TCO_-_PETROBRAS_-_3500_kVA.webp"
+        },
+        "3-20": {
+          "title": "3 MVA hasta 20 MVA",
+          "description": "Transformadores de fuerza de alta potencia, de 3 MVA hasta 20 MVA, fabricados para atender aplicaciones específicas y requisitos técnicos particulares del cliente.",
+          "specifications": [
+            "Tensión primaria: 15 a 72 kV",
+            "Potencia: 3 MVA hasta 20 MVA",
+            "Sistema de refrigeración: ONAN/ONAF",
+            "Aislamiento: Aceite mineral",
+            "Niveles de protección: IP00"
+          ],
+          "cardImage": "/images/produtos/oleo/transformadores-de-forca/3mva-a-20mva/TCO - GE POWER - 12500 kVA.webp",
+          "image": "/images/produtos/oleo/transformadores-de-forca/3mva-a-20mva/TCO - GE POWER - 12500 kVA.webp"
+        }
+      },
+      "cardImage": "/images/produtos/oleo/transformadores-de-forca/500-a-3000-kv/1770401019265_TCO_-_PETROBRAS_-_3500_kVA.webp"
+    }
+  },
+  "seco": {
+    "intro": {
+      "description": "Los transformadores tipo seco moldeados en resina epoxi están indicados para operar en lugares que exigen seguridad; los materiales utilizados en su construcción son de difícil combustión y autoextinguibles y, en caso de incendio, no explotan ni liberan gases tóxicos."
+    },
+    "produtos": {
+      "media-tensao": {
+        "title": "TRANSFORMADORES TIPO SECO DE MEDIA TENSIÓN",
+        "longDescription": "TRANSFORMADORES TIPO SECO DE MEDIA TENSIÓN, CLASES DE 15; 24,5 Y 36 kV – POTENCIAS HASTA 20 MVA.\n\nLos transformadores tipo seco moldeados en resina epoxi están indicados para operar en lugares que exigen seguridad; los materiales utilizados en su construcción son de difícil combustión y autoextinguibles y, en caso de incendio, no explotan ni liberan gases tóxicos. Su instalación es considerablemente más económica que la de sus similares inmersos en aceite mineral, pues no requieren albañilería a prueba de fuego ni tanques de retención de líquido y ocupan espacios menores. Pueden instalarse en maquinaria móvil, empleando menos volumen de conductores de baja tensión y disminuyendo la caída de tensión con la reducción de la energía disipada por los cables. Son prácticamente libres de mantenimiento y no se ven afectados por la humedad. El tipo constructivo garantiza una alta resistencia mecánica a cortocircuito, así como un bajo nivel de ruido. Ofrecen alta resistencia a las corrientes de fuga y, mediante ventilación forzada, pueden aumentar la potencia nominal hasta en un 40%. Presentan un bajo nivel de descargas parciales y no ofrecen ningún tipo de restricciones ecológicas. Son apropiados para instalaciones interiores en metros, ferrocarriles, aeropuertos, instalaciones nucleares, industrias, hospitales, laboratorios, cines, teatros, edificios comerciales y residenciales y en lugares con gran circulación de personas.",
+        "image": "/images/produtos/seco/media-tensao/1770316961627__2__TAM_-_SABESP_-_500_kVA.png",
+        "images": [
+          "/images/produtos/seco/media-tensao/1770316961627__2__TAM_-_SABESP_-_500_kVA.png",
+          "/images/produtos/seco/media-tensao/TAM - AMC - 1000 kVA SEM CAIXA - vista DETALHE BARRAMENTO.webp"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/media-tensao/1770316961627__2__TAM_-_SABESP_-_500_kVA.png": "TAM 500 kVA",
+          "/images/produtos/seco/media-tensao/TAM - AMC - 1000 kVA SEM CAIXA - vista DETALHE BARRAMENTO.webp": "TAM 1000 kVA (VISTA SUPERIOR SIN CAJA)"
+        }
+      },
+      "para-retificadores": {
+        "title": "TRANSFORMADORES TIPO SECO PARA RECTIFICADORES EN RESINA EPOXI",
+        "longDescription": "Los transformadores tipo seco Zilmer para sistemas rectificadores están diseñados para atender los rigurosos requisitos de los circuitos semiconductores de 6 a 24 pulsos, donde la estabilidad de la corriente continua es primordial. Utilizando tecnología de aislamiento en resina epoxi de alta rigidez dieléctrica, el equipo ofrece una solución compacta, segura contra incendios y con elevada resistencia mecánica para soportar los esfuerzos electrodinámicos típicos de cargas no lineales. Disponibles en las clases térmicas F (155 °C) o H (180 °C), estos transformadores garantizan excelente gestión del calor y durabilidad bajo regímenes de armónicos elevados, combinando alto rendimiento técnico con una operación de baja necesidad de mantenimiento para aplicaciones industriales críticas.",
+        "image": "/images/produtos/seco/retificadores/TAM - SIEMENS - 4700 kVA v1.png",
+        "images": [
+          "/images/produtos/seco/retificadores/TAM - SIEMENS - 4700 kVA v1.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/retificadores/TAM - SIEMENS - 4700 kVA v1.png": "TAM 4700 kVA"
+        }
+      },
+      "aterramento": {
+        "title": "TRANSFORMADORES DE PUESTA A TIERRA MOLDEADOS EN RESINA EPOXI",
+        "longDescription": "Los transformadores de puesta a tierra moldeados en resina epoxi están diseñados para establecer un punto de referencia a tierra en sistemas eléctricos que operan sin neutro accesible, permitiendo la circulación controlada de la corriente de falla monofásica. Su función es garantizar que el sistema presente condiciones eléctricas adecuadas para la actuación selectiva de las protecciones, al tiempo que mantiene la estabilidad de las tensiones fase-tierra durante eventos de falla. La construcción totalmente tipo seco, utilizando resina epoxi como aislamiento sólido, proporciona elevada rigidez dieléctrica y excelente desempeño en ambientes agresivos, eliminando los riesgos asociados al uso de aceite. El moldeo integral reduce la incidencia de descargas parciales, mejora la resistencia mecánica de los devanados y asegura robustez frente a ciclos térmicos y vibraciones típicos de instalaciones industriales. Este tipo de aislamiento también favorece la disipación térmica, garantizando respuesta eficiente durante corrientes de falla temporales o intermitentes. Desde el punto de vista eléctrico, el transformador está dimensionado de forma tal que proporciona la impedancia necesaria para limitar la corriente de falla conforme al criterio de protección adoptado. Características como densidad de flujo, densidad de corriente, clase térmica y rigidez dieléctrica son ajustadas para que el equipo pueda soportar picos transitorios sin degradación del material aislante. Con ello, el transformador mantiene estabilidad operacional en condiciones severas, preservando la integridad de la red y de los dispositivos de protección asociados. En síntesis, el transformador de puesta a tierra en resina epoxi ofrece una solución técnica robusta, segura y de bajo mantenimiento para sistemas que requieren referencia de tierra controlada, combinando confiabilidad, rendimiento térmico y elevada resistencia dieléctrica.",
+        "image": "/images/produtos/seco/aterramento/1770316985153__2__TAM_-__CONE_TECNOLOGIA_-_500_kVA.png",
+        "images": [
+          "/images/produtos/seco/aterramento/1770316985153__2__TAM_-__CONE_TECNOLOGIA_-_500_kVA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/aterramento/1770316985153__2__TAM_-__CONE_TECNOLOGIA_-_500_kVA.png": "TAM 500 kVA IP54"
+        }
+      },
+      "baixa-tensao": {
+        "title": "TRANSFORMADORES DE BAJA TENSIÓN TAI Y TCI",
+        "longDescription": "Los transformadores tipo seco de baja tensión TAI (Trifásico en Aluminio Impregnado) y TCI (Trifásico en Cobre Impregnado) están diseñados para aplicaciones industriales y comerciales que requieren operación confiable, elevada robustez mecánica y óptimo rendimiento térmico sin la necesidad de encapsulado total en resina epoxi. En estos modelos, los devanados de aluminio o cobre reciben impregnación con resina aislante, confiriendo rigidez dieléctrica, estabilidad térmica y resistencia estructural adecuadas a regímenes de carga continua y variaciones operacionales características de sistemas de baja tensión. La construcción tipo seco favorece una disipación eficiente del calor por ventilación natural, permitiendo operación estable incluso bajo solicitaciones dinámicas, como arranques de motores y cargas con variaciones de corriente. El núcleo en acero silicio laminado está dimensionado para bajos niveles de pérdida, garantizando eficiencia energética y reduciendo el ruido electromagnético. La rigidez mecánica resultante de la impregnación, combinada con el montaje compacto del conjunto núcleo y devanado, asegura al equipo elevada durabilidad y comportamiento confiable. La ausencia de aceite elimina riesgos ambientales y simplifica el mantenimiento, convirtiendo a los transformadores TAI y TCI en una solución segura y eficiente para redes de baja tensión.",
+        "image": "/images/produtos/seco/baixa-tensao/1770316994569__2__TAI_-_PETROBRAS_-_30_kVA_SEM_TAMPA.png",
+        "images": [
+          "/images/produtos/seco/baixa-tensao/1770316994569__2__TAI_-_PETROBRAS_-_30_kVA_SEM_TAMPA.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/baixa-tensao/1770316994569__2__TAI_-_PETROBRAS_-_30_kVA_SEM_TAMPA.png": "TAI 30 kVA"
+        }
+      },
+      "reatores-de-partida": {
+        "title": "REACTORES DE ARRANQUE MOLDEADOS EN RESINA EPOXI",
+        "longDescription": "El reactor de arranque es un componente electromagnético indispensable para el accionamiento eficiente de motores de inducción, actuando directamente en la mitigación de la corriente de inrush — el pico de corriente que ocurre en el instante del arranque. Al aplicar una impedancia en serie con el motor, el equipo modula la tensión suministrada, garantizando que el par inicial sea suficiente para el arranque sin exponer al sistema a picos de energía perjudiciales. Esta regulación precisa es la que preserva la integridad de los devanados y componentes internos del motor, evitando el estrés térmico y mecánico que frecuentemente conduce a fallas prematuras y paradas no programadas en la línea de producción.\n\nLa robustez de un reactor de alto rendimiento se mide por su capacidad de soportar transitorios y oscilaciones en la red eléctrica, manteniendo la estabilidad operacional incluso en escenarios de alta demanda. En el desarrollo de los productos Zilmer, la elección de materias primas con alta permeabilidad magnética y los rigurosos procesos de fabricación aseguran que cada unidad entregue máxima linealidad y eficiencia.",
+        "image": "/images/produtos/seco/reatores-de-partida/1770401826163__2__RPM_-_DISTRITO_DE_IRRIG_-_1700_HP.png",
+        "images": [
+          "/images/produtos/seco/reatores-de-partida/1770401826163__2__RPM_-_DISTRITO_DE_IRRIG_-_1700_HP.png"
+        ],
+        "firstImageIndex": 0,
+        "captions": {
+          "/images/produtos/seco/reatores-de-partida/1770401826163__2__RPM_-_DISTRITO_DE_IRRIG_-_1700_HP.png": "RPM 1700 HP"
+        }
+      }
+    }
+  },
+  "instrumentos": {
+    "intro": {
+      "description": "Los transformadores para instrumentos son equipos esenciales para la medición, protección y control de sistemas eléctricos. Nuestros transformadores de tensión (TP) y transformadores de corriente (TC) son fabricados con alta precisión y confiabilidad, garantizando mediciones precisas y protección adecuada de los equipos."
+    },
+    "tp": {
+      "uso-interno": {
+        "description": "Transformadores de tensión para instalación interior en subestaciones, paneles eléctricos y cuadros de distribución, diseñados para ambientes protegidos, garantizando alta precisión y confiabilidad en las mediciones de tensión."
+      },
+      "uso-externo": {
+        "description": "Transformadores de tensión para instalación exterior, desarrollados con protección adecuada contra la intemperie, humedad y variaciones climáticas, manteniendo alta precisión incluso en condiciones ambientales adversas."
+      }
+    },
+    "tc": {
+      "uso-interno": {
+        "description": "Transformadores de corriente para instalación interior en subestaciones, paneles eléctricos y cuadros de distribución, ofreciendo medición precisa de corriente para sistemas de protección, control y medición energética."
+      },
+      "uso-externo": {
+        "description": "Transformadores de corriente para instalación exterior, diseñados con protección robusta contra la intemperie y condiciones climáticas adversas, garantizando mediciones precisas y confiables incluso en ambientes exteriores."
+      }
+    }
+  }
+}
