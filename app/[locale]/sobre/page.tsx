@@ -34,7 +34,7 @@ export default async function SobrePage() {
   return (
     <section className={styles.page}>
       <div className="container">
-        <h1>TESTE DE CI/CD - {t('title')}</h1>
+        <h1>{t('title')}</h1>
         <div className={styles.content}>
           <div className={styles.intro}>
             {renderText(t('intro'))}
