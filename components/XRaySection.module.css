@@ -371,17 +371,23 @@
   }
 
   .statsRow {
-    flex-wrap: wrap;
-    gap: 14px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 12px;
+    width: 100%;
   }
 
   .stat {
-    padding: 0 12px;
-    flex: 1 1 40%;
+    padding: 0;
+    flex: none;
   }
 
   .stat:first-child {
     padding-left: 0;
+  }
+
+  .stat:last-child {
+    grid-column: 1 / -1;
   }
 
   .statNumber {

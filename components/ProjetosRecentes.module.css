@@ -27,6 +27,7 @@
 .carouselContainer {
   max-width: 1200px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .carousel {
@@ -156,7 +157,7 @@
 
 @media (max-width: 1200px) {
   .carouselContainer {
-    padding: 0 20px;
+    padding: 0 16px;
   }
 }
 

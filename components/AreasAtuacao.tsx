@@ -128,16 +128,18 @@ export default function AreasAtuacao() {
           </div>
 
           {/* Tabs */}
-          <nav className={styles.tabs} onMouseLeave={() => setPaused(false)}>
+          <nav className={styles.tabs} aria-label="Áreas de atuação">
             {slides.map((s, i) => (
-              <Link
+              <button
                 key={s.slug}
-                href={`/${s.slug}`}
+                type="button"
+                onClick={() => act(() => setActive(i))}
                 onMouseEnter={() => { setPaused(true); setActive(i); }}
+                onMouseLeave={() => setPaused(false)}
                 className={`${styles.tab} ${i === active ? styles.tabActive : ''}`}
               >
                 {s.data.title}
-              </Link>
+              </button>
             ))}
           </nav>
 

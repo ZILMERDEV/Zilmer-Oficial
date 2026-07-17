@@ -4,6 +4,7 @@
   min-height: 520px;
   overflow: hidden;
   padding: 0 !important;
+  background: #020814;
 }
 
 .container {
@@ -21,6 +22,7 @@
   object-fit: cover;
   object-position: center;
   transition: opacity 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
 }
 
 .overlay {
@@ -30,7 +32,7 @@
   transition: background 0.9s ease;
 }
 
-/* Left content column */
+/* Desktop: left copy column */
 .content {
   position: absolute;
   inset: 0;
@@ -39,7 +41,14 @@
   flex-direction: column;
   justify-content: flex-start;
   padding: 44px 0 52px 72px;
-  max-width: 60%;
+  max-width: 58%;
+  pointer-events: none;
+}
+
+.content a,
+.content button,
+.content .tabs {
+  pointer-events: auto;
 }
 
 /* Header */
@@ -53,7 +62,7 @@
   font-weight: 600;
   letter-spacing: 0.20em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255, 255, 255, 0.55);
   margin-bottom: 4px;
 }
 
@@ -64,14 +73,15 @@
   line-height: 1.08;
   margin-bottom: 8px;
   letter-spacing: -0.02em;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
 }
 
 .subtitle {
   font-size: clamp(0.8rem, 1.1vw, 0.9rem);
-  color: rgba(255,255,255,0.62);
+  color: rgba(255, 255, 255, 0.62);
   line-height: 1.5;
   max-width: 420px;
+  text-align: left;
 }
 
 /* Tabs */
@@ -83,13 +93,14 @@
 }
 
 .tab {
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.22);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 50px;
   padding: 7px 18px;
-  color: rgba(255,255,255,0.72);
+  color: rgba(255, 255, 255, 0.72);
   font-size: 0.82rem;
   font-weight: 500;
+  font-family: inherit;
   cursor: pointer;
   backdrop-filter: blur(8px);
   white-space: nowrap;
@@ -101,7 +112,7 @@
   border-color: #fff;
   color: var(--primary-color, #003366);
   font-weight: 700;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Text block */
@@ -117,19 +128,20 @@
   font-weight: 800;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   line-height: 1.05;
   margin-bottom: 12px;
-  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
 }
 
 .lead {
   font-size: clamp(0.85rem, 1.1vw, 0.95rem);
   font-weight: 700;
-  color: rgba(255,255,255,0.93);
+  color: rgba(255, 255, 255, 0.93);
   line-height: 1.6;
   margin-bottom: 12px;
   max-width: 500px;
+  text-align: left;
 }
 
 .bullets {
@@ -141,10 +153,11 @@
 
 .bullets p {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.70);
+  color: rgba(255, 255, 255, 0.7);
   line-height: 1.6;
   margin: 0;
   max-width: 480px;
+  text-align: left;
 }
 
 .cta {
@@ -157,16 +170,16 @@
   font-weight: 700;
   border-radius: 50px;
   text-decoration: none;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
   transition: background 0.2s, box-shadow 0.2s;
 }
 
 .cta:hover {
   background: #e6edff;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* Transformer(s) — absolute bottom-right, free */
+/* Desktop transformers — absolute bottom-right */
 .transformers {
   position: absolute;
   right: 2%;
@@ -182,16 +195,23 @@
 }
 
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .transformerImg {
   flex: 1;
   max-height: clamp(260px, 60vh, 540px);
+  width: auto;
   object-fit: contain;
   object-position: bottom center;
-  filter: drop-shadow(0 10px 36px rgba(0,0,0,0.70));
+  filter: drop-shadow(0 10px 36px rgba(0, 0, 0, 0.7));
 }
 
 /* Arrows */
@@ -203,8 +223,8 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.10);
-  border: 1px solid rgba(255,255,255,0.30);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: #fff;
   display: flex;
   align-items: center;
@@ -215,12 +235,17 @@
 }
 
 .arrow:hover {
-  background: rgba(255,255,255,0.22);
+  background: rgba(255, 255, 255, 0.22);
   transform: translateY(-50%) scale(1.08);
 }
 
-.prev { left: 20px; }
-.next_ { right: 20px; }
+.prev {
+  left: 20px;
+}
+
+.next_ {
+  right: 20px;
+}
 
 /* Dots */
 .dots {
@@ -237,7 +262,7 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.35);
+  background: rgba(255, 255, 255, 0.35);
   border: none;
   cursor: pointer;
   padding: 0;
@@ -249,17 +274,28 @@
   transform: scale(1.4);
 }
 
-/* Responsive */
+/* ── Tablet ── */
 @media (max-width: 1024px) {
-  .content { padding-left: 48px; max-width: 65%; }
-  .transformers { width: clamp(240px, 35vw, 500px); }
+  .content {
+    padding-left: 48px;
+    max-width: 62%;
+  }
+
+  .transformers {
+    width: clamp(240px, 35vw, 500px);
+  }
 }
 
+/*
+  Mobile: abandon the desktop absolute overlay composition.
+  Stack: title → tabs → copy/CTA → product image → dots
+  Everything in normal document flow so nothing can overlap.
+*/
 @media (max-width: 768px) {
-  /* Natural height — avoid cramming everything into one forced viewport */
   .section {
     height: auto;
     min-height: 0;
+    overflow: visible;
   }
 
   .container {
@@ -267,41 +303,53 @@
     min-height: 0;
     display: flex;
     flex-direction: column;
-    padding-bottom: 44px;
+    padding: 0 0 20px;
   }
 
-  /* Extra darken so white copy stays readable over busy photos */
-  .overlay::after {
-    content: '';
+  .bg,
+  .overlay {
     position: absolute;
     inset: 0;
+    height: 100%;
+  }
+
+  .overlay {
     background: linear-gradient(
       to bottom,
-      rgba(0, 8, 32, 0.45) 0%,
-      rgba(0, 8, 32, 0.72) 55%,
-      rgba(0, 8, 32, 0.82) 100%
-    );
-    pointer-events: none;
+      rgba(2, 8, 20, 0.72) 0%,
+      rgba(2, 8, 20, 0.82) 45%,
+      rgba(2, 8, 20, 0.92) 100%
+    ) !important;
   }
 
   .content {
     position: relative;
     inset: auto;
     max-width: 100%;
-    padding: 28px 20px 8px;
+    width: 100%;
+    padding: 24px 16px 0;
+    pointer-events: auto;
+    z-index: 2;
   }
 
-  .header { margin-bottom: 14px; }
+  .header {
+    margin-bottom: 12px;
+  }
+
+  .eyebrow {
+    font-size: 0.62rem;
+    letter-spacing: 0.16em;
+  }
 
   .heading {
-    font-size: 1.45rem;
+    font-size: 1.35rem;
     margin-bottom: 6px;
   }
 
   .subtitle {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
+    line-height: 1.4;
     max-width: none;
-    line-height: 1.45;
   }
 
   .tabs {
@@ -309,83 +357,122 @@
     overflow-x: auto;
     scrollbar-width: none;
     gap: 6px;
-    margin: 0 -20px 18px;
-    padding: 0 20px 4px;
+    margin: 0 -16px 14px;
+    padding: 2px 16px 6px;
     -webkit-overflow-scrolling: touch;
-    /* Soft edge fade hints that more tabs scroll horizontally */
-    mask-image: linear-gradient(to right, #000 0%, #000 calc(100% - 28px), transparent 100%);
-    -webkit-mask-image: linear-gradient(to right, #000 0%, #000 calc(100% - 28px), transparent 100%);
   }
 
-  .tabs::-webkit-scrollbar { display: none; }
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
 
   .tab {
     flex-shrink: 0;
-    font-size: 0.76rem;
-    padding: 6px 14px;
+    font-size: 0.72rem;
+    padding: 6px 12px;
   }
 
-  .text { margin-top: 4px; }
-
-  .areaTitle {
-    font-size: 1.1rem;
+  .text {
+    margin-top: 0;
     margin-bottom: 8px;
   }
 
-  .lead {
-    font-size: 0.82rem;
-    font-weight: 600;
-    line-height: 1.5;
-    max-width: none;
-    margin-bottom: 14px;
-    text-align: left;
+  .areaTitle {
+    font-size: 1.05rem;
+    margin-bottom: 6px;
   }
 
-  .bullets { display: none; }
+  .lead {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.45;
+    max-width: none;
+    margin-bottom: 12px;
+  }
+
+  .bullets {
+    display: none;
+  }
 
   .cta {
-    font-size: 0.82rem;
-    padding: 9px 20px;
+    font-size: 0.8rem;
+    padding: 9px 18px;
+    width: auto;
+    max-width: 100%;
   }
 
+  /* In-flow under the copy — never absolute on mobile */
   .transformers {
     position: relative;
     right: auto;
     bottom: auto;
-    width: min(72%, 260px);
-    margin: 12px auto 8px;
+    left: auto;
+    z-index: 2;
+    width: 100%;
+    max-width: 220px;
+    margin: 8px auto 28px;
     justify-content: center;
+    align-items: flex-end;
     padding: 0;
     animation: none;
+    opacity: 1;
+    transform: none;
   }
 
-  .transformerImg { max-height: 140px; }
+  .transformerImg {
+    flex: 0 1 auto;
+    width: 100%;
+    max-height: 150px;
+    filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.55));
+  }
 
-  /* Tabs + dots cover navigation; mid-page arrows only fight the copy */
-  .arrow { display: none; }
+  .arrow {
+    display: none !important;
+  }
 
-  .dots { bottom: 14px; }
+  .dots {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    justify-content: center;
+    margin: 0 auto 4px;
+    z-index: 2;
+  }
 }
 
 @media (max-width: 480px) {
-  .content { padding: 20px 16px 8px; }
+  .content {
+    padding: 20px 14px 0;
+  }
 
-  .heading { font-size: 1.3rem; }
+  .heading {
+    font-size: 1.25rem;
+  }
 
-  .subtitle { font-size: 0.75rem; }
+  .subtitle {
+    font-size: 0.74rem;
+  }
 
   .tabs {
-    margin: 0 -16px 12px;
-    padding: 0 16px 4px;
+    margin: 0 -14px 12px;
+    padding: 2px 14px 6px;
   }
 
-  .areaTitle { font-size: 1.05rem; }
+  .areaTitle {
+    font-size: 0.98rem;
+  }
 
-  .lead { font-size: 0.78rem; }
+  .lead {
+    font-size: 0.76rem;
+  }
 
   .transformers {
-    width: min(64%, 200px);
+    max-width: 180px;
+    margin-bottom: 22px;
   }
 
-  .transformerImg { max-height: 110px; }
+  .transformerImg {
+    max-height: 120px;
+  }
 }
