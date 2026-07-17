@@ -15,26 +15,39 @@ jobs:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          # Para o job falhar de verdade se um comando falhar (antes o pull abortava e o PM2 reiniciava mesmo assim)
+          script_stop: true
+          command_timeout: 15m
           script: |
+            set -e
+
             # 1. Carrega os atalhos do Node.js (Isso resolve o erro "npm command not found")
             export NVM_DIR="$HOME/.nvm"
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
             export PATH=$PATH:/usr/local/bin
-            
+
             # 2. Entra na pasta CORRETA do projeto
             cd /var/www/meu-app
-            
-            # 3. Baixa as atualizações do GitHub (SEM sudo)
+
+            # 3. Libera o git pull sem apagar setup local
+            #    - O bloqueio conhecido é drift do package-lock.json após npm install no servidor
+            #    - Usamos stash SÓ de arquivos rastreados (sem -u), para NÃO tocar em .env / secrets / arquivos manuais não versionados
+            if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
+              echo "Guardando alterações locais rastreadas em stash (recuperável com git stash list)..."
+              git stash push -m "deploy-auto $(date -u +%Y%m%d-%H%M%S)"
+            fi
+
+            # 4. Baixa as atualizações do GitHub (SEM sudo)
             git pull origin main
-            
-            # 4. Instala pacotes novos (se houver)
+
+            # 5. Instala pacotes novos (se houver)
             npm install
-            
-            # 5. Limpa o cache antigo (SEM sudo)
+
+            # 6. Limpa o cache antigo (SEM sudo)
             rm -rf .next
-            
-            # 6. Gera a build nova e atualizada
+
+            # 7. Gera a build nova e atualizada
             npm run build
-            
-            # 7. Reinicia o site
+
+            # 8. Reinicia o site somente se a build acima passou (set -e + script_stop)
             pm2 restart next-app
