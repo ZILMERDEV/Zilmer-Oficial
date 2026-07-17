@@ -25,6 +25,12 @@ export default function Header() {
 
   const close = () => setIsMenuOpen(false)
 
+  const toggleMenu = () => {
+    setIsMenuOpen((open) => !open)
+    setIsAboutOpen(false)
+    setIsProductsOpen(false)
+  }
+
   return (
     <header className={styles.header}>
       <div className={styles.container}>
@@ -42,7 +48,13 @@ export default function Header() {
             onMouseEnter={() => setIsAboutOpen(true)}
             onMouseLeave={() => setIsAboutOpen(false)}
           >
-            <span>{locale === 'en' ? 'ABOUT' : locale === 'es' ? 'NOSOTROS' : 'Zilmer'}</span>
+            <span
+              role="button"
+              tabIndex={0}
+              onClick={() => setIsAboutOpen(true)}
+            >
+              {locale === 'en' ? 'ABOUT' : locale === 'es' ? 'NOSOTROS' : 'Zilmer'}
+            </span>
             {isAboutOpen && (
               <>
                 <div className={styles.dropdownBridge}></div>
@@ -69,7 +81,13 @@ export default function Header() {
             onMouseEnter={() => setIsProductsOpen(true)}
             onMouseLeave={() => setIsProductsOpen(false)}
           >
-            <span>{locale === 'en' ? 'PRODUCTS' : locale === 'es' ? 'PRODUCTOS' : 'PRODUTOS'}</span>
+            <span
+              role="button"
+              tabIndex={0}
+              onClick={() => setIsProductsOpen(true)}
+            >
+              {locale === 'en' ? 'PRODUCTS' : locale === 'es' ? 'PRODUCTOS' : 'PRODUTOS'}
+            </span>
             {isProductsOpen && (
               <>
                 <div className={styles.dropdownBridge}></div>
@@ -122,7 +140,7 @@ export default function Header() {
 
           <button
             className={styles.menuToggle}
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            onClick={toggleMenu}
             aria-label="Toggle menu"
           >
             <span></span>

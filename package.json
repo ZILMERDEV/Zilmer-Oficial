@@ -17,7 +17,8 @@
     "remove-backgrounds": "node scripts/remove-backgrounds.js",
     "replace-no-shadow": "node scripts/replace-images-no-shadow.js",
     "replace-edited": "node scripts/replace-edited-images.js",
-    "replace-edited-smart": "node scripts/replace-edited-images-smart.js"
+    "replace-edited-smart": "node scripts/replace-edited-images-smart.js",
+    "screenshot:mobile": "node scripts/mobile-screenshot.js"
   },
   "dependencies": {
     "@swc/helpers": "^0.5.21",
@@ -32,6 +33,7 @@
     "@types/node": "^20.0.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
+    "playwright-core": "^1.61.1",
     "sharp": "^0.33.5",
     "typescript": "^5.0.0"
   }

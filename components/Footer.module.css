@@ -104,12 +104,42 @@
 
 @media (max-width: 768px) {
   .footer {
-    padding: 40px 0 20px;
+    padding: 32px 0 16px;
   }
 
   .content {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .logo {
+    max-width: 140px;
+  }
+
+  .logoSection a {
+    padding: 10px;
+  }
+
+  .section h3 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+
+  .section p {
+    font-size: 0.85rem;
+    line-height: 1.55;
+    text-align: left;
+    margin-bottom: 6px;
+  }
+
+  .copyright p {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .companyInfo {
+    font-size: 0.75rem;
   }
 }
 

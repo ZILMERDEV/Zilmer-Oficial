@@ -161,8 +161,24 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    height: 60px;
+    padding: 0 14px;
+  }
+
+  .logo img,
+  .logo :global(img) {
+    height: 40px;
+  }
+
+  .langBtn {
+    font-size: 0.75rem;
+    padding: 3px 6px;
+  }
+
   .headerRight {
     display: flex;
+    gap: 8px;
   }
 
   /* Hide the lang switcher inside the collapsed nav on mobile */
@@ -178,7 +194,8 @@
     background-color: #dbeafe;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
+    padding: 16px 20px;
+    gap: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transform: translateY(-100%);
     opacity: 0;
@@ -197,6 +214,11 @@
     box-shadow: none;
     margin-top: 0;
     padding-left: 20px;
+  }
+
+  .menuToggle span {
+    width: 22px;
+    height: 2px;
   }
 }
 

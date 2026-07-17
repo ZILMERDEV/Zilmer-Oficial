@@ -256,33 +256,136 @@
 }
 
 @media (max-width: 768px) {
-  .section { height: auto; min-height: 100svh; }
-  .content { max-width: 100%; padding: 32px 16px 24px; }
-  .text { margin-top: 16px; }
+  /* Natural height — avoid cramming everything into one forced viewport */
+  .section {
+    height: auto;
+    min-height: 0;
+  }
 
-  .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 6px; }
+  .container {
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 44px;
+  }
+
+  /* Extra darken so white copy stays readable over busy photos */
+  .overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 8, 32, 0.45) 0%,
+      rgba(0, 8, 32, 0.72) 55%,
+      rgba(0, 8, 32, 0.82) 100%
+    );
+    pointer-events: none;
+  }
+
+  .content {
+    position: relative;
+    inset: auto;
+    max-width: 100%;
+    padding: 28px 20px 8px;
+  }
+
+  .header { margin-bottom: 14px; }
+
+  .heading {
+    font-size: 1.45rem;
+    margin-bottom: 6px;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+    max-width: none;
+    line-height: 1.45;
+  }
+
+  .tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 6px;
+    margin: 0 -20px 18px;
+    padding: 0 20px 4px;
+    -webkit-overflow-scrolling: touch;
+    /* Soft edge fade hints that more tabs scroll horizontally */
+    mask-image: linear-gradient(to right, #000 0%, #000 calc(100% - 28px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, #000 0%, #000 calc(100% - 28px), transparent 100%);
+  }
+
   .tabs::-webkit-scrollbar { display: none; }
-  .tab { flex-shrink: 0; font-size: 0.78rem; padding: 6px 14px; }
+
+  .tab {
+    flex-shrink: 0;
+    font-size: 0.76rem;
+    padding: 6px 14px;
+  }
+
+  .text { margin-top: 4px; }
+
+  .areaTitle {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+
+  .lead {
+    font-size: 0.82rem;
+    font-weight: 600;
+    line-height: 1.5;
+    max-width: none;
+    margin-bottom: 14px;
+    text-align: left;
+  }
 
   .bullets { display: none; }
+
+  .cta {
+    font-size: 0.82rem;
+    padding: 9px 20px;
+  }
 
   .transformers {
     position: relative;
     right: auto;
     bottom: auto;
-    width: 100%;
+    width: min(72%, 260px);
+    margin: 12px auto 8px;
     justify-content: center;
-    padding: 16px;
+    padding: 0;
     animation: none;
   }
-  .transformerImg { max-height: 200px; }
 
-  .arrow { width: 40px; height: 40px; }
-  .prev { left: 8px; }
-  .next_ { right: 8px; }
+  .transformerImg { max-height: 140px; }
+
+  /* Tabs + dots cover navigation; mid-page arrows only fight the copy */
+  .arrow { display: none; }
+
+  .dots { bottom: 14px; }
 }
 
 @media (max-width: 480px) {
-  .heading { font-size: 1.8rem; }
-  .areaTitle { font-size: 1.4rem; }
+  .content { padding: 20px 16px 8px; }
+
+  .heading { font-size: 1.3rem; }
+
+  .subtitle { font-size: 0.75rem; }
+
+  .tabs {
+    margin: 0 -16px 12px;
+    padding: 0 16px 4px;
+  }
+
+  .areaTitle { font-size: 1.05rem; }
+
+  .lead { font-size: 0.78rem; }
+
+  .transformers {
+    width: min(64%, 200px);
+  }
+
+  .transformerImg { max-height: 110px; }
 }

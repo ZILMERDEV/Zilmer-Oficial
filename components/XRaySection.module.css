@@ -146,6 +146,7 @@
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: #111;
   user-select: none;
+  touch-action: none;
 }
 
 .viewer::after {
@@ -338,12 +339,57 @@
 @media (max-width: 900px) {
   .inner {
     grid-template-columns: 1fr;
-    gap: 48px;
-    padding: 0 24px;
+    gap: 28px;
+    padding: 0 16px;
   }
 
   .section {
-    padding: 72px 0;
+    padding: 44px 0;
+  }
+
+  .tagline {
+    font-size: 10px;
+    margin-bottom: 12px;
+  }
+
+  .headline {
+    font-size: clamp(1.5rem, 7vw, 2rem);
+    margin-bottom: 12px;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+    line-height: 1.55;
+    max-width: none;
+    margin-bottom: 18px;
+  }
+
+  .hint {
+    margin-bottom: 20px;
+    font-size: 9px;
+    padding: 8px 12px;
+  }
+
+  .statsRow {
+    flex-wrap: wrap;
+    gap: 14px 0;
+  }
+
+  .stat {
+    padding: 0 12px;
+    flex: 1 1 40%;
+  }
+
+  .stat:first-child {
+    padding-left: 0;
+  }
+
+  .statNumber {
+    font-size: 1.35rem;
+  }
+
+  .statDivider {
+    display: none;
   }
 
   .viewer {
@@ -352,16 +398,15 @@
 }
 
 @media (max-width: 480px) {
+  .section {
+    padding: 36px 0;
+  }
+
   .headline {
-    font-size: 2.2rem;
+    font-size: 1.45rem;
   }
 
-  .statsRow {
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-
-  .statDivider {
-    display: none;
+  .statNumber {
+    font-size: 1.2rem;
   }
 }

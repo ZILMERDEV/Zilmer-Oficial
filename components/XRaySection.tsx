@@ -54,6 +54,16 @@ export default function XRaySection() {
   const handleMouseEnter = useCallback(() => setIsHovering(true), [])
   const handleMouseLeave = useCallback(() => { setIsHovering(false) }, [])
 
+  const handleTouchMove = useCallback((e: React.TouchEvent<HTMLDivElement>) => {
+    const rect = containerRef.current?.getBoundingClientRect()
+    const touch = e.touches[0]
+    if (!rect || !touch) return
+    setCursor({ x: touch.clientX - rect.left, y: touch.clientY - rect.top })
+    setIsHovering(true)
+  }, [])
+
+  const handleTouchEnd = useCallback(() => setIsHovering(false), [])
+
   const mask = isHovering
     ? `radial-gradient(circle 150px at ${cursor.x}px ${cursor.y}px, black 0%, black 60%, transparent 100%)`
     : 'none'
@@ -91,6 +101,9 @@ export default function XRaySection() {
             onMouseMove={handleMouseMove}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            onTouchMove={handleTouchMove}
+            onTouchStart={handleTouchMove}
+            onTouchEnd={handleTouchEnd}
           >
             {/* External image (base layer) */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
