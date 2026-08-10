@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "zilmer-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000,
+      "url": "http://localhost:3000"
+    },
+    {
+      "name": "painel-agentes",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["scripts/painel-agentes.js"],
+      "port": 3100,
+      "url": "http://localhost:3100"
+    }
+  ]
+}

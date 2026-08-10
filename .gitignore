@@ -2,3 +2,16 @@ node_modules/
 .next/
 scripts/screenshots/
 tsconfig.tsbuildinfo
+tsc_output.txt
+
+# Selo transitório do portão de pré-deploy — estado local, não versionar
+.claude/.selo-deploy.json
+
+# Log de eventos que alimenta o painel dos agentes — estado local por máquina
+.claude/estado/
+.claude/settings.local.json
+
+# Credenciais dos serviços de automação (n8n / Flowise)
+automacoes/.env
+.env
+.env.local

@@ -1,0 +1,54 @@
+# Monitoramento e automação do site Zilmer.
+# Ver memory/AUTOMACOES.md antes de subir. Requer Docker Desktop.
+#
+#   docker compose -f automacoes/docker-compose.yml up -d
+#
+# n8n     → http://localhost:5678
+# Flowise → http://localhost:3001
+# A porta 3000 fica livre para o `npm run dev` do site.
+#
+# ATENÇÃO: serviços expostos apenas em localhost, sem TLS. Não publicar na internet
+# sem antes configurar autenticação forte e HTTPS — o n8n guarda credenciais do
+# GitHub e da AWS.
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: zilmer-n8n
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5678:5678"
+    environment:
+      - GENERIC_TIMEZONE=America/Sao_Paulo
+      - TZ=America/Sao_Paulo
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - WEBHOOK_URL=http://localhost:5678/
+      - N8N_DIAGNOSTICS_ENABLED=false
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=${N8N_USER:-zilmer}
+      - N8N_BASIC_AUTH_PASSWORD=${N8N_PASSWORD:?defina N8N_PASSWORD no arquivo .env desta pasta}
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+  flowise:
+    image: flowiseai/flowise:latest
+    container_name: zilmer-flowise
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3001:3000"
+    environment:
+      - PORT=3000
+      - TZ=America/Sao_Paulo
+      - FLOWISE_USERNAME=${FLOWISE_USER:-zilmer}
+      - FLOWISE_PASSWORD=${FLOWISE_PASSWORD:?defina FLOWISE_PASSWORD no arquivo .env desta pasta}
+      - DATABASE_PATH=/root/.flowise
+      - APIKEY_PATH=/root/.flowise
+      - LOG_PATH=/root/.flowise/logs
+    volumes:
+      - flowise_data:/root/.flowise
+
+volumes:
+  n8n_data:
+  flowise_data:
