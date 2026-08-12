@@ -62,10 +62,41 @@ function estadoSelo() {
   }
 }
 
+// Worktrees são pastas no disco, não branches. Para cada uma, apura a branch,
+// se é a pasta atual, e quantas alterações pendentes tem lá dentro.
+function lerWorktrees() {
+  const blocos = git('worktree list --porcelain').split(/\n\s*\n/).filter(Boolean)
+  const aqui = RAIZ.replace(/\\/g, '/').toLowerCase()
+  return blocos.map((b) => {
+    const caminho = (b.match(/^worktree (.+)$/m) || [])[1] || ''
+    const branch = ((b.match(/^branch (.+)$/m) || [])[1] || '').replace('refs/heads/', '')
+    const norm = caminho.replace(/\\/g, '/')
+    let sujo = 0
+    try {
+      sujo = execSync('git status --porcelain', {
+        cwd: caminho,
+        encoding: 'utf8',
+        stdio: ['ignore', 'pipe', 'ignore'],
+      })
+        .split('\n')
+        .filter(Boolean).length
+    } catch {}
+    return {
+      pasta: norm.replace(/^.*\//, '') || norm,
+      caminho: norm,
+      branch: branch || '(destacado)',
+      atual: norm.toLowerCase() === aqui,
+      producao: branch === 'main',
+      pendentes: sujo,
+    }
+  })
+}
+
 function estado() {
   const eventos = lerEventos()
   const pendentes = git('status --porcelain').split('\n').filter(Boolean)
-  const worktrees = git('worktree list').split('\n').filter(Boolean)
+  const worktrees = lerWorktrees()
+  const branchesLocais = git("branch --format=%(refname:short)").split('\n').filter(Boolean)
   const desde = Date.now() - 60 * 60 * 1000
   const ultimaHora = eventos.filter((e) => new Date(e.em).getTime() > desde)
 
@@ -75,10 +106,8 @@ function estado() {
     ultimoCommit: git('log -1 --pretty=format:"%h %s"').replace(/^"|"$/g, '') || '—',
     pendentes: pendentes.length,
     arquivosPendentes: pendentes.slice(0, 12),
-    worktrees: worktrees.map((w) => {
-      const m = w.match(/^(\S+)\s+\S+\s+\[(.+)\]$/)
-      return m ? { caminho: m[1].replace(/^.*[\\/]/, ''), branch: m[2] } : { caminho: w, branch: '' }
-    }),
+    worktrees,
+    branchesLocais,
     selo: estadoSelo(),
     totalEventos: eventos.length,
     escritasUltimaHora: ultimaHora.filter((e) => e.tipo === 'escrita').length,
@@ -127,6 +156,8 @@ const PAGINA = `<!doctype html>
   .t-atencao{border-color:var(--alerta);color:var(--alerta)}
   .res{font-family:var(--mono);font-size:11.5px;color:var(--txt2);word-break:break-word}
   .vazio{color:var(--txt2);font-size:12.5px;padding:14px 0}
+  .aqui{color:var(--ok);font-size:15px;line-height:1}
+  .dica{font-size:11.5px;color:var(--txt2);margin-top:7px;line-height:1.45}
   .rodape{font-size:11px;color:var(--txt2);margin-top:22px;border-top:1px solid var(--linha);padding-top:10px}
   code{font-family:var(--mono);font-size:11px}
 </style></head>
@@ -137,6 +168,7 @@ const PAGINA = `<!doctype html>
 </header>
 <section><h2>Portões</h2><div class="grade" id="portoes"></div></section>
 <section><h2>Repositório</h2><div class="grade" id="repo"></div></section>
+<section><h2>Worktrees — pastas de trabalho no disco</h2><div id="worktrees"></div></section>
 <section><h2>Atividade ao vivo</h2><div id="atividade"></div></section>
 <div class="rodape">
   Alimentado pelos hooks do Claude Code em <code>.claude/estado/eventos.jsonl</code>.
@@ -169,9 +201,22 @@ async function tick(){
   document.getElementById('repo').innerHTML =
     cartao('Branch', d.branch, d.branch === 'main' ? 'produção — cuidado' : 'isolado do deploy',
            d.branch === 'main' ? 'alerta' : 'ok') +
-    cartao('Alterações pendentes', d.pendentes, d.arquivosPendentes.slice(0,3).map(f=>f.slice(3)).join(', ')) +
-    cartao('Worktrees', d.worktrees.length, d.worktrees.map(w=>w.branch).join(' · ')) +
+    cartao('Alterações pendentes', d.pendentes,
+           d.arquivosPendentes.slice(0,3).map(f=>f.replace(/^\s*\S+\s+/,'').replace(/"/g,'')).join(', ')) +
+    cartao('Branches locais', d.branchesLocais.length, d.branchesLocais.join(' · ')) +
     cartao('Último commit', (d.ultimoCommit.split(' ')[0]||'—'), d.ultimoCommit.split(' ').slice(1).join(' '))
+
+  document.getElementById('worktrees').innerHTML = '<div class="card"><table>' + d.worktrees.map(w =>
+    '<tr>' +
+    '<td style="width:30px">' + (w.atual ? '<span class="aqui" title="voce esta aqui">●</span>' : '') + '</td>' +
+    '<td style="width:210px"><b>' + esc(w.pasta) + '</b><div class="res">' + esc(w.caminho) + '</div></td>' +
+    '<td style="width:190px"><span class="tag ' + (w.producao ? 't-deploy' : 't-agente') + '">' + esc(w.branch) + '</span>' +
+      (w.producao ? '<div class="res">produção — push aqui publica</div>' : '<div class="res">isolado do deploy</div>') + '</td>' +
+    '<td>' + (w.pendentes ? '<span class="tag t-atencao">' + w.pendentes + ' pendente(s)</span>' : '<span class="res">limpo</span>') + '</td>' +
+    '</tr>').join('') + '</table></div>' +
+    (d.worktrees.length === 1
+      ? '<div class="dica">Só existe a pasta principal. Um worktree novo aparece aqui como linha adicional — é uma pasta irmã, com <code>node_modules</code> próprio.</div>'
+      : '')
 
   const alvo = document.getElementById('atividade')
   if(!d.eventos.length){

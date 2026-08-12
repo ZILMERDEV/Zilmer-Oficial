@@ -107,8 +107,92 @@ process.stdin.on('end', () => {
     process.exit(2)
   }
 
+  // ------------------------------------------------------------------
+  // VERIFICAÇÃO INDEPENDENTE — não confia no que o selo afirma.
+  //
+  // O selo é escrito pelo Claude. Se ele marcar "tsc ok" sem ter rodado,
+  // o selo mente. A partir daqui o portão apura por conta própria, e o
+  // resultado destas checagens vence o que estiver escrito no selo.
+  // Só roda no push (o hook já é filtrado por `if: Bash(git push*)`).
+  // ------------------------------------------------------------------
+
+  // 1. Tipos: prova, não promessa.
+  try {
+    execSync('npx tsc --noEmit', { cwd: raiz, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] })
+  } catch (e) {
+    const erros = `${e.stdout || ''}${e.stderr || ''}`
+      .split('\n')
+      .filter((l) => l.includes('error TS'))
+    console.error(
+      `BLOQUEADO: o selo afirma "tsc ${dados.tsc}", mas a verificação no momento do push encontrou ${erros.length} erro(s):\n` +
+        erros.slice(0, 10).join('\n') +
+        '\n\nO selo estava errado ou o código mudou depois dele. Corrija antes de publicar.'
+    )
+    process.exit(2)
+  }
+
+  // 2. Build: existe e é mais nova que o código-fonte?
+  //    Pega o caso "buildou, editou depois, e publicou o que não foi testado".
+  const next = path.join(raiz, '.next')
+  if (!fs.existsSync(next)) {
+    console.error(
+      `BLOQUEADO: o selo afirma "build ${dados.build}", mas não existe pasta .next neste projeto.\n` +
+        'Rode `npm run build` de verdade antes de publicar.'
+    )
+    process.exit(2)
+  }
+
+  const buildEm = fs.statSync(next).mtimeMs
+  const maisNovo = arquivoFonteMaisRecente(raiz)
+  if (maisNovo && maisNovo.em > buildEm) {
+    console.error(
+      'BLOQUEADO: há código-fonte mais novo que a última build.\n' +
+        `  build:  ${new Date(buildEm).toLocaleString('pt-BR')}\n` +
+        `  ${maisNovo.arquivo}: ${new Date(maisNovo.em).toLocaleString('pt-BR')}\n\n` +
+        'Você estaria publicando algo que nunca foi compilado. Rode `npm run build` de novo.'
+    )
+    process.exit(2)
+  }
+
   console.log(
-    `[portão] pré-deploy ok (${Math.round(idadeMin)} min atrás) — tsc:${dados.tsc} build:${dados.build} i18n:${dados.i18n} visual:aprovado. Liberado.`
+    `[portão] LIBERADO. tsc verificado agora (0 erros) · build de ${new Date(buildEm).toLocaleTimeString('pt-BR')} ` +
+      `mais recente que o código · aprovação visual registrada há ${Math.round(idadeMin)} min.`
   )
   process.exit(0)
 })
+
+// Varre o código-fonte do site e devolve o arquivo modificado mais recentemente.
+// Ignora build, dependências, git e a própria ferramentaria do Claude.
+function arquivoFonteMaisRecente(raiz) {
+  const IGNORAR = new Set(['node_modules', '.next', '.git', '.claude', 'memory', 'automacoes', 'scripts'])
+  const EXT = /\.(ts|tsx|js|jsx|css|json)$/
+  let melhor = null
+
+  const andar = (dir, profundidade = 0) => {
+    if (profundidade > 6) return
+    let itens
+    try {
+      itens = fs.readdirSync(dir, { withFileTypes: true })
+    } catch {
+      return
+    }
+    for (const item of itens) {
+      if (item.name.startsWith('.') && item.name !== '.gitignore') continue
+      if (IGNORAR.has(item.name)) continue
+      const caminho = path.join(dir, item.name)
+      if (item.isDirectory()) {
+        andar(caminho, profundidade + 1)
+      } else if (EXT.test(item.name)) {
+        try {
+          const em = fs.statSync(caminho).mtimeMs
+          if (!melhor || em > melhor.em) {
+            melhor = { arquivo: path.relative(raiz, caminho).replace(/\\/g, '/'), em }
+          }
+        } catch {}
+      }
+    }
+  }
+
+  andar(raiz)
+  return melhor
+}

@@ -10,16 +10,6 @@
             "timeout": 60000
           }
         ]
-      },
-      {
-        "matcher": "Edit|Write|Bash|Task|NotebookEdit",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/registrar-evento.js\" PostToolUse",
-            "timeout": 8000
-          }
-        ]
       }
     ],
     "PreToolUse": [
@@ -29,51 +19,8 @@
           {
             "type": "command",
             "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/portao-deploy.js\"",
+            "if": "Bash(git push*)",
             "timeout": 15000
-          }
-        ]
-      }
-    ],
-    "UserPromptSubmit": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/registrar-evento.js\" UserPromptSubmit",
-            "timeout": 8000
-          }
-        ]
-      }
-    ],
-    "SubagentStop": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/registrar-evento.js\" SubagentStop",
-            "timeout": 8000
-          }
-        ]
-      }
-    ],
-    "Notification": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/registrar-evento.js\" Notification",
-            "timeout": 8000
-          }
-        ]
-      }
-    ],
-    "Stop": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/registrar-evento.js\" Stop",
-            "timeout": 8000
           }
         ]
       }
@@ -91,6 +38,7 @@
       "Bash(git ls-files*)",
       "Bash(git rev-parse *)",
       "Bash(npm run build)",
+      "Bash(npm run painel)",
       "Bash(npm run screenshot:mobile*)",
       "Bash(npx tsc --noEmit*)",
       "Bash(node .claude/hooks/selo-deploy.js *)",
@@ -102,6 +50,10 @@
       "mcp__Claude_Browser__preview_logs"
     ],
     "deny": [
+      "Edit(./.github/**)",
+      "Write(./.github/**)",
+      "Edit(./.github/workflows/deploy.yml)",
+      "Write(./.github/workflows/deploy.yml)",
       "Bash(git push --force*)",
       "Bash(git push -f*)",
       "Bash(git reset --hard*)",

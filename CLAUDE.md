@@ -107,8 +107,58 @@
 
 ### Hooks ativos
 
-- **PostToolUse (Edit|Write)** → `verificar-tipos.js`: roda `tsc --noEmit` só quando o arquivo é `.ts`/`.tsx`
-- **PreToolUse (Bash)** → `portao-deploy.js`: **bloqueia `git push` na main** sem selo de pré-deploy válido (30 min) e com aprovação visual
+**Exatamente dois.** Cada hook custa ~340ms de processo no Windows, então o
+gatilho de cada um é o mais estreito possível.
+
+- **PostToolUse (Edit|Write)** → `verificar-tipos.js`: roda `tsc --noEmit`, e
+  só quando o arquivo é `.ts`/`.tsx`
+- **PreToolUse (Bash)**, filtrado por `if: Bash(git push*)` → `portao-deploy.js`:
+  bloqueia push na main sem selo válido; **verifica `tsc` e a idade da build por
+  conta própria**, não confia no que o selo afirma
+
+`selo-deploy.js` não é hook — é chamado pelo agente `pre-deploy` e exige
+evidência da aprovação (`--rotas`, `--viewports`, `--disse`).
+
+### Travas de permissão (`.claude/settings.json`)
+
+- `Edit`/`Write` em `.github/**` → **negado**. O workflow de deploy é de terceiro
+  e funciona; leitura continua liberada. Ver `memory/DECISIONS.md`
+- `git push --force`, `git reset --hard`, `git clean -fd`, `rm -rf` → negados
+- `npm run dev` → negado no Bash; usar `preview_start` (`zilmer-dev`)
+
+---
+
+## Painel ao vivo
+
+`scripts/painel-agentes.js` na porta 3100 (só `127.0.0.1`, fora do build do site).
+**Não sobe sozinho** — abrir com `preview_start` (`painel-agentes`) ou `npm run painel`.
+O auto-start por hook foi removido: no Windows ele abria uma janela de console a
+cada sessão.
+
+Mostra ao vivo: estado do portão de deploy, branch (vermelho quando é `main`),
+worktrees com pendências por pasta.
+
+**Limitação conhecida:** a seção "Atividade ao vivo" está congelada. Ela era
+alimentada por `registrar-evento.js`, removido porque disparava um processo a
+cada ferramenta. O que continua ao vivo (git, worktrees, portão) é lido na hora,
+a cada 2s.
+
+### Levar o painel para o chat
+
+O usuário acompanha pelo chat, não pelo terminal. **Após cada marco, mostre um
+resumo do estado inline** — não mande ele abrir o painel:
+
+| Marco | O que mostrar |
+|---|---|
+| commit feito | hash, arquivos, branch |
+| preview aberto | o que mudou visualmente, mobile e desktop |
+| erro corrigido | o que era, o que virou, `tsc` limpo |
+| push/deploy | commit publicado e onde acompanhar |
+| fim de tarefa longa | portões + pendências que sobraram |
+
+Use `show_widget` quando o estado for melhor lido em painel do que em prosa
+(vários números de uma vez, comparação antes/depois). Para uma ou duas
+informações, texto corrido é melhor — widget para tudo vira ruído.
 
 ---
 
