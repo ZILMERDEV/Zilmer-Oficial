@@ -107,7 +107,7 @@ export default function Header() {
           </div>
 
           <Link href="/projetos-entregues" onClick={close}>
-            {locale === 'en' ? 'DELIVERED PROJECTS' : locale === 'es' ? 'PROYECTOS ENTREGADOS' : 'PROJETOS ENTREGUES'}
+            {locale === 'en' ? 'COMPLETED PROJECTS' : locale === 'es' ? 'PROYECTOS REALIZADOS' : 'PROJETOS REALIZADOS'}
           </Link>
 
           <Link href="/contato" onClick={close}>

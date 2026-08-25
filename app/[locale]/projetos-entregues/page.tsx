@@ -31,7 +31,7 @@ export default function ProjetosEntreguesPage() {
 
   const t = {
     title:
-      locale === 'en' ? 'Delivered Projects' : locale === 'es' ? 'Proyectos Entregados' : 'Projetos Entregues',
+      locale === 'en' ? 'Completed Projects' : locale === 'es' ? 'Proyectos Realizados' : 'Projetos Realizados',
     subtitle:
       locale === 'en'
         ? 'Zilmer transformers in operation around the world.'
