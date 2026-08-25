@@ -118,7 +118,7 @@ export default function Header() {
                 disabled={isPending || locale === l}
                 className={`${styles.langBtn} ${locale === l ? styles.langBtnActive : ''}`}
               >
-                {l === 'pt' ? '🇧🇷' : l === 'en' ? '🇺🇸' : '🇪🇸'}
+                {l === 'pt' ? 'BR' : l === 'en' ? 'EN' : 'ES'}
               </button>
             ))}
           </div>
@@ -133,7 +133,7 @@ export default function Header() {
                 disabled={isPending || locale === l}
                 className={`${styles.langBtn} ${locale === l ? styles.langBtnActive : ''}`}
               >
-                {l === 'pt' ? '🇧🇷' : l === 'en' ? '🇺🇸' : '🇪🇸'}
+                {l === 'pt' ? 'BR' : l === 'en' ? 'EN' : 'ES'}
               </button>
             ))}
           </div>
