@@ -9,7 +9,7 @@ export default function ContactButton() {
   
   return (
     <Link href="/contato" className={styles.contactButton}>
-      {"TESTE final"}
+      {t('ctaButton')}
     </Link>
   )
 }

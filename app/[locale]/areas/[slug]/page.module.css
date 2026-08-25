@@ -117,7 +117,7 @@
 /* Aplicação Section */
 .aplicacaoSection {
   padding: 80px 0;
-  background: #0a1628;
+  background: var(--primary-color);
   position: relative;
   overflow: hidden;
 }
@@ -136,10 +136,13 @@
 .aplicacaoBgOverlay {
   position: absolute;
   inset: 0;
+  /* Era quase preto (0,15,45 / 0,30,70) — trocado para primary/secondary
+     do site, visivelmente mais claro e legível, mesma família de cor do
+     resto da página (ver .heroOverlay e .ctaSection). */
   background: linear-gradient(
     135deg,
-    rgba(0, 15, 45, 0.82) 0%,
-    rgba(0, 30, 70, 0.72) 100%
+    rgba(0, 51, 102, 0.78) 0%,
+    rgba(0, 102, 204, 0.62) 100%
   );
 }
 
@@ -178,7 +181,11 @@
 .aplicacaoGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 600px;
+  /* Era 600px fixo: a grade nao crescia com o texto, entao o card ficava
+     livre por dentro (fix anterior) mas escapava por cima do .aplicacaoSection,
+     que tem overflow:hidden — o corte so mudou de lugar. minmax mantem 600px
+     quando o texto e curto e deixa crescer quando nao cabe. */
+  grid-template-rows: minmax(600px, auto);
   gap: 20px;
   width: 100%;
   max-width: none;
@@ -196,7 +203,9 @@
 .imageCaption {
   margin-top: 8px;
   font-size: 0.75rem;
-  color: var(--text-light);
+  /* Era var(--text-light) — cinza para fundo claro, ilegivel sobre o azul
+     escuro desta secao (contraste medido: 2.2:1, abaixo do minimo 4.5:1). */
+  color: rgba(255, 255, 255, 0.85);
   font-style: normal;
   text-align: center;
   line-height: 1.4;
@@ -294,7 +303,9 @@
   grid-column: 1;
   grid-row: 1;
   padding: 30px;
-  background: rgba(0, 15, 45, 0.65);
+  /* Era rgba(0,15,45,0.65) — quase preto. Primary-color a 72% mantém
+     ~12,6:1 de contraste para o texto branco (min. AA e 4,5:1). */
+  background: rgba(0, 51, 102, 0.72);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -303,8 +314,13 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 100%;
-  overflow-y: auto;
+  /* Era height:100% + overflow-y:auto — forcava a caixa a caber exatamente
+     na linha fixa de 600px do .aplicacaoGrid e cortava/rolava descricoes
+     longas por dentro (auditoria mediu ate 1147px perdidos no mobile).
+     Com altura livre, o card cresce com o texto; o grid aceita conteudo
+     maior que a linha fixa quando o item nao e esticado (align-self:start). */
+  height: auto;
+  align-self: start;
 }
 
 .aplicacaoDescription {
@@ -317,6 +333,10 @@
 
 .aplicacaoDescription :global(p) {
   margin: 0 0 1rem 0;
+  /* Sem isso, o <p> sem classe gerado por renderText() herdava o cinza
+     global de app/globals.css (p { color: var(--text-light) }) em vez do
+     branco do container — regra direta de elemento sempre vence herança. */
+  color: white;
 }
 
 .aplicacaoDescription :global(p:last-child) {
@@ -533,7 +553,6 @@
     grid-row: 2;
     padding: 25px;
     height: auto;
-    max-height: 500px;
   }
 
   .sectionTitle {

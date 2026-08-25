@@ -96,11 +96,6 @@
   text-align: justify;
 }
 
-.companyInfo {
-  margin-top: 10px !important;
-  font-size: 0.85rem;
-  text-align: center !important;
-}
 
 @media (max-width: 768px) {
   .footer {
@@ -138,9 +133,6 @@
     text-align: center;
   }
 
-  .companyInfo {
-    font-size: 0.75rem;
-  }
 }
 
 

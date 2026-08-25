@@ -45,9 +45,13 @@ export default async function ProductDetail({ params }: { params: Promise<{ slug
   const firstImageIndex = (produto as any).firstImageIndex !== undefined 
     ? (produto as any).firstImageIndex 
     : 0
-  const catalogConfig: { [key: string]: { file: string; titlePt: string; titleEn: string; titleEs: string; descPt: string; descEn: string; descEs: string } } = {
+  const catalogConfig: { [key: string]: { file: string; localFile?: boolean; titlePt: string; titleEn: string; titleEs: string; descPt: string; descEn: string; descEs: string } } = {
     'baixa-tensao': {
       file: '/catalogos/TRANSFORMADORES-A-SECO-BT.pdf',
+      // Servido direto do repo (public/catalogos), não do CDN S3 — o arquivo
+      // já mora aqui e assim a troca vai junto do deploy normal via git.
+      // O catálogo MT abaixo continua no CDN, sem alteração.
+      localFile: true,
       titlePt: 'Catálogo Transformadores a Seco BT',
       titleEn: 'Dry-Type LV Transformers Catalogue',
       titleEs: 'Catálogo Transformadores en Seco BT',
@@ -107,7 +111,7 @@ export default async function ProductDetail({ params }: { params: Promise<{ slug
                     </p>
                   </div>
                   <a
-                    href={cdnUrl(catalog.file)}
+                    href={catalog.localFile ? catalog.file : cdnUrl(catalog.file)}
                     download
                     className={styles.downloadButton}
                   >

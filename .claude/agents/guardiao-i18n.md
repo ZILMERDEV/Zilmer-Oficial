@@ -30,6 +30,29 @@ Rotas: `app/[locale]/`, locales `['pt','en','es']`, padrão `pt`, `localePrefix:
 
 ## O que verificar
 
+**0. O idioma carrega de verdade em produção — a checagem mais importante desta lista**
+
+Em 2026-08-25 os três arquivos `messages/*.json` estavam **perfeitos**, paridade de chaves
+100%, e mesmo assim o site inteiro em espanhol caía silenciosamente para português. Causa:
+`i18n/request.ts` importava só `pt` e `en` — `es.json` nunca era carregado, e o fallback
+`?? ptMessages` escondia o problema sem erro, sem aviso, sem quebra de build. **Paridade de
+chaves não detecta isso.** Faça as duas checagens abaixo sempre, mesmo com o passo 1 limpo:
+
+Primeiro, confira o carregador de mensagens (`i18n/request.ts` ou equivalente) — todo
+locale de `routing.locales` precisa ter um import e uma entrada no mapa:
+```bash
+grep -n "import.*messages/\|routing.locales" i18n/request.ts i18n/routing.ts
+```
+
+Segundo, prove com o servidor rodando, não com o arquivo — busque uma string que só existe
+naquele idioma na página renderizada de cada locale:
+```bash
+curl -s http://localhost:3000/es/ | grep -oE "INICIO|PRODUCTOS|CONTACTO"
+curl -s http://localhost:3000/en/ | grep -oE "HOME|PRODUCTS|CONTACT"
+```
+Se a busca por strings do `es` não achar nada, ou achar as strings do `pt`/`en` em vez
+disso, é **🔴 crítico** — o locale existe no arquivo mas não chega ao visitante.
+
 **1. Paridade de chaves em `messages/`**
 
 Use node em vez de leitura visual — comparação de árvore aninhada a olho falha:
@@ -64,6 +87,7 @@ Procure português literal dentro de JSX (`>Produtos<`, `placeholder="Nome"`, `a
 ```
 ## Paridade i18n
 
+Carregamento real:  pt ok · en ok · es ok  (confirmado no HTML servido, não só no arquivo)
 messages/: pt N · en N (−X) · es N (−Y)
 data/:     areas ok · produtos DIVERGENTE · noticias ok · sobre ok
 

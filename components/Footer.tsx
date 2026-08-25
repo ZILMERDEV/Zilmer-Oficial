@@ -7,7 +7,6 @@ import styles from './Footer.module.css'
 
 export default function Footer() {
   const t = useTranslations('footer')
-  const tCommon = useTranslations('common')
 
   return (
     <footer className={styles.footer}>
@@ -56,7 +55,6 @@ export default function Footer() {
 
         <div className={styles.copyright}>
           <p>&copy; {new Date().getFullYear()} Zilmer Transformadores. {t('allRightsReserved')}.</p>
-          <p className={styles.companyInfo}>{tCommon('companyInfo')}</p>
         </div>
       </div>
     </footer>

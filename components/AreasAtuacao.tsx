@@ -127,19 +127,21 @@ export default function AreasAtuacao() {
             </p>
           </div>
 
-          {/* Tabs */}
+          {/* Tabs — cada uma navega direto para a página da área ao clicar.
+              O hover continua trocando o slide em prévia (sem navegar); só o
+              clique de fato sai da home. Substitui o botão "Ver detalhes da
+              área", removido a pedido do usuário. */}
           <nav className={styles.tabs} aria-label="Áreas de atuação">
             {slides.map((s, i) => (
-              <button
+              <Link
                 key={s.slug}
-                type="button"
-                onClick={() => act(() => setActive(i))}
+                href={`/areas/${s.slug}`}
                 onMouseEnter={() => { setPaused(true); setActive(i); }}
                 onMouseLeave={() => setPaused(false)}
                 className={`${styles.tab} ${i === active ? styles.tabActive : ''}`}
               >
                 {s.data.title}
-              </button>
+              </Link>
             ))}
           </nav>
 
@@ -152,9 +154,8 @@ export default function AreasAtuacao() {
               <p>{data.solucao.melhora}</p>
               <p>{data.solucao.essencial}</p>
             </div>
-            <Link href={`/${slug}`} className={styles.cta}>
-              Ver detalhes da área ›
-            </Link>
+            {/* Botão "Ver detalhes da área" removido — clicar no nome da
+                categoria acima (nav .tabs) já navega para a página da área. */}
           </div>
 
         </div>

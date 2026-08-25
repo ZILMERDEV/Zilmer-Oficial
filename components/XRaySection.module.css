@@ -168,14 +168,18 @@
   display: block;
 }
 
+/* A camada revelada (com a máscara circular) precisa ficar ACIMA da base
+   para a máscara ter efeito: mascarar a camada de baixo não revela nada
+   quando a de cima cobre tudo por inteiro. Estava invertido. */
 .imgBase {
-  z-index: 2;
+  z-index: 1;
 }
 
 .imgReveal {
-  z-index: 1;
-  /* tint the reveal layer slightly blue for xray feel */
-  filter: sepia(0.2) hue-rotate(180deg) saturate(1.4) brightness(1.1);
+  z-index: 2;
+  /* hue-rotate(180deg) virava o cobre/laranja das bobinas em azul — removido
+     para o interior aparecer com a cor real. Mantido um leve realce. */
+  filter: saturate(1.15) contrast(1.05) brightness(1.04);
 }
 
 /* ── RETICLE ── */
@@ -398,8 +402,12 @@
     display: none;
   }
 
+  /* Era 16/9 — recorte bem mais baixo e largo que o 4/3 do desktop. A foto
+     do transformador (2700x2160, quase quadrada) perdia a base e o topo
+     perto da borda. 4/3 usa o mesmo enquadramento que ja funciona no
+     desktop, so muda a largura absoluta da caixa. */
   .viewer {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 4 / 3;
   }
 }
 

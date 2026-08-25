@@ -2,10 +2,12 @@ import { getRequestConfig } from 'next-intl/server'
 import { routing } from './routing'
 import ptMessages from '../messages/pt.json'
 import enMessages from '../messages/en.json'
+import esMessages from '../messages/es.json'
 
 const allMessages: Record<string, any> = {
   pt: ptMessages,
   en: enMessages,
+  es: esMessages,
 }
 
 export default getRequestConfig(async ({ requestLocale }) => {

@@ -64,9 +64,13 @@ export default function XRaySection() {
 
   const handleTouchEnd = useCallback(() => setIsHovering(false), [])
 
+  /* mask-image: 'none' significa NENHUMA máscara aplicada — a camada fica
+     TOTALMENTE VISÍVEL, não escondida. Com a camada revelada por cima da
+     base (correção de z-index abaixo), isso fazia o interior aparecer por
+     inteiro mesmo sem hover. Raio 0 é o que de fato esconde a camada. */
   const mask = isHovering
-    ? `radial-gradient(circle 150px at ${cursor.x}px ${cursor.y}px, black 0%, black 60%, transparent 100%)`
-    : 'none'
+    ? `radial-gradient(circle 130px at ${cursor.x}px ${cursor.y}px, black 0%, black 55%, transparent 100%)`
+    : `radial-gradient(circle 0px at ${cursor.x}px ${cursor.y}px, black 0%, transparent 0%)`
 
   const lang: keyof LocalizedText = locale === 'en' ? 'en' : locale === 'es' ? 'es' : 'pt'
 
@@ -105,20 +109,24 @@ export default function XRaySection() {
             onTouchStart={handleTouchMove}
             onTouchEnd={handleTouchEnd}
           >
-            {/* External image (base layer) */}
+            {/* Camada de base: transformador FECHADO — visível sem o mouse em
+                cima. Os dois arquivos estavam trocados aqui (base carregava
+                tco-interno, revelada carregava tco-externo — o inverso do
+                pretendido). */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={cdnUrl("/images/xray/tco-interno.jpg")}
-              alt="Transformador externo"
+              src={cdnUrl("/images/xray/tco-externo.jpg")}
+              alt="Transformador Zilmer fechado, vista externa"
               className={styles.imgBase}
               draggable={false}
             />
 
-            {/* Internal image (revealed layer) */}
+            {/* Camada revelada pela lupa: INTERIOR, com núcleo e bobinas
+                visíveis — aparece só dentro do círculo sob o cursor. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={cdnUrl("/images/xray/tco-externo.jpg")}
-              alt="Transformador interno - raio-x"
+              src={cdnUrl("/images/xray/tco-interno.jpg")}
+              alt="Vista interna do transformador: núcleo e bobinas"
               className={styles.imgReveal}
               style={{ WebkitMaskImage: mask, maskImage: mask }}
               draggable={false}
