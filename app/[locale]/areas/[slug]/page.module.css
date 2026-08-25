@@ -197,7 +197,14 @@
   grid-column: 2;
   grid-row: 1;
   width: 100%;
-  height: 100%;
+  /* Era height:100% — esticava para acompanhar a altura da linha do grid,
+     que agora cresce com o texto (minmax(600px, auto)). A foto (object-fit:
+     contain) ficava centralizada num espaco muito maior que ela mesma, e a
+     legenda, logo depois no HTML, era empurrada para o fundo dessa coluna
+     alta. Altura fixa + align-self:start ancora a imagem no topo, do
+     tamanho original, com a legenda colada nela. */
+  height: 600px;
+  align-self: start;
 }
 
 .imageCaption {
