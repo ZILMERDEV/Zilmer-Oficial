@@ -83,5 +83,321 @@
       "/images/projetos-entregues/usina-pelotizacao-sao-luis/04.jpg"
     ],
     "proporcao": "paisagem"
+  },
+  "uhe-tucurui": {
+    "obra": "UHE Tucuruí",
+    "local": "Tucuruí, Brasil",
+    "setor": "hidreletrica",
+    "ano": "En curso",
+    "parceiros": [
+      "Voith"
+    ],
+    "resumoCard": "4º suministro de bancos de transformadores monofásicos tipo seco de 4.260 kVA para el sistema de excitación de una de las mayores hidroeléctricas del mundo.",
+    "descricao": "Zilmer está en el 4º suministro de 13 bancos trifásicos de transformadores monofásicos tipo seco de 4.260 kVA y 15 kV destinados a Axia (antigua Eletrobras), por medio de Voith. Los equipos integrarán el sistema de excitación de los generadores síncronos de la Central Hidroeléctrica de Tucuruí, una de las mayores centrales hidroeléctricas del mundo en potencia instalada. Fabricados con tecnología de encapsulado en resina epóxi al vacío, devanados en aluminio, clase térmica F, factor K8 y proyecto optimizado para baja impedancia, los transformadores ofrecen elevado desempeño frente a transitorios eléctricos y corrientes armónicas, cumpliendo con los rigurosos requisitos de confiabilidad exigidos en aplicaciones críticas de generación de energía.",
+    "especificacoes": [
+      "13 bancos trifásicos de transformadores monofásicos tipo seco",
+      "Potencia: 4.260 kVA",
+      "Tensión: 15 kV",
+      "Encapsulado en resina epóxi al vacío",
+      "Devanados en aluminio",
+      "Clase térmica F",
+      "Factor K8",
+      "Proyecto optimizado para baja impedancia",
+      "Aplicación: sistema de excitación de los generadores síncronos"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/uhe-tucurui/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/uhe-tucurui/01.jpg",
+      "/images/projetos-entregues/uhe-tucurui/02.jpg",
+      "/images/projetos-entregues/uhe-tucurui/03.jpg"
+    ],
+    "proporcao": "paisagem"
+  },
+  "planta-quimica-cloronor": {
+    "obra": "Planta Química Cloronor",
+    "local": "Argentina",
+    "setor": "oleo-gas",
+    "ano": "2024",
+    "parceiros": [],
+    "resumoCard": "Transformador trifásico tipo seco de 1.100/635 kVA para alimentación de rectificadores en planta química, en Argentina.",
+    "descricao": "Transformador trifásico tipo seco de 1.100/635 kVA, 13,2 kV / 45 V, destinado a la alimentación de rectificadores de la Planta Química Cloronor, en Argentina. Desarrollado para operación en 50 Hz, el equipo posee devanados en aluminio encapsulados en resina epóxi y sistema de ventilación forzada para atender condiciones de sobrecarga, garantizando elevada confiabilidad en un proceso industrial continuo y de alta exigencia operacional.",
+    "especificacoes": [
+      "Transformador trifásico tipo seco",
+      "Potencia: 1.100/635 kVA",
+      "Tensión: 13,2 kV / 45 V",
+      "Frecuencia: 50 Hz",
+      "Devanados en aluminio encapsulados en resina epóxi",
+      "Sistema de ventilación forzada para condiciones de sobrecarga",
+      "Aplicación: alimentación de rectificadores"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/planta-quimica-cloronor/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/planta-quimica-cloronor/01.jpg",
+      "/images/projetos-entregues/planta-quimica-cloronor/02.jpg",
+      "/images/projetos-entregues/planta-quimica-cloronor/03.jpg",
+      "/images/projetos-entregues/planta-quimica-cloronor/04.jpg"
+    ],
+    "proporcao": "retrato"
+  },
+  "metro-salvador-linha-1": {
+    "obra": "Metrô de Salvador — Linha 1",
+    "local": "Salvador, Brasil",
+    "setor": "transporte",
+    "ano": "2022",
+    "parceiros": [
+      "Consorcio CC Infra (Camargo Corrêa Infra)",
+      "TSEA Energia",
+      "EPC"
+    ],
+    "resumoCard": "Transformador de tracción de 3.395 kVA, Heavy Traction Clase VI, para la Línea 1 del Metro de Salvador.",
+    "descricao": "Transformador trifásico de 3.395 kVA, clase de tensión de 36 kV, para la Línea 1 del Metro de Salvador (BA), por medio del Consorcio CC Infra (Camargo Corrêa Infra), TSEA Energia y EPC. Desarrollado para aplicaciones de tracción ferroviaria (Heavy Traction – Clase VI), el equipo fue proyectado para soportar sobrecargas transitorias de hasta 300% de la potencia nominal por 15 segundos, atendiendo a las elevadas exigencias operacionales de los sistemas de transporte sobre rieles. Con factor K8 y dos devanados secundarios independientes de 1.211 V, destinados a cargas de 1.997 kVA cada uno, el transformador alía robustez, confiabilidad y elevado desempeño para una aplicación crítica de infraestructura urbana.",
+    "especificacoes": [
+      "Transformador trifásico",
+      "Potencia: 3.395 kVA",
+      "Clase de tensión: 36 kV",
+      "Tracción ferroviaria — Heavy Traction, Clase VI",
+      "Sobrecarga de hasta 300% de la potencia nominal por 15 segundos",
+      "Factor K8",
+      "Dos devanados secundarios independientes de 1.211 V, 1.997 kVA cada uno"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/metro-salvador-linha-1/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/metro-salvador-linha-1/01.jpg",
+      "/images/projetos-entregues/metro-salvador-linha-1/02.jpg",
+      "/images/projetos-entregues/metro-salvador-linha-1/03.jpg"
+    ],
+    "proporcao": "retrato"
+  },
+  "metro-sao-paulo-linha-5": {
+    "obra": "Metrô de São Paulo — Linha 5 Lilás",
+    "local": "São Paulo, Brasil",
+    "setor": "transporte",
+    "ano": "2026",
+    "parceiros": [],
+    "resumoCard": "Transformador tipo seco de 4.430 kVA, factor K12, para la Línea 5 – Lilás del Metro de São Paulo.",
+    "descricao": "Transformador trifásico tipo seco de 4.430 kVA para la Línea 5 – Lilás del Metro de São Paulo, destinado a Motiva Infraestrutura de Mobilidade S.A. Desarrollado para atender a los elevados requisitos de disponibilidad y confiabilidad de los sistemas ferroviarios, el equipo posee clase de tensión de 23,1 kV, grupo de conexión especial Dd0yn11, dos devanados secundarios independientes de 1.175 V, clase térmica H y factor K12, características que proporcionan excelente desempeño bajo cargas no lineales y elevadas solicitaciones operacionales. Además de diversas líneas del Metro de São Paulo, Zilmer también ya fabricó transformadores con características similares para el metro de Río de Janeiro y de Salvador.",
+    "especificacoes": [
+      "Transformador trifásico tipo seco",
+      "Potencia: 4.430 kVA",
+      "Clase de tensión: 23,1 kV",
+      "Grupo de conexión especial Dd0yn11",
+      "Dos devanados secundarios independientes de 1.175 V",
+      "Clase térmica H",
+      "Factor K12"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/metro-sao-paulo-linha-5/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/metro-sao-paulo-linha-5/01.jpg",
+      "/images/projetos-entregues/metro-sao-paulo-linha-5/02.jpg",
+      "/images/projetos-entregues/metro-sao-paulo-linha-5/03.jpg",
+      "/images/projetos-entregues/metro-sao-paulo-linha-5/04.jpg"
+    ],
+    "proporcao": "retrato"
+  },
+  "data-hall-5-santiago": {
+    "obra": "Data Hall 5 — Ascenty Chile",
+    "local": "Santiago, Chile",
+    "setor": "data-centers",
+    "ano": "2024",
+    "parceiros": [],
+    "resumoCard": "Suministro de 40 transformadores tipo seco de 400 kVA para los sistemas PDU y RPP de un data center en Santiago.",
+    "descricao": "Suministro de 40 transformadores trifásicos tipo seco de 400 kVA para el Data Hall 5 de Ascenty Chile (META), en Santiago, destinados a los sistemas de distribución de energía de los tableros PDU (Power Distribution Unit) y RPP (Remote Power Panel). Desarrollados para operación continua en infraestructura crítica de data centers, los equipos poseen devanados en aluminio impregnados en resina epóxi, factor K13, grupo de conexión Dyn1 y elevada confiabilidad para alimentación de cargas no lineales típicas de ambientes de misión crítica.",
+    "especificacoes": [
+      "40 transformadores trifásicos tipo seco",
+      "Potencia: 400 kVA cada uno",
+      "Devanados en aluminio impregnados en resina epóxi",
+      "Factor K13",
+      "Grupo de conexión Dyn1",
+      "Aplicación: tableros PDU y RPP"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/data-hall-5-santiago/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/data-hall-5-santiago/01.jpg",
+      "/images/projetos-entregues/data-hall-5-santiago/02.jpg",
+      "/images/projetos-entregues/data-hall-5-santiago/03.jpg",
+      "/images/projetos-entregues/data-hall-5-santiago/04.jpg"
+    ],
+    "proporcao": "retrato"
+  },
+  "usinas-hidreletricas-cesp": {
+    "obra": "Usinas Hidrelétricas da CESP",
+    "local": "São Paulo, Brasil",
+    "setor": "hidreletrica",
+    "ano": "2019–2020 · 2023",
+    "parceiros": [],
+    "resumoCard": "Retrofit de 12 transformadores monofásicos en cinco centrales hidroeléctricas, sustituyendo equipos de la propia Zilmer de 1997.",
+    "descricao": "Zilmer suministró 12 transformadores monofásicos en aluminio a CESP (Companhia Energética de São Paulo) entre 2019 y 2020, destinados al retrofit de equipos originalmente suministrados por la propia empresa en 1997. Los transformadores integran las Centrales Hidroeléctricas de Barra Bonita, Promissão, Jupiá, Jurumirim y Porto Primavera, demostrando la confiabilidad y la longevidad de las soluciones Zilmer. En continuidad a la asociación, una nueva unidad de fuerza de 600 kVA fue suministrada en 2023.",
+    "especificacoes": [
+      "12 transformadores monofásicos en aluminio",
+      "Transformadores MAM 600 kVA y TAM 1.000 kVA",
+      "Unidad de fuerza de 600 kVA (2023)",
+      "Aplicación: retrofit de equipos suministrados en 1997",
+      "Centrales: Barra Bonita, Promissão, Jupiá, Jurumirim y Porto Primavera"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/usinas-hidreletricas-cesp/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/usinas-hidreletricas-cesp/01.jpg",
+      "/images/projetos-entregues/usinas-hidreletricas-cesp/02.jpg",
+      "/images/projetos-entregues/usinas-hidreletricas-cesp/03.jpg"
+    ],
+    "proporcao": "paisagem"
+  },
+  "cba-aluminio": {
+    "obra": "Companhia Brasileira de Alumínio (CBA)",
+    "local": "Brasil",
+    "setor": "mineracao-siderurgicas",
+    "ano": "2024",
+    "parceiros": [],
+    "resumoCard": "Transformador tipo seco de 3.000 kVA, factor K4, para una de las mayores productoras integradas de aluminio del mundo.",
+    "descricao": "Transformador trifásico tipo seco de 3.000 kVA, 15 kV, factor K4, destinado a la Companhia Brasileira de Alumínio (CBA), una de las mayores productoras integradas de aluminio del mundo. Fabricado con devanados en aluminio encapsulados en resina epóxi al vacío, desarrollado para operar con elevada confiabilidad en una de las más importantes plantas industriales del sector del aluminio.",
+    "especificacoes": [
+      "Transformador trifásico tipo seco",
+      "Potencia: 3.000 kVA",
+      "Tensión: 15 kV",
+      "Factor K4",
+      "Devanados en aluminio encapsulados en resina epóxi al vacío"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/cba-aluminio/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/cba-aluminio/01.jpg",
+      "/images/projetos-entregues/cba-aluminio/02.jpg"
+    ],
+    "proporcao": "paisagem"
+  },
+  "refap-canoas": {
+    "obra": "Refinaria Alberto Pasqualini (REFAP)",
+    "local": "Canoas, Brasil",
+    "setor": "oleo-gas",
+    "ano": "2023",
+    "parceiros": [],
+    "resumoCard": "Segunda unidad de transformador tipo seco de 3.750/4.690 kVA para la Casa de Fuerza de una refinería de Petrobras.",
+    "descricao": "Zilmer suministró la segunda unidad de un transformador trifásico tipo seco de 3.750/4.690 kVA, 15 kV, destinado a Petrobras para instalación en la Casa de Fuerza (CAFOR) de la Refinería Alberto Pasqualini (REFAP), en Canoas – RS. Desarrollado para una aplicación crítica en la industria de petróleo y gas, el equipo fue fabricado con devanados en aluminio encapsulados en resina epóxi al vacío, incorporando sistema de ventilación forzada y seccionador bajo carga integrado. El proyecto fue concebido para garantizar elevada confiabilidad operacional, seguridad y continuidad de servicio, atendiendo a los rigurosos requisitos técnicos exigidos por una de las principales refinerías de Petrobras.",
+    "especificacoes": [
+      "Transformador trifásico tipo seco",
+      "Potencia: 3.750/4.690 kVA",
+      "Tensión: 15 kV",
+      "Devanados en aluminio encapsulados en resina epóxi al vacío",
+      "Sistema de ventilación forzada",
+      "Seccionador bajo carga integrado",
+      "Aplicación: Casa de Fuerza (CAFOR)"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/refap-canoas/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/refap-canoas/01.jpg",
+      "/images/projetos-entregues/refap-canoas/02.jpg",
+      "/images/projetos-entregues/refap-canoas/03.jpg",
+      "/images/projetos-entregues/refap-canoas/04.jpg"
+    ],
+    "proporcao": "retrato"
+  },
+  "albras-tratamento-efluentes": {
+    "obra": "ALBRAS — Sistema de Tratamento de Efluentes",
+    "local": "Barcarena, Brasil",
+    "setor": "mineracao-siderurgicas",
+    "ano": "2026",
+    "parceiros": [
+      "AMC Soluções em Energia"
+    ],
+    "resumoCard": "Tres transformadores tipo seco de 1.500 kVA, IP54, para el sistema de tratamiento de efluentes de una productora de aluminio primario.",
+    "descricao": "Tres transformadores trifásicos tipo seco de 1.500 kVA, 4,16/0,48 kV, destinados al Sistema de Tratamiento de Efluentes Oeste de ALBRAS, por medio de AMC Soluções em Energia. Proyectados para operación continua en ambiente industrial agresivo, los equipos poseen grado de protección IP54, grupo de conexión Dyn1 y operación en paralelo, garantizando elevada confiabilidad para una aplicación esencial al proceso de tratamiento de efluentes de una de las mayores productoras de aluminio primario del mundo.",
+    "especificacoes": [
+      "Tres transformadores trifásicos tipo seco",
+      "Potencia: 1.500 kVA cada uno",
+      "Tensión: 4,16/0,48 kV",
+      "Grado de protección IP54",
+      "Grupo de conexión Dyn1",
+      "Operación en paralelo"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/albras-tratamento-efluentes/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/albras-tratamento-efluentes/01.jpg",
+      "/images/projetos-entregues/albras-tratamento-efluentes/02.jpg"
+    ],
+    "proporcao": "paisagem"
+  },
+  "central-termoeletrica-sulfuro": {
+    "obra": "Central Termoelétrica Sulfuro",
+    "local": "Calama, Chile",
+    "setor": "mineracao-siderurgicas",
+    "ano": "2026",
+    "parceiros": [],
+    "resumoCard": "Seis transformadores inmersos en aceite de 2.500 kVA para la central termoeléctrica de una operación de producción de cobre, en Chile.",
+    "descricao": "Seis transformadores trifásicos inmersos en aceite, con devanados en cobre, potencia de 2.500 kVA, clase de tensión de 15 kV y frecuencia de 50 Hz, destinados a la Central Termoeléctrica Sulfuro, en Calama, Chile. Desarrollados para una aplicación crítica en la industria de la minería, los equipos alimentan los sistemas de generación de vapor y energía utilizados en las etapas de lixiviación, hidrometalurgia y electroobtención, procesos fundamentales para la producción de cobre a partir de minerales sulfurados.",
+    "especificacoes": [
+      "Seis transformadores trifásicos inmersos en aceite",
+      "Devanados en cobre",
+      "Potencia: 2.500 kVA",
+      "Clase de tensión: 15 kV",
+      "Frecuencia: 50 Hz",
+      "Aplicación: lixiviación, hidrometalurgia y electroobtención"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/central-termoeletrica-sulfuro/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/central-termoeletrica-sulfuro/01.jpg",
+      "/images/projetos-entregues/central-termoeletrica-sulfuro/02.jpg",
+      "/images/projetos-entregues/central-termoeletrica-sulfuro/03.jpg"
+    ],
+    "proporcao": "paisagem"
+  },
+  "simec-pindamonhangaba": {
+    "obra": "Usina Siderúrgica Simec",
+    "local": "Pindamonhangaba, Brasil",
+    "setor": "mineracao-siderurgicas",
+    "ano": "2024",
+    "parceiros": [],
+    "resumoCard": "Transformador trifásico en cobre, 15 kV, con protectores de sobretensión, para puentes grúa de acería.",
+    "descricao": "Transformador trifásico en cobre, 15 kV, con protectores de sobretensión, para aplicación en puentes grúa de acería. Suministrado a la usina siderúrgica Simec, en Pindamonhangaba – SP.",
+    "especificacoes": [
+      "Transformador trifásico en cobre",
+      "Tensión: 15 kV",
+      "Protectores de sobretensión",
+      "Aplicación: puentes grúa de acería"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/simec-pindamonhangaba/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/simec-pindamonhangaba/01.jpg",
+      "/images/projetos-entregues/simec-pindamonhangaba/02.jpg",
+      "/images/projetos-entregues/simec-pindamonhangaba/03.jpg"
+    ],
+    "proporcao": "paisagem"
+  },
+  "polo-petroquimico-camacari": {
+    "obra": "Polo Petroquímico de Camaçari",
+    "local": "Camaçari, Brasil",
+    "setor": "oleo-gas",
+    "ano": "2024",
+    "parceiros": [],
+    "resumoCard": "Transformadores inmersos en aceite de hasta 12.500 kVA y tipo seco de hasta 2.500 kVA para la producción de cloro y soda cáustica.",
+    "descricao": "Transformadores trifásicos inmersos en aceite y tipo seco suministrados al Polo Petroquímico de Camaçari (BA), destinados a los procesos de producción de cloro, soda cáustica y otros insumos químicos. El suministro contempló transformadores inmersos en aceite de 10.000/12.500 kVA, clase de tensión de 72 kV, con ventilación forzada, factor K7 y NBI de 350 kV en el lado de alta tensión, además de transformadores tipo seco en las potencias de 1.000, 2.000 y 2.500 kVA, clase de tensión de 15 kV y materiales aislantes clase térmica H. Proyecto desarrollado para atender a las elevadas exigencias de confiabilidad y continuidad operacional de la industria petroquímica.",
+    "especificacoes": [
+      "Transformadores inmersos en aceite: 10.000/12.500 kVA",
+      "Clase de tensión: 72 kV, NBI de 350 kV en el lado de alta",
+      "Ventilación forzada, factor K7",
+      "Transformadores tipo seco: 1.000, 2.000 y 2.500 kVA",
+      "Clase de tensión: 15 kV, aislantes clase térmica H",
+      "Aplicación: producción de cloro, soda cáustica e insumos químicos"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/polo-petroquimico-camacari/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/polo-petroquimico-camacari/01.jpg",
+      "/images/projetos-entregues/polo-petroquimico-camacari/02.jpg",
+      "/images/projetos-entregues/polo-petroquimico-camacari/03.jpg",
+      "/images/projetos-entregues/polo-petroquimico-camacari/04.jpg",
+      "/images/projetos-entregues/polo-petroquimico-camacari/05.jpg",
+      "/images/projetos-entregues/polo-petroquimico-camacari/06.jpg"
+    ],
+    "proporcao": "retrato"
   }
 }
