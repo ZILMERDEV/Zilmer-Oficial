@@ -20,6 +20,9 @@ type Projeto = {
   // Nome da obra (ex: "UHE Monte Carlo"). Opcional: nem todo projeto tem um
   // empreendimento nomeado — quando falta, o local assume o papel de título.
   obra?: string
+  // Orientação das fotos do projeto: define a moldura da galeria.
+  // Ausente = paisagem.
+  proporcao?: 'retrato' | 'paisagem'
   parceiros: string[]
   local: string
   setor: string
@@ -121,7 +124,11 @@ export default function ProjetoEntregueDetalhe({
         <div className="container">
           <div className={styles.grid}>
             <div className={styles.galeria}>
-              <div className={styles.imageWrapper}>
+              <div
+                className={`${styles.imageWrapper} ${
+                  projeto.proporcao === 'retrato' ? styles.retrato : styles.paisagem
+                }`}
+              >
                 <Image
                   src={imagens[indiceAtual]}
                   alt={`${titulo} — ${t.foto} ${indiceAtual + 1}`}

@@ -3,7 +3,10 @@
     "local": "Cabinda, Angola",
     "setor": "oleo-gas",
     "ano": "2024",
-    "parceiros": ["OEC — Odebrecht Ingeniería y Construcción", "GHENOVA"],
+    "parceiros": [
+      "OEC — Odebrecht Ingeniería y Construcción",
+      "GHENOVA"
+    ],
     "resumoCard": "Transformador trifásico tipo seco de 2.500 kVA para sistema de bombeo en una de las mayores refinerías de petróleo de África.",
     "descricao": "Zilmer suministró un transformador trifásico tipo seco en aluminio, de 2.500 kVA, 15 kV, destinado a una de las mayores refinerías de petróleo de África, en Cabinda, Angola, para aplicación en sistemas de bombeo. El equipo fue desarrollado en asociación con OEC (Odebrecht Ingeniería y Construcción) y GHENOVA, cumpliendo con los elevados requisitos de confiabilidad y desempeño exigidos por el sector de petróleo y gas.\n\nFabricado con tecnología de encapsulado en resina epóxi al vacío y devanados en aluminio, posee grado de protección IP55, factor K4, sistema especial de ventilación forzada y pintura anticorrosiva de alto desempeño clase C5H, conforme a la norma EN ISO 12944, garantizando elevada resistencia en ambiente costero.\n\nEl proyecto fue desarrollado en conformidad con la norma IEC 60076-11, asegurando robustez, seguridad operacional y elevada disponibilidad.",
     "especificacoes": [
@@ -16,12 +19,45 @@
       "Sistema especial de ventilación forzada",
       "Pintura anticorrosiva clase C5H (EN ISO 12944)"
     ],
-    "normas": ["IEC 60076-11", "EN ISO 12944"],
+    "normas": [
+      "IEC 60076-11",
+      "EN ISO 12944"
+    ],
     "imagemCapa": "/images/projetos-entregues/cabinda-angola/01.jpg",
     "imagens": [
       "/images/projetos-entregues/cabinda-angola/01.jpg",
       "/images/projetos-entregues/cabinda-angola/02.jpg",
       "/images/projetos-entregues/cabinda-angola/03.jpg"
-    ]
+    ],
+    "proporcao": "retrato"
+  },
+  "uhe-monte-claro": {
+    "obra": "UHE Monte Claro",
+    "local": "Rio Grande do Sul, Brasil",
+    "setor": "hidreletrica",
+    "ano": "2003 · Retrofit 2021",
+    "parceiros": [],
+    "resumoCard": "Transformador de excitación trifásico de 1.100 kVA para el sistema de excitación de los generadores, modernizado por Zilmer en 2021.",
+    "descricao": "Transformador de excitación trifásico TAM de 1.100 kVA, 15 kV, destinado al sistema de excitación de los generadores de la Central Hidroeléctrica Monte Claro, de la Companhia Energética Rio das Antas (CERAN). En operación desde 2003, el equipo pasó por un proceso de modernización (retrofit) ejecutado por la propia Zilmer en 2021, extendiendo su vida útil y reafirmando la confiabilidad de equipos proyectados para aplicaciones críticas en el sector de generación de energía.",
+    "especificacoes": [
+      "Transformador de excitación trifásico, tipo TAM",
+      "Potencia: 1.100 kVA",
+      "Tensión: 15 kV",
+      "Aplicación: sistema de excitación de los generadores",
+      "En operación desde 2003",
+      "Retrofit ejecutado por Zilmer en 2021"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/uhe-monte-claro/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/uhe-monte-claro/01.jpg",
+      "/images/projetos-entregues/uhe-monte-claro/02.jpg",
+      "/images/projetos-entregues/uhe-monte-claro/03.jpg",
+      "/images/projetos-entregues/uhe-monte-claro/04.jpg",
+      "/images/projetos-entregues/uhe-monte-claro/05.jpg",
+      "/images/projetos-entregues/uhe-monte-claro/06.jpg",
+      "/images/projetos-entregues/uhe-monte-claro/07.jpg"
+    ],
+    "proporcao": "paisagem"
   }
 }

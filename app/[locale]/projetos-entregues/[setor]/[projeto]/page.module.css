@@ -75,18 +75,31 @@
   top: 96px;
 }
 
+/* A proporção da moldura acompanha a orientação das fotos do projeto —
+   projeto fotografado em pé não cabe na mesma caixa de um fotografado
+   deitado. A classe vem do campo "proporcao" do JSON. */
 .imageWrapper {
   position: relative;
   width: 100%;
-  aspect-ratio: 3 / 4;
   border-radius: 12px;
   overflow: hidden;
   background: var(--bg-light);
   box-shadow: 0 8px 24px rgba(0, 51, 102, 0.1);
 }
 
+.retrato {
+  aspect-ratio: 3 / 4;
+}
+
+.paisagem {
+  aspect-ratio: 4 / 3;
+}
+
+/* "contain", não "cover": estas são fotos de obra entregue — cortar o
+   equipamento para preencher a moldura seria pior do que a sobra nas
+   bordas. Vale inclusive para a foto que destoa do resto do conjunto. */
 .imagem {
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .setaEsquerda,
