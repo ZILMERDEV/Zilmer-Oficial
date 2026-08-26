@@ -1,0 +1,30 @@
+{
+  "transporte": {
+    "titulo": "Transportes",
+    "imagemCapa": "/images/areas/backgrounds/transporte.webp"
+  },
+  "hidreletrica": {
+    "titulo": "Hidrelétrica",
+    "imagemCapa": "/images/areas/backgrounds/hidreletrica.webp"
+  },
+  "mineracao-siderurgicas": {
+    "titulo": "Mineração e Siderúrgicas",
+    "imagemCapa": "/images/areas/backgrounds/mineracao.jpg"
+  },
+  "subestacoes": {
+    "titulo": "Subestações",
+    "imagemCapa": "/images/areas/backgrounds/subestacoes.webp"
+  },
+  "energias-renovaveis": {
+    "titulo": "Energias Renováveis",
+    "imagemCapa": "/images/areas/backgrounds/energias-renovaveis.jpg"
+  },
+  "oleo-gas": {
+    "titulo": "Óleo e Gás",
+    "imagemCapa": ""
+  },
+  "data-centers": {
+    "titulo": "Data Centers",
+    "imagemCapa": ""
+  }
+}

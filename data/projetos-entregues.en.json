@@ -1,13 +1,11 @@
 {
-  "volga-240586": {
-    "titulo": "Volga 240586",
-    "cliente": "Volga",
-    "parceiros": ["OEC — Odebrecht Engineering & Construction", "GHENOVA"],
+  "cabinda-angola": {
     "local": "Cabinda, Angola",
-    "setor": "Oil & Gas",
+    "setor": "oleo-gas",
     "ano": "2024",
+    "parceiros": ["OEC — Odebrecht Engineering & Construction", "GHENOVA"],
     "resumoCard": "2,500 kVA three-phase dry-type transformer for a pumping system at one of Africa's largest oil refineries.",
-    "descricao": "Zilmer supplied a 2,500 kVA, 15 kV three-phase dry-type transformer with aluminum windings for one of Africa's largest oil refineries, in Cabinda, Angola, for use in pumping systems. The equipment was developed for Volga, in partnership with OEC (Odebrecht Engineering & Construction) and GHENOVA, meeting the high reliability and performance requirements demanded by the oil and gas sector.\n\nBuilt with vacuum cast epoxy resin encapsulation technology and aluminum windings, it features IP55 protection rating, K4 factor, a special forced ventilation system, and high-performance C5H-class anticorrosive coating in accordance with EN ISO 12944, ensuring high resistance in coastal environments.\n\nThe project was developed in compliance with IEC 60076-11, ensuring robustness, operational safety, and high availability.",
+    "descricao": "Zilmer supplied a 2,500 kVA, 15 kV three-phase dry-type transformer with aluminum windings for one of Africa's largest oil refineries, in Cabinda, Angola, for use in pumping systems. The equipment was developed in partnership with OEC (Odebrecht Engineering & Construction) and GHENOVA, meeting the high reliability and performance requirements demanded by the oil and gas sector.\n\nBuilt with vacuum cast epoxy resin encapsulation technology and aluminum windings, it features IP55 protection rating, K4 factor, a special forced ventilation system, and high-performance C5H-class anticorrosive coating in accordance with EN ISO 12944, ensuring high resistance in coastal environments.\n\nThe project was developed in compliance with IEC 60076-11, ensuring robustness, operational safety, and high availability.",
     "especificacoes": [
       "Three-phase dry-type transformer, aluminum windings",
       "Power: 2,500 kVA",
@@ -19,11 +17,11 @@
       "C5H-class anticorrosive coating (EN ISO 12944)"
     ],
     "normas": ["IEC 60076-11", "EN ISO 12944"],
-    "imagemCapa": "/images/projetos-entregues/volga-240586/01.jpg",
+    "imagemCapa": "/images/projetos-entregues/cabinda-angola/01.jpg",
     "imagens": [
-      "/images/projetos-entregues/volga-240586/01.jpg",
-      "/images/projetos-entregues/volga-240586/02.jpg",
-      "/images/projetos-entregues/volga-240586/03.jpg"
+      "/images/projetos-entregues/cabinda-angola/01.jpg",
+      "/images/projetos-entregues/cabinda-angola/02.jpg",
+      "/images/projetos-entregues/cabinda-angola/03.jpg"
     ]
   }
 }

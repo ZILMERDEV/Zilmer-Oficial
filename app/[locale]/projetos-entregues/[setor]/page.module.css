@@ -1,0 +1,135 @@
+.page {
+  padding: 64px 0 96px;
+  background: var(--bg-white);
+}
+
+.header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 48px;
+}
+
+.voltar {
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-bottom: 16px;
+}
+
+.voltar:hover {
+  color: var(--primary-color);
+}
+
+.title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.vazio {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.card {
+  background: var(--bg-white);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 360px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 12px 32px rgba(0, 51, 102, 0.12);
+  transform: translateY(-2px);
+}
+
+.cardLink {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: var(--bg-light);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 20px;
+}
+
+.cardMeta {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  margin-bottom: 8px;
+}
+
+.cardTitle {
+  font-size: 1.15rem;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+  line-height: 1.25;
+}
+
+.cardDescription {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  /* Trunca em 3 linhas — mantém os cards com a mesma altura na grade
+     mesmo com resumos de tamanhos diferentes. */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.readMore {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 0.92rem;
+}
+
+.card:hover .readMore {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 40px 0 64px;
+  }
+
+  .title {
+    font-size: 1.9rem;
+  }
+
+  .header {
+    margin-bottom: 32px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}

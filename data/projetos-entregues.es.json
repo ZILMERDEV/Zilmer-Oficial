@@ -1,13 +1,11 @@
 {
-  "volga-240586": {
-    "titulo": "Volga 240586",
-    "cliente": "Volga",
-    "parceiros": ["OEC — Odebrecht Ingeniería y Construcción", "GHENOVA"],
+  "cabinda-angola": {
     "local": "Cabinda, Angola",
-    "setor": "Petróleo y Gas",
+    "setor": "oleo-gas",
     "ano": "2024",
+    "parceiros": ["OEC — Odebrecht Ingeniería y Construcción", "GHENOVA"],
     "resumoCard": "Transformador trifásico tipo seco de 2.500 kVA para sistema de bombeo en una de las mayores refinerías de petróleo de África.",
-    "descricao": "Zilmer suministró un transformador trifásico tipo seco en aluminio, de 2.500 kVA, 15 kV, destinado a una de las mayores refinerías de petróleo de África, en Cabinda, Angola, para aplicación en sistemas de bombeo. El equipo fue desarrollado para Volga, en asociación con OEC (Odebrecht Ingeniería y Construcción) y GHENOVA, cumpliendo con los elevados requisitos de confiabilidad y desempeño exigidos por el sector de petróleo y gas.\n\nFabricado con tecnología de encapsulado en resina epóxi al vacío y devanados en aluminio, posee grado de protección IP55, factor K4, sistema especial de ventilación forzada y pintura anticorrosiva de alto desempeño clase C5H, conforme a la norma EN ISO 12944, garantizando elevada resistencia en ambiente costero.\n\nEl proyecto fue desarrollado en conformidad con la norma IEC 60076-11, asegurando robustez, seguridad operacional y elevada disponibilidad.",
+    "descricao": "Zilmer suministró un transformador trifásico tipo seco en aluminio, de 2.500 kVA, 15 kV, destinado a una de las mayores refinerías de petróleo de África, en Cabinda, Angola, para aplicación en sistemas de bombeo. El equipo fue desarrollado en asociación con OEC (Odebrecht Ingeniería y Construcción) y GHENOVA, cumpliendo con los elevados requisitos de confiabilidad y desempeño exigidos por el sector de petróleo y gas.\n\nFabricado con tecnología de encapsulado en resina epóxi al vacío y devanados en aluminio, posee grado de protección IP55, factor K4, sistema especial de ventilación forzada y pintura anticorrosiva de alto desempeño clase C5H, conforme a la norma EN ISO 12944, garantizando elevada resistencia en ambiente costero.\n\nEl proyecto fue desarrollado en conformidad con la norma IEC 60076-11, asegurando robustez, seguridad operacional y elevada disponibilidad.",
     "especificacoes": [
       "Transformador trifásico tipo seco, devanados en aluminio",
       "Potencia: 2.500 kVA",
@@ -19,11 +17,11 @@
       "Pintura anticorrosiva clase C5H (EN ISO 12944)"
     ],
     "normas": ["IEC 60076-11", "EN ISO 12944"],
-    "imagemCapa": "/images/projetos-entregues/volga-240586/01.jpg",
+    "imagemCapa": "/images/projetos-entregues/cabinda-angola/01.jpg",
     "imagens": [
-      "/images/projetos-entregues/volga-240586/01.jpg",
-      "/images/projetos-entregues/volga-240586/02.jpg",
-      "/images/projetos-entregues/volga-240586/03.jpg"
+      "/images/projetos-entregues/cabinda-angola/01.jpg",
+      "/images/projetos-entregues/cabinda-angola/02.jpg",
+      "/images/projetos-entregues/cabinda-angola/03.jpg"
     ]
   }
 }

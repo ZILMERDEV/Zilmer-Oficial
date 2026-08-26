@@ -12,9 +12,14 @@ import dataPt from '@/data/projetos-entregues.json'
 import dataEn from '@/data/projetos-entregues.en.json'
 import dataEs from '@/data/projetos-entregues.es.json'
 
+import setoresPt from '@/data/projetos-setores.json'
+import setoresEn from '@/data/projetos-setores.en.json'
+import setoresEs from '@/data/projetos-setores.es.json'
+
 type Projeto = {
-  titulo: string
-  cliente: string
+  // Nome da obra (ex: "UHE Monte Carlo"). Opcional: nem todo projeto tem um
+  // empreendimento nomeado — quando falta, o local assume o papel de título.
+  obra?: string
   parceiros: string[]
   local: string
   setor: string
@@ -27,28 +32,44 @@ type Projeto = {
   imagens: string[]
 }
 
-type ProjetosData = { [slug: string]: Projeto }
+type Setor = {
+  titulo: string
+  imagemCapa: string
+}
 
-export default function ProjetoEntregueDetalhe({ params }: { params: { slug: string } }) {
+type ProjetosData = { [slug: string]: Projeto }
+type SetoresData = { [slug: string]: Setor }
+
+export default function ProjetoEntregueDetalhe({
+  params,
+}: {
+  params: { setor: string; projeto: string }
+}) {
   const locale = useLocale()
   const data = (
     locale === 'en' ? dataEn : locale === 'es' ? dataEs : dataPt
   ) as ProjetosData
 
-  const projeto = data[params.slug]
+  const setores = (
+    locale === 'en' ? setoresEn : locale === 'es' ? setoresEs : setoresPt
+  ) as SetoresData
+
+  const projeto = data[params.projeto]
   const [indiceAtual, setIndiceAtual] = useState(0)
 
-  if (!projeto) notFound()
+  // O projeto tem que existir E pertencer ao setor da URL — senão o mesmo
+  // projeto responderia sob qualquer setor, com um "voltar" mentiroso.
+  if (!projeto || projeto.setor !== params.setor) notFound()
+
+  const setor = setores[projeto.setor]
+  const titulo = projeto.obra || projeto.local
 
   const imagens = projeto.imagens.length ? projeto.imagens : [projeto.imagemCapa]
   const temVariasImagens = imagens.length > 1
 
   const t = {
-    voltar:
-      locale === 'en' ? '← All projects' : locale === 'es' ? '← Todos los proyectos' : '← Todos os projetos',
-    cliente: locale === 'en' ? 'Client' : locale === 'es' ? 'Cliente' : 'Cliente',
-    local: locale === 'en' ? 'Location' : locale === 'es' ? 'Ubicación' : 'Local',
     ano: locale === 'en' ? 'Year' : locale === 'es' ? 'Año' : 'Ano',
+    local: locale === 'en' ? 'Location' : locale === 'es' ? 'Ubicación' : 'Local',
     setor: locale === 'en' ? 'Sector' : locale === 'es' ? 'Sector' : 'Setor',
     parceiros: locale === 'en' ? 'Partners' : locale === 'es' ? 'Socios' : 'Parceiros',
     especificacoes:
@@ -67,24 +88,26 @@ export default function ProjetoEntregueDetalhe({ params }: { params: { slug: str
     <div className={styles.page}>
       <section className={styles.hero}>
         <div className="container">
-          <Link href="/projetos-entregues" className={styles.voltar}>
-            {t.voltar}
+          {/* Volta para o setor de onde se veio, nomeando-o — "todos os
+              projetos" seria mentira, já que o destino é só este setor. */}
+          <Link href={`/projetos-entregues/${params.setor}`} className={styles.voltar}>
+            ← {setor?.titulo ?? ''}
           </Link>
 
-          <h1 className={styles.titulo}>{projeto.titulo}</h1>
+          <h1 className={styles.titulo}>{titulo}</h1>
 
           <div className={styles.metaRow}>
-            <div className={styles.metaItem}>
-              <span className={styles.metaLabel}>{t.cliente}</span>
-              <span className={styles.metaValue}>{projeto.cliente}</span>
-            </div>
-            <div className={styles.metaItem}>
-              <span className={styles.metaLabel}>{t.local}</span>
-              <span className={styles.metaValue}>{projeto.local}</span>
-            </div>
+            {/* Só entra na linha de dados quando não é o título — senão o
+                local apareceria duas vezes na mesma dobra. */}
+            {projeto.obra && (
+              <div className={styles.metaItem}>
+                <span className={styles.metaLabel}>{t.local}</span>
+                <span className={styles.metaValue}>{projeto.local}</span>
+              </div>
+            )}
             <div className={styles.metaItem}>
               <span className={styles.metaLabel}>{t.setor}</span>
-              <span className={styles.metaValue}>{projeto.setor}</span>
+              <span className={styles.metaValue}>{setor?.titulo ?? ''}</span>
             </div>
             <div className={styles.metaItem}>
               <span className={styles.metaLabel}>{t.ano}</span>
@@ -101,7 +124,7 @@ export default function ProjetoEntregueDetalhe({ params }: { params: { slug: str
               <div className={styles.imageWrapper}>
                 <Image
                   src={imagens[indiceAtual]}
-                  alt={`${projeto.titulo} — ${t.foto} ${indiceAtual + 1}`}
+                  alt={`${titulo} — ${t.foto} ${indiceAtual + 1}`}
                   fill
                   className={styles.imagem}
                   sizes="(max-width: 968px) 100vw, 55vw"

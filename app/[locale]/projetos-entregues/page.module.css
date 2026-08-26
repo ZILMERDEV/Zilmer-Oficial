@@ -12,54 +12,82 @@
 .title {
   font-size: 2.5rem;
   color: var(--primary-color);
-  margin-bottom: 12px;
-}
-
-.subtitle {
-  color: var(--text-light);
-  font-size: 1.05rem;
-  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
 }
 
 .card {
-  background: var(--bg-white);
-  border: 1px solid var(--border-color);
+  position: relative;
   border-radius: 8px;
   overflow: hidden;
-  max-width: 360px;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.card:hover {
-  box-shadow: 0 12px 32px rgba(0, 51, 102, 0.12);
-  transform: translateY(-2px);
+  background: var(--bg-light);
 }
 
 .cardLink {
   display: block;
   color: inherit;
   text-decoration: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.cardLink:hover {
+  box-shadow: 0 12px 32px rgba(0, 51, 102, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Setor ainda sem projeto — presente na grade, mas visivelmente inativo. */
+.cardVazio {
+  opacity: 0.55;
 }
 
 .imageContainer {
   position: relative;
   width: 100%;
-  aspect-ratio: 1 / 1;
-  background: var(--bg-light);
+  aspect-ratio: 4 / 3;
 }
 
 .image {
   object-fit: cover;
 }
 
+.capaVazia {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+/* Escurece a base da foto para o texto branco ter contraste garantido,
+   independentemente de a imagem ser clara ou escura. */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 10, 40, 0.88) 0%,
+    rgba(0, 10, 40, 0.55) 38%,
+    rgba(0, 10, 40, 0.12) 70%,
+    rgba(0, 10, 40, 0.05) 100%
+  );
+}
+
 .cardContent {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   padding: 20px;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  color: #fff;
+  line-height: 1.25;
+  margin-bottom: 6px;
 }
 
 .cardMeta {
@@ -68,39 +96,7 @@
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--secondary-color);
-  margin-bottom: 8px;
-}
-
-.cardTitle {
-  font-size: 1.15rem;
-  color: var(--primary-color);
-  margin-bottom: 8px;
-  line-height: 1.25;
-}
-
-.cardDescription {
-  color: var(--text-light);
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin-bottom: 16px;
-  /* Trunca em 3 linhas — mantém os cards com a mesma altura na grade
-     mesmo com resumos de tamanhos diferentes. */
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.readMore {
-  display: inline-block;
-  font-weight: 600;
-  color: var(--primary-color);
-  font-size: 0.92rem;
-}
-
-.card:hover .readMore {
-  color: var(--secondary-color);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 @media (max-width: 768px) {
@@ -118,10 +114,10 @@
 
   .grid {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 20px;
   }
 
   .cardContent {
-    padding: 20px;
+    padding: 18px;
   }
 }
