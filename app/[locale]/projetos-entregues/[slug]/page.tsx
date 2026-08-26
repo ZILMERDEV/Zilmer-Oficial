@@ -60,6 +60,7 @@ export default function ProjetoEntregueDetalhe({ params }: { params: { slug: str
         : locale === 'es'
         ? '¿Necesita una solución como esta?'
         : 'Precisa de uma solução como esta?',
+    foto: locale === 'en' ? 'photo' : locale === 'es' ? 'foto' : 'foto',
   }
 
   return (
@@ -100,7 +101,7 @@ export default function ProjetoEntregueDetalhe({ params }: { params: { slug: str
               <div className={styles.imageWrapper}>
                 <Image
                   src={imagens[indiceAtual]}
-                  alt={`${projeto.titulo} — foto ${indiceAtual + 1}`}
+                  alt={`${projeto.titulo} — ${t.foto} ${indiceAtual + 1}`}
                   fill
                   className={styles.imagem}
                   sizes="(max-width: 968px) 100vw, 55vw"
