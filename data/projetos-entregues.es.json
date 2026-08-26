@@ -59,5 +59,29 @@
       "/images/projetos-entregues/uhe-monte-claro/07.jpg"
     ],
     "proporcao": "paisagem"
+  },
+  "usina-pelotizacao-sao-luis": {
+    "obra": "Usina de Pelotização de São Luís",
+    "local": "São Luís, Brasil",
+    "setor": "mineracao-siderurgicas",
+    "ano": "2021",
+    "parceiros": [],
+    "resumoCard": "Suministro de diversos transformadores, de 10 kVA a 15.000 kVA, para una de las principales plantas de beneficio de mineral de hierro de Brasil.",
+    "descricao": "Diversos transformadores inmersos en aceite de Zilmer fueron suministrados a la Planta de Peletización de São Luís (UPSL), en Maranhão, una de las principales plantas de beneficio de mineral de hierro de Brasil. El suministro contempló equipos para diferentes aplicaciones de la planta, desde transformadores auxiliares tipo seco de 10 kVA (0,48 kV) hasta transformadores de potencia de 12.500/15.000 kVA, evidenciando la capacidad de Zilmer para atender proyectos de gran porte con soluciones para todos los niveles de potencia.",
+    "especificacoes": [
+      "Diversos transformadores inmersos en aceite y tipo seco",
+      "Transformadores auxiliares tipo seco: 10 kVA (0,48 kV)",
+      "Transformadores de potencia: 12.500/15.000 kVA",
+      "Aplicación: beneficio de mineral de hierro"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/usina-pelotizacao-sao-luis/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/01.jpg",
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/02.jpg",
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/03.jpg",
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/04.jpg"
+    ],
+    "proporcao": "paisagem"
   }
 }

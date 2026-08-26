@@ -59,5 +59,29 @@
       "/images/projetos-entregues/uhe-monte-claro/07.jpg"
     ],
     "proporcao": "paisagem"
+  },
+  "usina-pelotizacao-sao-luis": {
+    "obra": "Usina de Pelotização de São Luís",
+    "local": "São Luís, Brazil",
+    "setor": "mineracao-siderurgicas",
+    "ano": "2021",
+    "parceiros": [],
+    "resumoCard": "Supply of multiple transformers, from 10 kVA to 15,000 kVA, for one of Brazil's leading iron ore processing plants.",
+    "descricao": "Several Zilmer oil-immersed transformers were supplied to the São Luís Pelletizing Plant (UPSL), in Maranhão, one of Brazil's leading iron ore processing plants. The supply covered equipment for different applications across the plant, from 10 kVA (0.48 kV) dry-type auxiliary transformers to 12,500/15,000 kVA power transformers, demonstrating Zilmer's ability to serve large-scale projects with solutions across every power level.",
+    "especificacoes": [
+      "Multiple oil-immersed and dry-type transformers",
+      "Dry-type auxiliary transformers: 10 kVA (0.48 kV)",
+      "Power transformers: 12,500/15,000 kVA",
+      "Application: iron ore processing"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/usina-pelotizacao-sao-luis/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/01.jpg",
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/02.jpg",
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/03.jpg",
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/04.jpg"
+    ],
+    "proporcao": "paisagem"
   }
 }

@@ -59,5 +59,29 @@
       "/images/projetos-entregues/uhe-monte-claro/07.jpg"
     ],
     "proporcao": "paisagem"
+  },
+  "usina-pelotizacao-sao-luis": {
+    "obra": "Usina de Pelotização de São Luís",
+    "local": "São Luís, Brasil",
+    "setor": "mineracao-siderurgicas",
+    "ano": "2021",
+    "parceiros": [],
+    "resumoCard": "Fornecimento de diversos transformadores, de 10 kVA a 15.000 kVA, para uma das principais plantas de beneficiamento de minério de ferro do Brasil.",
+    "descricao": "Diversos transformadores a óleo da Zilmer foram fornecidos para a Usina de Pelotização de São Luís (UPSL), no Maranhão, uma das principais plantas de beneficiamento de minério de ferro do Brasil. O fornecimento contemplou equipamentos para diferentes aplicações da planta, desde transformadores auxiliares a seco de 10 kVA (0,48 kV) até transformadores de potência de 12.500/15.000 kVA, evidenciando a capacidade da Zilmer em atender projetos de grande porte com soluções para todos os níveis de potência.",
+    "especificacoes": [
+      "Diversos transformadores a óleo e a seco",
+      "Transformadores auxiliares a seco: 10 kVA (0,48 kV)",
+      "Transformadores de potência: 12.500/15.000 kVA",
+      "Aplicação: beneficiamento de minério de ferro"
+    ],
+    "normas": [],
+    "imagemCapa": "/images/projetos-entregues/usina-pelotizacao-sao-luis/01.jpg",
+    "imagens": [
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/01.jpg",
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/02.jpg",
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/03.jpg",
+      "/images/projetos-entregues/usina-pelotizacao-sao-luis/04.jpg"
+    ],
+    "proporcao": "paisagem"
   }
 }
