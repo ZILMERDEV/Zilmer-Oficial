@@ -28,6 +28,9 @@ type Projeto = {
   ano: string
   resumoCard: string
   imagemCapa: string
+  // Fica fora da listagem sem apagar os dados — para reativar depois
+  // basta remover o campo (ou pôr false).
+  arquivado?: boolean
 }
 
 type SetoresData = { [slug: string]: Setor }
@@ -48,7 +51,9 @@ export default function SetorPage({ params }: { params: { setor: string } }) {
 
   if (!setor) notFound()
 
-  const slugs = Object.keys(projetos).filter((slug) => projetos[slug].setor === params.setor)
+  const slugs = Object.keys(projetos).filter(
+    (slug) => projetos[slug].setor === params.setor && !projetos[slug].arquivado
+  )
 
   const t = {
     voltar:

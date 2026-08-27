@@ -23,6 +23,9 @@ type Projeto = {
   setor: string
   ano: string
   imagemCapa: string
+  // Fica fora da listagem sem apagar os dados — para reativar depois
+  // basta remover o campo (ou pôr false).
+  arquivado?: boolean
 }
 
 type SetoresData = { [slug: string]: Setor }
@@ -57,7 +60,9 @@ export default function ProjetosRealizadosPage() {
         <div className={styles.grid}>
           {Object.keys(setores).map((slug) => {
             const setor = setores[slug]
-            const doSetor = Object.values(projetos).filter((p) => p.setor === slug)
+            const doSetor = Object.values(projetos).filter(
+              (p) => p.setor === slug && !p.arquivado
+            )
             const total = doSetor.length
 
             // Capa do setor: imagem própria quando houver; senão a foto do

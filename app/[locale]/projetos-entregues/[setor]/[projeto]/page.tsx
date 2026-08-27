@@ -20,6 +20,9 @@ type Projeto = {
   // Nome da obra (ex: "UHE Monte Carlo"). Opcional: nem todo projeto tem um
   // empreendimento nomeado — quando falta, o local assume o papel de título.
   obra?: string
+  // Fica fora do site sem apagar os dados — para reativar depois basta
+  // remover o campo (ou pôr false).
+  arquivado?: boolean
   // Orientação das fotos do projeto: define a moldura da galeria.
   // Ausente = paisagem.
   proporcao?: 'retrato' | 'paisagem'
@@ -60,9 +63,11 @@ export default function ProjetoEntregueDetalhe({
   const projeto = data[params.projeto]
   const [indiceAtual, setIndiceAtual] = useState(0)
 
-  // O projeto tem que existir E pertencer ao setor da URL — senão o mesmo
-  // projeto responderia sob qualquer setor, com um "voltar" mentiroso.
-  if (!projeto || projeto.setor !== params.setor) notFound()
+  // O projeto tem que existir, pertencer ao setor da URL — senão o mesmo
+  // projeto responderia sob qualquer setor, com um "voltar" mentiroso — e
+  // não estar arquivado: arquivado sai do site inteiro, não só da listagem,
+  // senão um link antigo continuaria abrindo a página normalmente.
+  if (!projeto || projeto.setor !== params.setor || projeto.arquivado) notFound()
 
   const setor = setores[projeto.setor]
   const titulo = projeto.obra || projeto.local

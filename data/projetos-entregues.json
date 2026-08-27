@@ -139,7 +139,8 @@
       "/images/projetos-entregues/planta-quimica-cloronor/03.jpg",
       "/images/projetos-entregues/planta-quimica-cloronor/04.jpg"
     ],
-    "proporcao": "retrato"
+    "proporcao": "retrato",
+    "arquivado": true
   },
   "metro-salvador-linha-1": {
     "obra": "Metrô de Salvador — Linha 1",
@@ -269,7 +270,8 @@
       "/images/projetos-entregues/cba-aluminio/01.jpg",
       "/images/projetos-entregues/cba-aluminio/02.jpg"
     ],
-    "proporcao": "paisagem"
+    "proporcao": "paisagem",
+    "arquivado": true
   },
   "refap-canoas": {
     "obra": "Refinaria Alberto Pasqualini (REFAP)",
