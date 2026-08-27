@@ -21,10 +21,12 @@
   },
   "oleo-gas": {
     "titulo": "Oil & Gas",
-    "imagemCapa": ""
+    "imagemCapa": "/images/projetos-setores/oleo-gas.jpg",
+    "capaComTexto": true
   },
   "data-centers": {
     "titulo": "Data Centers",
-    "imagemCapa": ""
+    "imagemCapa": "/images/projetos-setores/data-centers.jpg",
+    "capaComTexto": true
   }
 }

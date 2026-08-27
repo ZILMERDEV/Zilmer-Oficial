@@ -16,6 +16,10 @@ import dataEs from '@/data/projetos-entregues.es.json'
 type Setor = {
   titulo: string
   imagemCapa: string
+  // Capa já vem com legenda e caixa de texto desenhadas na própria imagem —
+  // o card renderiza só a foto, sem o overlay/título que os demais setores
+  // recebem por cima, senão duplicaria o texto.
+  capaComTexto?: boolean
 }
 
 type Projeto = {
@@ -71,31 +75,33 @@ export default function ProjetosRealizadosPage() {
             const capa = setor.imagemCapa || doSetor[0]?.imagemCapa || ''
 
             const miolo = (
-              <>
-                <div className={styles.imageContainer}>
-                  {capa ? (
-                    <Image
-                      src={capa}
-                      alt=""
-                      aria-hidden="true"
-                      fill
-                      className={styles.image}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    />
-                  ) : (
-                    <div className={styles.capaVazia} aria-hidden="true" />
-                  )}
-                  <div className={styles.overlay} aria-hidden="true" />
-                  <div className={styles.cardContent}>
-                    <h2 className={styles.cardTitle}>{setor.titulo}</h2>
-                    <span className={styles.cardMeta}>
-                      {total > 0
-                        ? `${total} ${total === 1 ? t.projeto : t.projetos}`
-                        : t.emBreve}
-                    </span>
-                  </div>
-                </div>
-              </>
+              <div className={styles.imageContainer}>
+                {capa ? (
+                  <Image
+                    src={capa}
+                    alt={setor.capaComTexto ? setor.titulo : ''}
+                    aria-hidden={setor.capaComTexto ? undefined : 'true'}
+                    fill
+                    className={styles.image}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
+                ) : (
+                  <div className={styles.capaVazia} aria-hidden="true" />
+                )}
+                {!setor.capaComTexto && (
+                  <>
+                    <div className={styles.overlay} aria-hidden="true" />
+                    <div className={styles.cardContent}>
+                      <h2 className={styles.cardTitle}>{setor.titulo}</h2>
+                      <span className={styles.cardMeta}>
+                        {total > 0
+                          ? `${total} ${total === 1 ? t.projeto : t.projetos}`
+                          : t.emBreve}
+                      </span>
+                    </div>
+                  </>
+                )}
+              </div>
             )
 
             // Setor ainda sem projeto não vira link: levaria a uma página vazia.
