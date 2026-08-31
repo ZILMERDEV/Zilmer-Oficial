@@ -38,7 +38,7 @@
     "ano": "2003 · Retrofit 2021",
     "parceiros": [],
     "resumoCard": "Transformador de excitação trifásico de 1.100 kVA para o sistema de excitação dos geradores, modernizado pela Zilmer em 2021.",
-    "descricao": "Transformador de excitação trifásico TAM de 1.100 kVA, 15 kV, destinado ao sistema de excitação dos geradores da Usina Hidrelétrica Monte Claro, da Companhia Energética Rio das Antas (CERAN). Em operação desde 2003, o equipamento passou por um processo de modernização (retrofit) executado pela própria Zilmer em 2021, estendendo sua vida útil e reafirmando a confiabilidade de equipamentos projetados para aplicações críticas no setor de geração de energia.",
+    "descricao": "Transformador de excitação trifásico TAM de 1.100 kVA, 15 kV, destinado ao sistema de excitação dos geradores da Usina Hidrelétrica Monte Claro. Em operação desde 2003, o equipamento passou por um processo de modernização (retrofit) executado pela própria Zilmer em 2021, estendendo sua vida útil e reafirmando a confiabilidade de equipamentos projetados para aplicações críticas no setor de geração de energia.",
     "especificacoes": [
       "Transformador de excitação trifásico, tipo TAM",
       "Potência: 1.100 kVA",
@@ -93,7 +93,7 @@
       "Voith"
     ],
     "resumoCard": "4º fornecimento de bancos de transformadores monofásicos a seco de 4.260 kVA para o sistema de excitação de uma das maiores hidrelétricas do mundo.",
-    "descricao": "A Zilmer está no 4º fornecimento de 13 bancos trifásicos de transformadores monofásicos a seco de 4.260 kVA e 15 kV destinados à Axia (antiga Eletrobras), por meio da Voith. Os equipamentos integrarão o sistema de excitação dos geradores síncronos da Usina Hidrelétrica de Tucuruí, uma das maiores usinas hidrelétricas do mundo em potência instalada. Fabricados com tecnologia de encapsulamento em resina epóxi sob vácuo, enrolamentos em alumínio, classe térmica F, fator K8 e projeto otimizado para baixa impedância, os transformadores oferecem elevado desempenho frente a transitórios elétricos e correntes harmônicas, atendendo aos rigorosos requisitos de confiabilidade exigidos em aplicações críticas de geração de energia.",
+    "descricao": "A Zilmer está no 4º fornecimento de 13 bancos trifásicos de transformadores monofásicos a seco de 4.260 kVA e 15 kV, por meio da Voith. Os equipamentos integrarão o sistema de excitação dos geradores síncronos da Usina Hidrelétrica de Tucuruí, uma das maiores usinas hidrelétricas do mundo em potência instalada. Fabricados com tecnologia de encapsulamento em resina epóxi sob vácuo, enrolamentos em alumínio, classe térmica F, fator K8 e projeto otimizado para baixa impedância, os transformadores oferecem elevado desempenho frente a transitórios elétricos e correntes harmônicas, atendendo aos rigorosos requisitos de confiabilidade exigidos em aplicações críticas de geração de energia.",
     "especificacoes": [
       "13 bancos trifásicos de transformadores monofásicos a seco",
       "Potência: 4.260 kVA",
@@ -178,7 +178,7 @@
     "ano": "2026",
     "parceiros": [],
     "resumoCard": "Transformador a seco de 4.430 kVA, fator K12, para a Linha 5 – Lilás do Metrô de São Paulo.",
-    "descricao": "Transformador trifásico a seco de 4.430 kVA para a Linha 5 – Lilás do Metrô de São Paulo, destinado à Motiva Infraestrutura de Mobilidade S.A. Desenvolvido para atender aos elevados requisitos de disponibilidade e confiabilidade dos sistemas metroferroviários, o equipamento possui classe de tensão de 23,1 kV, grupo de ligação especial Dd0yn11, dois enrolamentos secundários independentes de 1.175 V, classe térmica H e fator K12, características que proporcionam excelente desempenho sob cargas não lineares e elevadas solicitações operacionais. Além de diversas linhas do Metrô de SP, a Zilmer também já fabricou transformadores com características similares para o metrô do RJ e de Salvador.",
+    "descricao": "Transformador trifásico a seco de 4.430 kVA para a Linha 5 – Lilás do Metrô de São Paulo. Desenvolvido para atender aos elevados requisitos de disponibilidade e confiabilidade dos sistemas metroferroviários, o equipamento possui classe de tensão de 23,1 kV, grupo de ligação especial Dd0yn11, dois enrolamentos secundários independentes de 1.175 V, classe térmica H e fator K12, características que proporcionam excelente desempenho sob cargas não lineares e elevadas solicitações operacionais. Além de diversas linhas do Metrô de SP, a Zilmer também já fabricou transformadores com características similares para o metrô do RJ e de Salvador.",
     "especificacoes": [
       "Transformador trifásico a seco",
       "Potência: 4.430 kVA",
@@ -199,13 +199,12 @@
     "proporcao": "retrato"
   },
   "data-hall-5-santiago": {
-    "obra": "Data Hall 5 — Ascenty Chile",
     "local": "Santiago, Chile",
     "setor": "data-centers",
     "ano": "2024",
     "parceiros": [],
     "resumoCard": "Fornecimento de 40 transformadores a seco de 400 kVA para os sistemas PDU e RPP de um data center em Santiago.",
-    "descricao": "Fornecimento de 40 transformadores trifásicos a seco de 400 kVA para o Data Hall 5 da Ascenty Chile (META), em Santiago, destinados aos sistemas de distribuição de energia dos painéis PDU (Power Distribution Unit) e RPP (Remote Power Panel). Desenvolvidos para operação contínua em infraestrutura crítica de data centers, os equipamentos possuem enrolamentos em alumínio impregnados em resina epóxi, fator K13, grupo de ligação Dyn1 e elevada confiabilidade para alimentação de cargas não lineares típicas de ambientes de missão crítica.",
+    "descricao": "Fornecimento de 40 transformadores trifásicos a seco de 400 kVA para um data hall em Santiago, destinados aos sistemas de distribuição de energia dos painéis PDU (Power Distribution Unit) e RPP (Remote Power Panel). Desenvolvidos para operação contínua em infraestrutura crítica de data centers, os equipamentos possuem enrolamentos em alumínio impregnados em resina epóxi, fator K13, grupo de ligação Dyn1 e elevada confiabilidade para alimentação de cargas não lineares típicas de ambientes de missão crítica.",
     "especificacoes": [
       "40 transformadores trifásicos a seco",
       "Potência: 400 kVA cada",
@@ -225,13 +224,12 @@
     "proporcao": "retrato"
   },
   "usinas-hidreletricas-cesp": {
-    "obra": "Usinas Hidrelétricas da CESP",
     "local": "São Paulo, Brasil",
     "setor": "hidreletrica",
     "ano": "2019–2020 · 2023",
     "parceiros": [],
     "resumoCard": "Retrofit de 12 transformadores monofásicos em cinco usinas hidrelétricas, substituindo equipamentos da própria Zilmer de 1997.",
-    "descricao": "A Zilmer forneceu 12 transformadores monofásicos em alumínio para a CESP (Companhia Energética de São Paulo) entre 2019 e 2020, destinados ao retrofit de equipamentos originalmente fornecidos pela própria empresa em 1997. Os transformadores integram as Usinas Hidrelétricas de Barra Bonita, Promissão, Jupiá, Jurumirim e Porto Primavera, demonstrando a confiabilidade e a longevidade das soluções Zilmer. Em continuidade à parceria, uma nova unidade de força de 600 kVA foi fornecida em 2023.",
+    "descricao": "A Zilmer forneceu 12 transformadores monofásicos em alumínio entre 2019 e 2020, destinados ao retrofit de equipamentos originalmente fornecidos pela própria empresa em 1997. Os transformadores integram as Usinas Hidrelétricas de Barra Bonita, Promissão, Jupiá, Jurumirim e Porto Primavera, demonstrando a confiabilidade e a longevidade das soluções Zilmer. Em continuidade à parceria, uma nova unidade de força de 600 kVA foi fornecida em 2023.",
     "especificacoes": [
       "12 transformadores monofásicos em alumínio",
       "Transformadores MAM 600 kVA e TAM 1.000 kVA",
@@ -249,13 +247,12 @@
     "proporcao": "paisagem"
   },
   "cba-aluminio": {
-    "obra": "Companhia Brasileira de Alumínio (CBA)",
     "local": "Brasil",
     "setor": "mineracao-siderurgicas",
     "ano": "2024",
     "parceiros": [],
     "resumoCard": "Transformador a seco de 3.000 kVA, fator K4, para uma das maiores produtoras integradas de alumínio do mundo.",
-    "descricao": "Transformador trifásico a seco de 3.000 kVA, 15 kV, fator K4, destinado à Companhia Brasileira de Alumínio (CBA), uma das maiores produtoras integradas de alumínio do mundo. Fabricado com enrolamentos em alumínio encapsulados em resina epóxi sob vácuo, desenvolvido para operar com elevada confiabilidade em uma das mais importantes plantas industriais do setor de alumínio.",
+    "descricao": "Transformador trifásico a seco de 3.000 kVA, 15 kV, fator K4, destinado a uma das maiores produtoras integradas de alumínio do mundo. Fabricado com enrolamentos em alumínio encapsulados em resina epóxi sob vácuo, desenvolvido para operar com elevada confiabilidade em uma das mais importantes plantas industriais do setor de alumínio.",
     "especificacoes": [
       "Transformador trifásico a seco",
       "Potência: 3.000 kVA",
@@ -278,8 +275,8 @@
     "setor": "oleo-gas",
     "ano": "2023",
     "parceiros": [],
-    "resumoCard": "Segunda unidade de transformador a seco de 3.750/4.690 kVA para a Casa de Força de uma refinaria da Petrobras.",
-    "descricao": "A Zilmer forneceu a segunda unidade de um transformador trifásico a seco de 3.750/4.690 kVA, 15 kV, destinado à Petrobras para instalação na Casa de Força (CAFOR) da Refinaria Alberto Pasqualini (REFAP), em Canoas – RS. Desenvolvido para uma aplicação crítica na indústria de petróleo e gás, o equipamento foi fabricado com enrolamentos em alumínio encapsulados em resina epóxi sob vácuo, incorporando sistema de ventilação forçada e chave seccionadora sob carga integrada. O projeto foi concebido para garantir elevada confiabilidade operacional, segurança e continuidade de serviço, atendendo aos rigorosos requisitos técnicos exigidos por uma das principais refinarias da Petrobras.",
+    "resumoCard": "Segunda unidade de transformador a seco de 3.750/4.690 kVA para a Casa de Força de uma importante refinaria do país.",
+    "descricao": "A Zilmer forneceu a segunda unidade de um transformador trifásico a seco de 3.750/4.690 kVA, 15 kV, para instalação na Casa de Força (CAFOR) da Refinaria Alberto Pasqualini (REFAP), em Canoas – RS. Desenvolvido para uma aplicação crítica na indústria de petróleo e gás, o equipamento foi fabricado com enrolamentos em alumínio encapsulados em resina epóxi sob vácuo, incorporando sistema de ventilação forçada e chave seccionadora sob carga integrada. O projeto foi concebido para garantir elevada confiabilidade operacional, segurança e continuidade de serviço, atendendo aos rigorosos requisitos técnicos exigidos por uma das principais refinarias do país.",
     "especificacoes": [
       "Transformador trifásico a seco",
       "Potência: 3.750/4.690 kVA",
@@ -300,7 +297,6 @@
     "proporcao": "retrato"
   },
   "albras-tratamento-efluentes": {
-    "obra": "ALBRAS — Sistema de Tratamento de Efluentes",
     "local": "Barcarena, Brasil",
     "setor": "mineracao-siderurgicas",
     "ano": "2026",
@@ -308,7 +304,7 @@
       "AMC Soluções em Energia"
     ],
     "resumoCard": "Três transformadores a seco de 1.500 kVA, IP54, para o sistema de tratamento de efluentes de uma produtora de alumínio primário.",
-    "descricao": "Três transformadores trifásicos a seco de 1.500 kVA, 4,16/0,48 kV, destinados ao Sistema de Tratamento de Efluentes Oeste da ALBRAS, por meio da AMC Soluções em Energia. Projetados para operação contínua em ambiente industrial agressivo, os equipamentos possuem grau de proteção IP54, grupo de ligação Dyn1 e operação em paralelo, garantindo elevada confiabilidade para uma aplicação essencial ao processo de tratamento de efluentes de uma das maiores produtoras de alumínio primário do mundo.",
+    "descricao": "Três transformadores trifásicos a seco de 1.500 kVA, 4,16/0,48 kV, destinados a um Sistema de Tratamento de Efluentes Oeste, por meio da AMC Soluções em Energia. Projetados para operação contínua em ambiente industrial agressivo, os equipamentos possuem grau de proteção IP54, grupo de ligação Dyn1 e operação em paralelo, garantindo elevada confiabilidade para uma aplicação essencial ao processo de tratamento de efluentes de uma das maiores produtoras de alumínio primário do mundo.",
     "especificacoes": [
       "Três transformadores trifásicos a seco",
       "Potência: 1.500 kVA cada",
@@ -351,13 +347,12 @@
     "proporcao": "paisagem"
   },
   "simec-pindamonhangaba": {
-    "obra": "Usina Siderúrgica Simec",
     "local": "Pindamonhangaba, Brasil",
     "setor": "mineracao-siderurgicas",
     "ano": "2024",
     "parceiros": [],
     "resumoCard": "Transformador trifásico em cobre, 15 kV, com protetores de surto, para pontes rolantes de aciaria.",
-    "descricao": "Transformador trifásico em cobre, 15 kV, com protetores de surto, para aplicação em pontes rolantes de aciaria. Fornecido para a usina siderúrgica Simec, em Pindamonhangaba – SP.",
+    "descricao": "Transformador trifásico em cobre, 15 kV, com protetores de surto, para aplicação em pontes rolantes de aciaria. Fornecido para uma usina siderúrgica em Pindamonhangaba – SP.",
     "especificacoes": [
       "Transformador trifásico em cobre",
       "Tensão: 15 kV",

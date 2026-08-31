@@ -38,7 +38,7 @@
     "ano": "2003 · Retrofit 2021",
     "parceiros": [],
     "resumoCard": "1,100 kVA three-phase excitation transformer for the generator excitation system, modernized by Zilmer in 2021.",
-    "descricao": "TAM three-phase excitation transformer, 1,100 kVA, 15 kV, for the generator excitation system of the Monte Claro Hydropower Plant, owned by Companhia Energética Rio das Antas (CERAN). In operation since 2003, the equipment underwent a modernization process (retrofit) carried out by Zilmer itself in 2021, extending its service life and reaffirming the reliability of equipment designed for critical applications in the power generation sector.",
+    "descricao": "TAM three-phase excitation transformer, 1,100 kVA, 15 kV, for the generator excitation system of the Monte Claro Hydropower Plant. In operation since 2003, the equipment underwent a modernization process (retrofit) carried out by Zilmer itself in 2021, extending its service life and reaffirming the reliability of equipment designed for critical applications in the power generation sector.",
     "especificacoes": [
       "Three-phase excitation transformer, TAM type",
       "Power: 1,100 kVA",
@@ -93,7 +93,7 @@
       "Voith"
     ],
     "resumoCard": "4th supply of 4,260 kVA single-phase dry-type transformer banks for the excitation system of one of the world’s largest hydropower plants.",
-    "descricao": "Zilmer is on its 4th supply of 13 three-phase banks of 4,260 kVA, 15 kV single-phase dry-type transformers for Axia (formerly Eletrobras), through Voith. The equipment will be part of the excitation system of the synchronous generators at the Tucuruí Hydropower Plant, one of the largest hydropower plants in the world by installed capacity. Built with vacuum cast epoxy resin encapsulation technology, aluminum windings, thermal class F, K8 factor and a design optimized for low impedance, the transformers deliver high performance against electrical transients and harmonic currents, meeting the strict reliability requirements demanded by critical power generation applications.",
+    "descricao": "Zilmer is on its 4th supply of 13 three-phase banks of 4,260 kVA, 15 kV single-phase dry-type transformers, through Voith. The equipment will be part of the excitation system of the synchronous generators at the Tucuruí Hydropower Plant, one of the largest hydropower plants in the world by installed capacity. Built with vacuum cast epoxy resin encapsulation technology, aluminum windings, thermal class F, K8 factor and a design optimized for low impedance, the transformers deliver high performance against electrical transients and harmonic currents, meeting the strict reliability requirements demanded by critical power generation applications.",
     "especificacoes": [
       "13 three-phase banks of single-phase dry-type transformers",
       "Power: 4,260 kVA",
@@ -178,7 +178,7 @@
     "ano": "2026",
     "parceiros": [],
     "resumoCard": "4,430 kVA dry-type transformer, K12 factor, for Line 5 – Lilás of the São Paulo Metro.",
-    "descricao": "4,430 kVA three-phase dry-type transformer for Line 5 – Lilás of the São Paulo Metro, supplied to Motiva Infraestrutura de Mobilidade S.A. Developed to meet the high availability and reliability requirements of rail systems, the equipment features a 23.1 kV voltage class, special Dd0yn11 vector group, two independent 1,175 V secondary windings, thermal class H and K12 factor — characteristics that deliver excellent performance under non-linear loads and heavy operational demands. In addition to several São Paulo Metro lines, Zilmer has also manufactured transformers with similar characteristics for the Rio de Janeiro and Salvador metro systems.",
+    "descricao": "4,430 kVA three-phase dry-type transformer for Line 5 – Lilás of the São Paulo Metro. Developed to meet the high availability and reliability requirements of rail systems, the equipment features a 23.1 kV voltage class, special Dd0yn11 vector group, two independent 1,175 V secondary windings, thermal class H and K12 factor — characteristics that deliver excellent performance under non-linear loads and heavy operational demands. In addition to several São Paulo Metro lines, Zilmer has also manufactured transformers with similar characteristics for the Rio de Janeiro and Salvador metro systems.",
     "especificacoes": [
       "Three-phase dry-type transformer",
       "Power: 4,430 kVA",
@@ -199,13 +199,12 @@
     "proporcao": "retrato"
   },
   "data-hall-5-santiago": {
-    "obra": "Data Hall 5 — Ascenty Chile",
     "local": "Santiago, Chile",
     "setor": "data-centers",
     "ano": "2024",
     "parceiros": [],
     "resumoCard": "Supply of 40 dry-type transformers rated 400 kVA for the PDU and RPP systems of a data center in Santiago.",
-    "descricao": "Supply of 40 three-phase dry-type transformers rated 400 kVA for Data Hall 5 at Ascenty Chile (META), in Santiago, serving the power distribution systems of the PDU (Power Distribution Unit) and RPP (Remote Power Panel) panels. Developed for continuous operation in critical data center infrastructure, the equipment features aluminum windings impregnated with epoxy resin, K13 factor, Dyn1 vector group and high reliability for supplying the non-linear loads typical of mission-critical environments.",
+    "descricao": "Supply of 40 three-phase dry-type transformers rated 400 kVA for a data hall in Santiago, serving the power distribution systems of the PDU (Power Distribution Unit) and RPP (Remote Power Panel) panels. Developed for continuous operation in critical data center infrastructure, the equipment features aluminum windings impregnated with epoxy resin, K13 factor, Dyn1 vector group and high reliability for supplying the non-linear loads typical of mission-critical environments.",
     "especificacoes": [
       "40 three-phase dry-type transformers",
       "Power: 400 kVA each",
@@ -225,13 +224,12 @@
     "proporcao": "retrato"
   },
   "usinas-hidreletricas-cesp": {
-    "obra": "Usinas Hidrelétricas da CESP",
     "local": "São Paulo, Brazil",
     "setor": "hidreletrica",
     "ano": "2019–2020 · 2023",
     "parceiros": [],
     "resumoCard": "Retrofit of 12 single-phase transformers across five hydropower plants, replacing Zilmer’s own equipment from 1997.",
-    "descricao": "Zilmer supplied 12 single-phase aluminum transformers to CESP (Companhia Energética de São Paulo) between 2019 and 2020, for the retrofit of equipment originally supplied by the company itself in 1997. The transformers are part of the Barra Bonita, Promissão, Jupiá, Jurumirim and Porto Primavera hydropower plants, demonstrating the reliability and longevity of Zilmer solutions. Continuing the partnership, a new 600 kVA power unit was supplied in 2023.",
+    "descricao": "Zilmer supplied 12 single-phase aluminum transformers between 2019 and 2020, for the retrofit of equipment originally supplied by the company itself in 1997. The transformers are part of the Barra Bonita, Promissão, Jupiá, Jurumirim and Porto Primavera hydropower plants, demonstrating the reliability and longevity of Zilmer solutions. Continuing the partnership, a new 600 kVA power unit was supplied in 2023.",
     "especificacoes": [
       "12 single-phase aluminum transformers",
       "MAM 600 kVA and TAM 1,000 kVA transformers",
@@ -249,13 +247,12 @@
     "proporcao": "paisagem"
   },
   "cba-aluminio": {
-    "obra": "Companhia Brasileira de Alumínio (CBA)",
     "local": "Brazil",
     "setor": "mineracao-siderurgicas",
     "ano": "2024",
     "parceiros": [],
     "resumoCard": "3,000 kVA dry-type transformer, K4 factor, for one of the world’s largest integrated aluminum producers.",
-    "descricao": "3,000 kVA, 15 kV three-phase dry-type transformer with K4 factor, supplied to Companhia Brasileira de Alumínio (CBA), one of the world’s largest integrated aluminum producers. Built with aluminum windings encapsulated in vacuum cast epoxy resin, developed to operate with high reliability at one of the most important industrial plants in the aluminum sector.",
+    "descricao": "3,000 kVA, 15 kV three-phase dry-type transformer with K4 factor, supplied to one of the world’s largest integrated aluminum producers. Built with aluminum windings encapsulated in vacuum cast epoxy resin, developed to operate with high reliability at one of the most important industrial plants in the aluminum sector.",
     "especificacoes": [
       "Three-phase dry-type transformer",
       "Power: 3,000 kVA",
@@ -278,8 +275,8 @@
     "setor": "oleo-gas",
     "ano": "2023",
     "parceiros": [],
-    "resumoCard": "Second 3,750/4,690 kVA dry-type transformer unit for the power house of a Petrobras refinery.",
-    "descricao": "Zilmer supplied the second unit of a 3,750/4,690 kVA, 15 kV three-phase dry-type transformer to Petrobras for installation in the power house (CAFOR) of the Alberto Pasqualini Refinery (REFAP), in Canoas – RS. Developed for a critical application in the oil and gas industry, the equipment was built with aluminum windings encapsulated in vacuum cast epoxy resin, incorporating a forced ventilation system and an integrated on-load disconnect switch. The design was conceived to ensure high operational reliability, safety and service continuity, meeting the strict technical requirements of one of Petrobras’ main refineries.",
+    "resumoCard": "Second 3,750/4,690 kVA dry-type transformer unit for the power house of a major refinery.",
+    "descricao": "Zilmer supplied the second unit of a 3,750/4,690 kVA, 15 kV three-phase dry-type transformer for installation in the power house (CAFOR) of the Alberto Pasqualini Refinery (REFAP), in Canoas – RS. Developed for a critical application in the oil and gas industry, the equipment was built with aluminum windings encapsulated in vacuum cast epoxy resin, incorporating a forced ventilation system and an integrated on-load disconnect switch. The design was conceived to ensure high operational reliability, safety and service continuity, meeting the strict technical requirements of one of the country's main refineries.",
     "especificacoes": [
       "Three-phase dry-type transformer",
       "Power: 3,750/4,690 kVA",
@@ -300,7 +297,6 @@
     "proporcao": "retrato"
   },
   "albras-tratamento-efluentes": {
-    "obra": "ALBRAS — Sistema de Tratamento de Efluentes",
     "local": "Barcarena, Brazil",
     "setor": "mineracao-siderurgicas",
     "ano": "2026",
@@ -308,7 +304,7 @@
       "AMC Soluções em Energia"
     ],
     "resumoCard": "Three 1,500 kVA dry-type transformers, IP54, for the effluent treatment system of a primary aluminum producer.",
-    "descricao": "Three 1,500 kVA, 4.16/0.48 kV three-phase dry-type transformers for the ALBRAS West Effluent Treatment System, through AMC Soluções em Energia. Designed for continuous operation in an aggressive industrial environment, the equipment features IP54 protection rating, Dyn1 vector group and parallel operation, ensuring high reliability for an application essential to the effluent treatment process of one of the world’s largest primary aluminum producers.",
+    "descricao": "Three 1,500 kVA, 4.16/0.48 kV three-phase dry-type transformers for a West Effluent Treatment System, through AMC Soluções em Energia. Designed for continuous operation in an aggressive industrial environment, the equipment features IP54 protection rating, Dyn1 vector group and parallel operation, ensuring high reliability for an application essential to the effluent treatment process of one of the world’s largest primary aluminum producers.",
     "especificacoes": [
       "Three three-phase dry-type transformers",
       "Power: 1,500 kVA each",
@@ -351,13 +347,12 @@
     "proporcao": "paisagem"
   },
   "simec-pindamonhangaba": {
-    "obra": "Usina Siderúrgica Simec",
     "local": "Pindamonhangaba, Brazil",
     "setor": "mineracao-siderurgicas",
     "ano": "2024",
     "parceiros": [],
     "resumoCard": "Three-phase copper transformer, 15 kV, with surge arresters, for steel mill overhead cranes.",
-    "descricao": "Three-phase copper transformer, 15 kV, with surge arresters, for use in steel mill overhead cranes. Supplied to the Simec steel mill, in Pindamonhangaba – SP.",
+    "descricao": "Three-phase copper transformer, 15 kV, with surge arresters, for use in steel mill overhead cranes. Supplied to a steel mill in Pindamonhangaba – SP.",
     "especificacoes": [
       "Three-phase copper transformer",
       "Voltage: 15 kV",
