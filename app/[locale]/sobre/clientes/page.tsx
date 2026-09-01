@@ -35,8 +35,8 @@ export default async function ClientesPage() {
               <Image
                 src={imagePath}
                 alt="Nossos Clientes"
-                width={1592}
-                height={1105}
+                width={1536}
+                height={1024}
                 className={styles.clientImage}
                 priority
               />
