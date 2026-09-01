@@ -17,6 +17,9 @@ import dataEs from '@/data/projetos-entregues.es.json'
 type Setor = {
   titulo: string
   imagemCapa: string
+  // Fica fora do site sem apagar os dados — para reativar depois basta
+  // remover o campo (ou pôr false).
+  arquivado?: boolean
 }
 
 type Projeto = {
@@ -49,7 +52,9 @@ export default function SetorPage({ params }: { params: { setor: string } }) {
 
   const setor = setores[params.setor]
 
-  if (!setor) notFound()
+  // Setor arquivado some do site inteiro, não só da listagem — senão um
+  // link antigo continuaria abrindo a página normalmente.
+  if (!setor || setor.arquivado) notFound()
 
   const slugs = Object.keys(projetos).filter(
     (slug) => projetos[slug].setor === params.setor && !projetos[slug].arquivado
