@@ -13,11 +13,13 @@
   },
   "subestacoes": {
     "titulo": "Substations",
-    "imagemCapa": "/images/areas/backgrounds/subestacoes.webp"
+    "imagemCapa": "/images/areas/backgrounds/subestacoes.webp",
+    "arquivado": true
   },
   "energias-renovaveis": {
     "titulo": "Renewable Energy",
-    "imagemCapa": "/images/areas/backgrounds/energias-renovaveis.jpg"
+    "imagemCapa": "/images/areas/backgrounds/energias-renovaveis.jpg",
+    "arquivado": true
   },
   "oleo-gas": {
     "titulo": "Oil & Gas",

@@ -16,6 +16,9 @@ import dataEs from '@/data/projetos-entregues.es.json'
 type Setor = {
   titulo: string
   imagemCapa: string
+  // Fica fora da listagem sem apagar os dados — para reativar depois
+  // basta remover o campo (ou pôr false).
+  arquivado?: boolean
 }
 
 type Projeto = {
@@ -58,59 +61,61 @@ export default function ProjetosRealizadosPage() {
         </div>
 
         <div className={styles.grid}>
-          {Object.keys(setores).map((slug) => {
-            const setor = setores[slug]
-            const doSetor = Object.values(projetos).filter(
-              (p) => p.setor === slug && !p.arquivado
-            )
-            const total = doSetor.length
+          {Object.keys(setores)
+            .filter((slug) => !setores[slug].arquivado)
+            .map((slug) => {
+              const setor = setores[slug]
+              const doSetor = Object.values(projetos).filter(
+                (p) => p.setor === slug && !p.arquivado
+              )
+              const total = doSetor.length
 
-            // Capa do setor: imagem própria quando houver; senão a foto do
-            // primeiro projeto cadastrado nele. Setor sem imagem e sem projeto
-            // cai no gradiente da marca — nunca em imagem quebrada.
-            const capa = setor.imagemCapa || doSetor[0]?.imagemCapa || ''
+              // Capa do setor: imagem própria quando houver; senão a foto do
+              // primeiro projeto cadastrado nele. Setor sem imagem e sem projeto
+              // cai no gradiente da marca — nunca em imagem quebrada.
+              const capa = setor.imagemCapa || doSetor[0]?.imagemCapa || ''
 
-            const miolo = (
-              <div className={styles.imageContainer}>
-                {capa ? (
-                  <Image
-                    src={capa}
-                    alt=""
-                    aria-hidden="true"
-                    fill
-                    className={styles.image}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                ) : (
-                  <div className={styles.capaVazia} aria-hidden="true" />
-                )}
-                <div className={styles.overlay} aria-hidden="true" />
-                <div className={styles.cardContent}>
-                  <h2 className={styles.cardTitle}>{setor.titulo}</h2>
-                  <span className={styles.cardMeta}>
-                    {total > 0
-                      ? `${total} ${total === 1 ? t.projeto : t.projetos}`
-                      : t.emBreve}
-                  </span>
+              const miolo = (
+                <div className={styles.imageContainer}>
+                  {capa ? (
+                    <Image
+                      src={capa}
+                      alt=""
+                      aria-hidden="true"
+                      fill
+                      className={styles.image}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                  ) : (
+                    <div className={styles.capaVazia} aria-hidden="true" />
+                  )}
+                  <div className={styles.overlay} aria-hidden="true" />
+                  <div className={styles.cardContent}>
+                    <h2 className={styles.cardTitle}>{setor.titulo}</h2>
+                    <span className={styles.cardMeta}>
+                      {total > 0
+                        ? `${total} ${total === 1 ? t.projeto : t.projetos}`
+                        : t.emBreve}
+                    </span>
+                  </div>
                 </div>
-              </div>
-            )
+              )
 
-            // Setor ainda sem projeto não vira link: levaria a uma página vazia.
-            return total > 0 ? (
-              <Link
-                key={slug}
-                href={`/projetos-entregues/${slug}`}
-                className={`${styles.card} ${styles.cardLink}`}
-              >
-                {miolo}
-              </Link>
-            ) : (
-              <div key={slug} className={`${styles.card} ${styles.cardVazio}`}>
-                {miolo}
-              </div>
-            )
-          })}
+              // Setor ainda sem projeto não vira link: levaria a uma página vazia.
+              return total > 0 ? (
+                <Link
+                  key={slug}
+                  href={`/projetos-entregues/${slug}`}
+                  className={`${styles.card} ${styles.cardLink}`}
+                >
+                  {miolo}
+                </Link>
+              ) : (
+                <div key={slug} className={`${styles.card} ${styles.cardVazio}`}>
+                  {miolo}
+                </div>
+              )
+            })}
         </div>
       </div>
     </section>
