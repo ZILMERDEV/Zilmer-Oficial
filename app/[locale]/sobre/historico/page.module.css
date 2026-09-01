@@ -22,11 +22,32 @@
   text-align: justify;
 }
 
-.historicPhotoSection {
-  max-width: 500px;
+/* Duas fotos lado a lado, cada uma com sua legenda embaixo. Cada coluna
+   mantém a proporção natural da própria foto (uma é retrato, a outra é
+   quase quadrada) -- nenhuma é forçada a se encaixar na proporção da
+   outra. Em telas estreitas empilha em uma coluna só. */
+.historicPhotosGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 48px;
+  max-width: 900px;
   margin: 60px auto 0;
+}
+
+.historicPhotoSection {
+  max-width: 100%;
+  margin: 0;
   padding: 0;
   border: none;
+}
+
+@media (max-width: 700px) {
+  .historicPhotosGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    max-width: 500px;
+  }
 }
 
 .historicImage {

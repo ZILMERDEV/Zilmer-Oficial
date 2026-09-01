@@ -29,11 +29,23 @@ function renderText(text: string | undefined | null) {
 export default async function HistoricoPage() {
   const locale = await getLocale()
   const sobreData = (locale === 'en' ? sobreDataEn : locale === 'es' ? sobreDataEs : sobreDataPt) as {
-    historico: { title: string; subtitle: string; content: string; image?: string; imageCaption?: string }
+    historico: {
+      title: string
+      subtitle: string
+      content: string
+      image?: string
+      imageCaption?: string
+      image2?: string
+      image2Caption?: string
+    }
   }
   const { historico } = sobreData
   const imagePath = historico.image || '/images/sobre/historico.jpg'
   const imageCaption = historico.imageCaption || 'ZILMER - 1962'
+  const image2Path = historico.image2 || '/images/sobre/historico2.jpg'
+  const image2Caption =
+    historico.image2Caption ||
+    'Transformador de 1500 kVA - Consórcio Construtor Rio Niterói S/A - 22/07/1969'
 
   return (
     <section className={styles.page}>
@@ -44,16 +56,32 @@ export default async function HistoricoPage() {
           {renderText(historico.content)}
         </div>
 
-        <figure className={styles.historicPhotoSection}>
-          <Image
-            src={cdnUrl(imagePath)}
-            alt="Zilmer - Acervo Histórico"
-            width={1085}
-            height={1450}
-            className={styles.historicImage}
-          />
-          <figcaption className={styles.historicCaption}>{imageCaption}</figcaption>
-        </figure>
+        <div className={styles.historicPhotosGrid}>
+          <figure className={styles.historicPhotoSection}>
+            <Image
+              src={cdnUrl(imagePath)}
+              alt="Zilmer - Acervo Histórico"
+              width={1085}
+              height={1450}
+              className={styles.historicImage}
+            />
+            <figcaption className={styles.historicCaption}>{imageCaption}</figcaption>
+          </figure>
+
+          {/* image2 é servida direto da pasta public/ (sem cdnUrl) — ainda não
+              foi enviada ao bucket S3 usado pela primeira foto, e não há
+              script neste repo que sincronize public/images/ com o bucket. */}
+          <figure className={styles.historicPhotoSection}>
+            <Image
+              src={image2Path}
+              alt="Zilmer - Acervo Histórico"
+              width={1400}
+              height={1387}
+              className={styles.historicImage}
+            />
+            <figcaption className={styles.historicCaption}>{image2Caption}</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
   )
