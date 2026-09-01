@@ -207,6 +207,18 @@
   align-self: start;
 }
 
+/* Subestações: a foto (1397x1126, ~4:3) é bem mais baixa que a caixa
+   fixa de 600px, e como o object-fit é "contain" ela fica centralizada
+   verticalmente — sobra vazio tanto acima quanto abaixo da foto antes
+   da legenda aparecer. Substitui a altura fixa por uma proporção que
+   acompanha a foto real, então a legenda cola nela sem o vazio. Segue
+   sem cortar a imagem (object-fit:contain) mesmo se en/es usarem uma
+   foto de proporção diferente. */
+.aplicacaoImage_subestacoes {
+  height: auto;
+  aspect-ratio: 1397 / 1126;
+}
+
 .imageCaption {
   margin-top: 8px;
   font-size: 0.75rem;
@@ -553,6 +565,10 @@
     grid-column: 1;
     grid-row: 1;
     height: 400px;
+  }
+
+  .aplicacaoImage_subestacoes {
+    height: auto;
   }
 
   .aplicacaoTextQuadrants {

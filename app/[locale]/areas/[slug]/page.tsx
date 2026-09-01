@@ -180,7 +180,11 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
           </div>
 
           <div className={styles.aplicacaoGrid}>
-            <div className={styles.aplicacaoImage}>
+            <div
+              className={`${styles.aplicacaoImage} ${
+                styles[`aplicacaoImage_${params.slug}`] || ''
+              }`}
+            >
               <div className={styles.imageWrapper}>
                 <Image
                   src={resolvedSrc(contentPath, localFailedPaths)}
