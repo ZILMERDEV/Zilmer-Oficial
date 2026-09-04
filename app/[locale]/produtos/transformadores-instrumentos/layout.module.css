@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 48px 0 96px;
+  background: var(--bg-white);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.sidebar {
+  min-width: 0;
+}
+
+.conteudo {
+  min-width: 0;
+}
+
+@media (max-width: 968px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}

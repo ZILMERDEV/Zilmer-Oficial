@@ -1,0 +1,105 @@
+.voltar {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-bottom: 16px;
+}
+
+.voltar:hover {
+  color: var(--primary-color);
+}
+
+.titulo {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+
+.legenda {
+  color: var(--text-light);
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin-bottom: 32px;
+}
+
+.vazio {
+  color: var(--text-light);
+  font-size: 1rem;
+  padding: 24px 0;
+}
+
+.modelsGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.modelCard {
+  background-color: var(--bg-white);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.modelCard:hover {
+  border-color: var(--secondary-color);
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2);
+  transform: translateY(-5px);
+}
+
+.modelImageContainer {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.modelImage {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.modelName {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: auto;
+}
+
+.pdfBadge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .modelsGallery {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 15px;
+  }
+}
