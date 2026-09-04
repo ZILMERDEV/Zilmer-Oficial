@@ -26,7 +26,8 @@ export function classeLabel(classe: Classe, locale: string): string {
   const l = porLocale(locale)
   const mapa: Record<Classe, Record<Locale, string>> = {
     'baixa-tensao': { pt: 'Baixa Tensão', en: 'Low Voltage', es: 'Baja Tensión' },
-    '15kv': { pt: '15 kV e abaixo', en: '15 kV and below', es: 'Hasta 15 kV' },
+    '7.2kv': { pt: '7,2 kV', en: '7.2 kV', es: '7,2 kV' },
+    '15kv': { pt: '15 kV', en: '15 kV', es: '15 kV' },
     '24kv': { pt: '24 kV', en: '24 kV', es: '24 kV' },
     '36kv': { pt: '36 kV', en: '36 kV', es: '36 kV' },
   }

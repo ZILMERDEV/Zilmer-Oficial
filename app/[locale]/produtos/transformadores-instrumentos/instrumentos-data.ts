@@ -16,10 +16,13 @@
 //   - "ipsae-36" (TP Externo) não tem ficha própria: o PDF vinculado é do
 //     ipsae-ff (24,2kV), não existe datasheet de uma versão 36kV. Removido
 //     do catálogo até uma ficha real ser enviada.
+//   - "icsj-72" (ICSJ-7.2) é 7,2kV, não 15kV — tinha caído na faixa "15kv"
+//     por estar dentro do range "15kV e abaixo" que existia antes. Essa
+//     faixa foi abandonada a pedido do usuário; agora tem classe própria.
 
 export type Tipo = 'tc' | 'tp'
 export type Uso = 'interno' | 'externo'
-export type Classe = 'baixa-tensao' | '15kv' | '24kv' | '36kv'
+export type Classe = 'baixa-tensao' | '7.2kv' | '15kv' | '24kv' | '36kv'
 
 export interface ModeloInstrumento {
   id: string
@@ -44,7 +47,7 @@ export const modelosInstrumentos: ModeloInstrumento[] = [
   { id: 'icsjo', name: 'ICSJO', tipo: 'tc', uso: 'interno', classe: 'baixa-tensao', image: '/images/produtos/instrumentos/tc-internos/tc-interno-18.jpg', pdf: '/pdfs/instrumentos/tc-internos/icsjo.pdf' },
   { id: 'icsj', name: 'ICSJ', tipo: 'tc', uso: 'interno', classe: 'baixa-tensao', image: '/images/produtos/instrumentos/tc-internos/tc-interno-20.jpg', pdf: '/pdfs/instrumentos/tc-internos/icsj.pdf' },
   { id: 'icj-1', name: 'ICSJ-1', tipo: 'tc', uso: 'interno', classe: 'baixa-tensao', image: '/images/produtos/instrumentos/tc-externos/tc-externo-2.jpg', pdf: '/pdfs/instrumentos/tc-externos/icj-1.pdf' },
-  { id: 'icsj-72', name: 'ICSJ-7.2', tipo: 'tc', uso: 'interno', classe: '15kv', image: '/images/produtos/instrumentos/tc-internos/tc-interno-24.jpg', pdf: '/pdfs/instrumentos/tc-internos/icsj-7.2.pdf' },
+  { id: 'icsj-72', name: 'ICSJ-7.2', tipo: 'tc', uso: 'interno', classe: '7.2kv', image: '/images/produtos/instrumentos/tc-internos/tc-interno-24.jpg', pdf: '/pdfs/instrumentos/tc-internos/icsj-7.2.pdf' },
   { id: 'icsh', name: 'ICSH', tipo: 'tc', uso: 'interno', classe: '15kv', image: '/images/produtos/instrumentos/tc-internos/tc-interno-26.jpg', pdf: '/pdfs/instrumentos/tc-internos/icsh.pdf' },
   { id: 'icsdb', name: 'ICSDB', tipo: 'tc', uso: 'interno', classe: '15kv', image: '/images/produtos/instrumentos/tc-internos/tc-interno-28.jpg', pdf: '/pdfs/instrumentos/tc-internos/icsdb.pdf' },
   { id: 'icsg', name: 'ICSG', tipo: 'tc', uso: 'interno', classe: '15kv', image: '/images/produtos/instrumentos/tc-internos/tc-interno-30.jpg', pdf: '/pdfs/instrumentos/tc-internos/icsg.pdf' },
@@ -82,6 +85,6 @@ export const modelosInstrumentos: ModeloInstrumento[] = [
   { id: 'ipsde-ft', name: 'IPSDE-FT', tipo: 'tp', uso: 'externo', classe: '36kv', image: '/images/produtos/instrumentos/tp-externos/tp-externo-8.jpg', pdf: '/pdfs/instrumentos/tp-externos/ipsde-ft.pdf' },
 ]
 
-export const CLASSES: Classe[] = ['baixa-tensao', '15kv', '24kv', '36kv']
+export const CLASSES: Classe[] = ['baixa-tensao', '7.2kv', '15kv', '24kv', '36kv']
 export const TIPOS: Tipo[] = ['tc', 'tp']
 export const USOS: Uso[] = ['interno', 'externo']

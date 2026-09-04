@@ -1,3 +1,10 @@
+/* Sem max-height/overflow: a árvore inteira (5 faixas x 4 combinações de
+   tipo+uso) passa da altura de telas comuns, e um scroll interno aqui
+   dentro criava uma segunda área rolável na página — o item que "sumia"
+   de vista ao rolar a página continuava com posição no DOM, e a auditoria
+   de layout via isso como clique sobreposto. Deixando esticar naturalmente,
+   o sticky para de grudar quando a base do índice sai da tela, como
+   qualquer position:sticky comum. */
 .indice {
   position: sticky;
   top: 96px;
@@ -5,8 +12,6 @@
   border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 20px;
-  max-height: calc(100vh - 120px);
-  overflow-y: auto;
 }
 
 .raiz {
